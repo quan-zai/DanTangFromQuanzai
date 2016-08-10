@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8C0CD42084559EC3D1D4529 /* Pods_DanTangFromQuanzai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA19FE6D0E347B452581C267 /* Pods_DanTangFromQuanzai.framework */; };
 		C3B36EC11D59E1A30035D19E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B36EC01D59E1A30035D19E /* AppDelegate.swift */; };
 		C3B36EC31D59E1A30035D19E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B36EC21D59E1A30035D19E /* ViewController.swift */; };
 		C3B36EC61D59E1A30035D19E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B36EC41D59E1A30035D19E /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA19FE6D0E347B452581C267 /* Pods_DanTangFromQuanzai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanTangFromQuanzai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B36EBD1D59E1A30035D19E /* DanTangFromQuanzai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanTangFromQuanzai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B36EC01D59E1A30035D19E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3B36EC21D59E1A30035D19E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		C3B36EDC1D59E1A40035D19E /* DanTangFromQuanzaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanTangFromQuanzaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B36EE01D59E1A40035D19E /* DanTangFromQuanzaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanTangFromQuanzaiUITests.swift; sourceTree = "<group>"; };
 		C3B36EE21D59E1A40035D19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF3BA93CAB9D00DBE09EAFA /* Pods-DanTangFromQuanzai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTangFromQuanzai.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanTangFromQuanzai/Pods-DanTangFromQuanzai.release.xcconfig"; sourceTree = "<group>"; };
+		FEF7DD2AAFC0AB171F1B5A7B /* Pods-DanTangFromQuanzai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTangFromQuanzai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanTangFromQuanzai/Pods-DanTangFromQuanzai.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C0CD42084559EC3D1D4529 /* Pods_DanTangFromQuanzai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B89A6A77511DBD4529E993B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEF7DD2AAFC0AB171F1B5A7B /* Pods-DanTangFromQuanzai.debug.xcconfig */,
+				DFF3BA93CAB9D00DBE09EAFA /* Pods-DanTangFromQuanzai.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEF29A67EF62021A19E6D27F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA19FE6D0E347B452581C267 /* Pods_DanTangFromQuanzai.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C3B36EB41D59E1A30035D19E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				C3B36ED41D59E1A30035D19E /* DanTangFromQuanzaiTests */,
 				C3B36EDF1D59E1A40035D19E /* DanTangFromQuanzaiUITests */,
 				C3B36EBE1D59E1A30035D19E /* Products */,
+				3B89A6A77511DBD4529E993B /* Pods */,
+				AEF29A67EF62021A19E6D27F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +121,7 @@
 		C3B36EBF1D59E1A30035D19E /* DanTangFromQuanzai */ = {
 			isa = PBXGroup;
 			children = (
+				C3B36EEE1D59E55B0035D19E /* Classes */,
 				C3B36EC01D59E1A30035D19E /* AppDelegate.swift */,
 				C3B36EC21D59E1A30035D19E /* ViewController.swift */,
 				C3B36EC41D59E1A30035D19E /* Main.storyboard */,
@@ -125,6 +150,61 @@
 			path = DanTangFromQuanzaiUITests;
 			sourceTree = "<group>";
 		};
+		C3B36EEE1D59E55B0035D19E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C3B36EEF1D59E55B0035D19E /* Classify */,
+				C3B36EF01D59E55B0035D19E /* DanTang */,
+				C3B36EF11D59E55B0035D19E /* Login&Register */,
+				C3B36EF21D59E55B0035D19E /* Main */,
+				C3B36EF31D59E55B0035D19E /* Me */,
+				C3B36EF41D59E55B0035D19E /* Others */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C3B36EEF1D59E55B0035D19E /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		C3B36EF01D59E55B0035D19E /* DanTang */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DanTang;
+			sourceTree = "<group>";
+		};
+		C3B36EF11D59E55B0035D19E /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		C3B36EF21D59E55B0035D19E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C3B36EF31D59E55B0035D19E /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		C3B36EF41D59E55B0035D19E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3B36EE51D59E1A40035D19E /* Build configuration list for PBXNativeTarget "DanTangFromQuanzai" */;
 			buildPhases = (
+				5B74967501050C76F1DF46B4 /* 📦 Check Pods Manifest.lock */,
 				C3B36EB91D59E1A30035D19E /* Sources */,
 				C3B36EBA1D59E1A30035D19E /* Frameworks */,
 				C3B36EBB1D59E1A30035D19E /* Resources */,
+				367EBCC87E11C5AD191AE18C /* 📦 Embed Pods Frameworks */,
+				BC6042FFA759544C37BDCC4C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +342,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		367EBCC87E11C5AD191AE18C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanTangFromQuanzai/Pods-DanTangFromQuanzai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B74967501050C76F1DF46B4 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC6042FFA759544C37BDCC4C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanTangFromQuanzai/Pods-DanTangFromQuanzai-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C3B36EB91D59E1A30035D19E /* Sources */ = {
@@ -412,6 +543,7 @@
 		};
 		C3B36EE61D59E1A40035D19E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEF7DD2AAFC0AB171F1B5A7B /* Pods-DanTangFromQuanzai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DanTangFromQuanzai/Info.plist;
@@ -424,6 +556,7 @@
 		};
 		C3B36EE71D59E1A40035D19E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF3BA93CAB9D00DBE09EAFA /* Pods-DanTangFromQuanzai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DanTangFromQuanzai/Info.plist;
@@ -503,6 +636,7 @@
 				C3B36EE71D59E1A40035D19E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3B36EE81D59E1A40035D19E /* Build configuration list for PBXNativeTarget "DanTangFromQuanzaiTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +645,7 @@
 				C3B36EEA1D59E1A40035D19E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3B36EEB1D59E1A40035D19E /* Build configuration list for PBXNativeTarget "DanTangFromQuanzaiUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +654,7 @@
 				C3B36EED1D59E1A40035D19E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
