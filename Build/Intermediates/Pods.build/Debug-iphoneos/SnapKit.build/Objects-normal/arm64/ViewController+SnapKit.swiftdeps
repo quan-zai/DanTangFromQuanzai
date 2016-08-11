@@ -1,0 +1,177 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo16UIViewController", ""]
+- ["CSo16UIViewController", "snp_topLayoutGuideTop"]
+- ["CSo16UIViewController", "snp_topLayoutGuideBottom"]
+- ["CSo16UIViewController", "snp_bottomLayoutGuideTop"]
+- ["CSo16UIViewController", "snp_bottomLayoutGuideBottom"]
+provides-dynamic-lookup:
+depends-top-level:
+- "ConstraintItem"
+- !private "ConstraintAttributes"
+- "UIViewController"
+depends-member:
+- !private ["Ps9AnyObject", "ConstraintAttributes"]
+- !private ["Ps9AnyObject", "ConstraintItem"]
+- !private ["Ps9AnyObject", "bottomLayoutGuide"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "snp_bottomLayoutGuideBottom"]
+- ["Ps9AnyObject", "snp_bottomLayoutGuideTop"]
+- ["Ps9AnyObject", "snp_topLayoutGuideBottom"]
+- ["Ps9AnyObject", "snp_topLayoutGuideTop"]
+- !private ["Ps9AnyObject", "topLayoutGuide"]
+- !private ["Ps23ArrayLiteralConvertible", "Bottom"]
+- !private ["Ps23ArrayLiteralConvertible", "Top"]
+- !private ["Ps11BooleanType", "Bottom"]
+- !private ["Ps11BooleanType", "Top"]
+- !private ["Ps11CVarArgType", "ConstraintAttributes"]
+- !private ["Ps11CVarArgType", "ConstraintItem"]
+- !private ["Ps11CVarArgType", "bottomLayoutGuide"]
+- ["Ps11CVarArgType", "snp_bottomLayoutGuideBottom"]
+- ["Ps11CVarArgType", "snp_bottomLayoutGuideTop"]
+- ["Ps11CVarArgType", "snp_topLayoutGuideBottom"]
+- ["Ps11CVarArgType", "snp_topLayoutGuideTop"]
+- !private ["Ps11CVarArgType", "topLayoutGuide"]
+- !private ["V7SnapKit20ConstraintAttributes", "Bottom"]
+- !private ["V7SnapKit20ConstraintAttributes", "Top"]
+- !private ["C7SnapKit14ConstraintItem", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "ConstraintAttributes"]
+- !private ["Ps28CustomDebugStringConvertible", "ConstraintItem"]
+- !private ["Ps28CustomDebugStringConvertible", "bottomLayoutGuide"]
+- ["Ps28CustomDebugStringConvertible", "snp_bottomLayoutGuideBottom"]
+- ["Ps28CustomDebugStringConvertible", "snp_bottomLayoutGuideTop"]
+- ["Ps28CustomDebugStringConvertible", "snp_topLayoutGuideBottom"]
+- ["Ps28CustomDebugStringConvertible", "snp_topLayoutGuideTop"]
+- !private ["Ps28CustomDebugStringConvertible", "topLayoutGuide"]
+- !private ["Ps23CustomStringConvertible", "ConstraintAttributes"]
+- !private ["Ps23CustomStringConvertible", "ConstraintItem"]
+- !private ["Ps23CustomStringConvertible", "bottomLayoutGuide"]
+- ["Ps23CustomStringConvertible", "snp_bottomLayoutGuideBottom"]
+- ["Ps23CustomStringConvertible", "snp_bottomLayoutGuideTop"]
+- ["Ps23CustomStringConvertible", "snp_topLayoutGuideBottom"]
+- ["Ps23CustomStringConvertible", "snp_topLayoutGuideTop"]
+- !private ["Ps23CustomStringConvertible", "topLayoutGuide"]
+- !private ["Ps9Equatable", "Bottom"]
+- !private ["Ps9Equatable", "ConstraintAttributes"]
+- !private ["Ps9Equatable", "ConstraintItem"]
+- !private ["Ps9Equatable", "Top"]
+- !private ["Ps9Equatable", "bottomLayoutGuide"]
+- ["Ps9Equatable", "snp_bottomLayoutGuideBottom"]
+- ["Ps9Equatable", "snp_bottomLayoutGuideTop"]
+- ["Ps9Equatable", "snp_topLayoutGuideBottom"]
+- ["Ps9Equatable", "snp_topLayoutGuideTop"]
+- !private ["Ps9Equatable", "topLayoutGuide"]
+- !private ["Ps8Hashable", "ConstraintAttributes"]
+- !private ["Ps8Hashable", "ConstraintItem"]
+- !private ["Ps8Hashable", "bottomLayoutGuide"]
+- ["Ps8Hashable", "snp_bottomLayoutGuideBottom"]
+- ["Ps8Hashable", "snp_bottomLayoutGuideTop"]
+- ["Ps8Hashable", "snp_topLayoutGuideBottom"]
+- ["Ps8Hashable", "snp_topLayoutGuideTop"]
+- !private ["Ps8Hashable", "topLayoutGuide"]
+- !private ["PSo8NSCoding", "ConstraintAttributes"]
+- !private ["PSo8NSCoding", "ConstraintItem"]
+- !private ["PSo8NSCoding", "bottomLayoutGuide"]
+- !private ["PSo8NSCoding", "topLayoutGuide"]
+- !private ["PSo26NSExtensionRequestHandling", "ConstraintAttributes"]
+- !private ["PSo26NSExtensionRequestHandling", "ConstraintItem"]
+- !private ["PSo26NSExtensionRequestHandling", "bottomLayoutGuide"]
+- !private ["PSo26NSExtensionRequestHandling", "topLayoutGuide"]
+- !private ["CSo8NSObject", "ConstraintAttributes"]
+- ["CSo8NSObject", "ConstraintItem"]
+- !private ["CSo8NSObject", "bottomLayoutGuide"]
+- ["CSo8NSObject", "snp_bottomLayoutGuideBottom"]
+- ["CSo8NSObject", "snp_bottomLayoutGuideTop"]
+- ["CSo8NSObject", "snp_topLayoutGuideBottom"]
+- ["CSo8NSObject", "snp_topLayoutGuideTop"]
+- !private ["CSo8NSObject", "topLayoutGuide"]
+- !private ["PSo16NSObjectProtocol", "ConstraintAttributes"]
+- !private ["PSo16NSObjectProtocol", "ConstraintItem"]
+- !private ["PSo16NSObjectProtocol", "bottomLayoutGuide"]
+- ["PSo16NSObjectProtocol", "snp_bottomLayoutGuideBottom"]
+- ["PSo16NSObjectProtocol", "snp_bottomLayoutGuideTop"]
+- ["PSo16NSObjectProtocol", "snp_topLayoutGuideBottom"]
+- ["PSo16NSObjectProtocol", "snp_topLayoutGuideTop"]
+- !private ["PSo16NSObjectProtocol", "topLayoutGuide"]
+- !private ["Ps13OptionSetType", "Bottom"]
+- !private ["Ps13OptionSetType", "Top"]
+- !private ["Ps16RawRepresentable", "Bottom"]
+- !private ["Ps16RawRepresentable", "Top"]
+- !private ["Ps14SetAlgebraType", "Bottom"]
+- !private ["Ps14SetAlgebraType", "Top"]
+- !private ["PSo21UIAppearanceContainer", "ConstraintAttributes"]
+- !private ["PSo21UIAppearanceContainer", "ConstraintItem"]
+- !private ["PSo21UIAppearanceContainer", "bottomLayoutGuide"]
+- !private ["PSo21UIAppearanceContainer", "topLayoutGuide"]
+- !private ["PSo18UIContentContainer", "ConstraintAttributes"]
+- !private ["PSo18UIContentContainer", "ConstraintItem"]
+- !private ["PSo18UIContentContainer", "bottomLayoutGuide"]
+- !private ["PSo18UIContentContainer", "topLayoutGuide"]
+- !private ["PSo18UIFocusEnvironment", "ConstraintAttributes"]
+- !private ["PSo18UIFocusEnvironment", "ConstraintItem"]
+- !private ["PSo18UIFocusEnvironment", "bottomLayoutGuide"]
+- !private ["PSo18UIFocusEnvironment", "topLayoutGuide"]
+- !private ["CSo11UIResponder", "ConstraintAttributes"]
+- ["CSo11UIResponder", "ConstraintItem"]
+- !private ["CSo11UIResponder", "bottomLayoutGuide"]
+- ["CSo11UIResponder", "snp_bottomLayoutGuideBottom"]
+- ["CSo11UIResponder", "snp_bottomLayoutGuideTop"]
+- ["CSo11UIResponder", "snp_topLayoutGuideBottom"]
+- ["CSo11UIResponder", "snp_topLayoutGuideTop"]
+- !private ["CSo11UIResponder", "topLayoutGuide"]
+- !private ["PSo16UIStateRestoring", "ConstraintAttributes"]
+- !private ["PSo16UIStateRestoring", "ConstraintItem"]
+- !private ["PSo16UIStateRestoring", "bottomLayoutGuide"]
+- !private ["PSo16UIStateRestoring", "topLayoutGuide"]
+- !private ["PSo18UITraitEnvironment", "ConstraintAttributes"]
+- !private ["PSo18UITraitEnvironment", "ConstraintItem"]
+- !private ["PSo18UITraitEnvironment", "bottomLayoutGuide"]
+- !private ["PSo18UITraitEnvironment", "topLayoutGuide"]
+- !private ["CSo16UIViewController", "ConstraintAttributes"]
+- ["CSo16UIViewController", "ConstraintItem"]
+- !private ["CSo16UIViewController", "bottomLayoutGuide"]
+- ["CSo16UIViewController", "snp_bottomLayoutGuideBottom"]
+- ["CSo16UIViewController", "snp_bottomLayoutGuideTop"]
+- ["CSo16UIViewController", "snp_topLayoutGuideBottom"]
+- ["CSo16UIViewController", "snp_topLayoutGuideTop"]
+- !private ["CSo16UIViewController", "topLayoutGuide"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "V7SnapKit20ConstraintAttributes"
+- !private "C7SnapKit14ConstraintItem"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps13OptionSetType"
+- !private "Ps16RawRepresentable"
+- !private "Ps14SetAlgebraType"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Intermediates/Pods.build/Debug-iphoneos/SnapKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "4b49740ad09d883c0c9c61c003118775"

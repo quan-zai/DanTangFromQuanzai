@@ -1,0 +1,414 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DownloadProgressBlock"
+- "CompletionHandler"
+- "RetrieveImageTask"
+- "KingfisherErrorDomain"
+- "KingfisherManager"
+provides-nominal:
+- "C10Kingfisher17RetrieveImageTask"
+- "C10Kingfisher17KingfisherManager"
+provides-member:
+- ["C10Kingfisher17RetrieveImageTask", ""]
+- ["C10Kingfisher17KingfisherManager", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "ImageCache"
+- "Bool"
+- "RetrieveImageTask"
+- "RetrieveImageDownloadTask"
+- "BooleanLiteralType"
+- "Int64"
+- !private "??"
+- !private "KingfisherError"
+- "KingfisherManager"
+- "KingfisherErrorDomain"
+- !private "!="
+- "RetrieveImageDiskTask"
+- !private "!"
+- "NSURL"
+- "CompletionHandler"
+- "DownloadProgressBlock"
+- "NSError"
+- "Image"
+- "ImageDownloader"
+- "Resource"
+- "KingfisherOptionsInfo"
+- "StringLiteralType"
+- "CacheType"
+- !private "dispatch_block_cancel"
+- !private "instance"
+- !private "=="
+depends-member:
+- !private ["Ps9AnyObject", "ImageCache"]
+- !private ["Ps9AnyObject", "ImageDownloader"]
+- !private ["Ps9AnyObject", "KingfisherError"]
+- !private ["Ps9AnyObject", "Resource"]
+- !private ["Ps9AnyObject", "RetrieveImageTask"]
+- !private ["Ps9AnyObject", "cache"]
+- !private ["Ps9AnyObject", "cancelledBeforeDownlodStarting"]
+- !private ["Ps9AnyObject", "code"]
+- !private ["Ps9AnyObject", "defaultCache"]
+- !private ["Ps9AnyObject", "defaultDownloader"]
+- !private ["Ps9AnyObject", "diskRetrieveTask"]
+- !private ["Ps9AnyObject", "dispatch_block_cancel"]
+- !private ["Ps9AnyObject", "downloadAndCacheImageWithURL"]
+- !private ["Ps9AnyObject", "downloadImageWithURL"]
+- !private ["Ps9AnyObject", "downloadTask"]
+- !private ["Ps9AnyObject", "downloader"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instance"]
+- !private ["Ps9AnyObject", "retrieveImageForKey"]
+- !private ["Ps9AnyObject", "retrieveImageWithResource"]
+- !private ["Ps9AnyObject", "storeImage"]
+- !private ["Ps9AnyObject", "tryToRetrieveImageFromCacheForKey"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "cacheMemoryOnly"]
+- !private ["Sa", "downloader"]
+- !private ["Sa", "forceRefresh"]
+- !private ["Sa", "targetCache"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "cacheMemoryOnly"]
+- !private ["Ps23ArrayLiteralConvertible", "downloader"]
+- !private ["Ps23ArrayLiteralConvertible", "forceRefresh"]
+- !private ["Ps23ArrayLiteralConvertible", "targetCache"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "code"]
+- !private ["Ps11CVarArgType", "defaultDownloader"]
+- !private ["Ps11CVarArgType", "downloadImageWithURL"]
+- !private ["O10Kingfisher9CacheType", "None"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "cacheMemoryOnly"]
+- !private ["Ps14CollectionType", "downloader"]
+- !private ["Ps14CollectionType", "forceRefresh"]
+- !private ["Ps14CollectionType", "targetCache"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "cacheMemoryOnly"]
+- !private ["Ps28CustomDebugStringConvertible", "code"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultDownloader"]
+- !private ["Ps28CustomDebugStringConvertible", "downloadImageWithURL"]
+- !private ["Ps28CustomDebugStringConvertible", "downloader"]
+- !private ["Ps28CustomDebugStringConvertible", "forceRefresh"]
+- !private ["Ps28CustomDebugStringConvertible", "targetCache"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "cacheMemoryOnly"]
+- !private ["Ps23CustomStringConvertible", "code"]
+- !private ["Ps23CustomStringConvertible", "defaultDownloader"]
+- !private ["Ps23CustomStringConvertible", "downloadImageWithURL"]
+- !private ["Ps23CustomStringConvertible", "downloader"]
+- !private ["Ps23CustomStringConvertible", "forceRefresh"]
+- !private ["Ps23CustomStringConvertible", "targetCache"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "None"]
+- !private ["Ps9Equatable", "NotModified"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "code"]
+- !private ["Ps9Equatable", "defaultDownloader"]
+- !private ["Ps9Equatable", "downloadImageWithURL"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9ErrorType", "code"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "None"]
+- !private ["Ps8Hashable", "NotModified"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "code"]
+- !private ["Ps8Hashable", "defaultDownloader"]
+- !private ["Ps8Hashable", "downloadImageWithURL"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["C10Kingfisher10ImageCache", "defaultCache"]
+- !private ["C10Kingfisher10ImageCache", "retrieveImageForKey"]
+- !private ["C10Kingfisher10ImageCache", "storeImage"]
+- !private ["C10Kingfisher15ImageDownloader", "defaultDownloader"]
+- !private ["C10Kingfisher15ImageDownloader", "downloadImageWithURL"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "cacheMemoryOnly"]
+- !private ["Ps9Indexable", "downloader"]
+- !private ["Ps9Indexable", "forceRefresh"]
+- !private ["Ps9Indexable", "targetCache"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["O10Kingfisher15KingfisherError", "NotModified"]
+- !private ["O10Kingfisher15KingfisherError", "deinit"]
+- !private ["O10Kingfisher15KingfisherError", "rawValue"]
+- ["C10Kingfisher17KingfisherManager", "CompletionHandler"]
+- ["C10Kingfisher17KingfisherManager", "DownloadProgressBlock"]
+- ["C10Kingfisher17KingfisherManager", "ImageCache"]
+- ["C10Kingfisher17KingfisherManager", "ImageDownloader"]
+- !private ["C10Kingfisher17KingfisherManager", "KingfisherError"]
+- ["C10Kingfisher17KingfisherManager", "KingfisherManager"]
+- ["C10Kingfisher17KingfisherManager", "KingfisherOptionsInfo"]
+- ["C10Kingfisher17KingfisherManager", "NSURL"]
+- ["C10Kingfisher17KingfisherManager", "Resource"]
+- ["C10Kingfisher17KingfisherManager", "RetrieveImageDownloadTask"]
+- ["C10Kingfisher17KingfisherManager", "RetrieveImageTask"]
+- ["C10Kingfisher17KingfisherManager", "String"]
+- ["C10Kingfisher17KingfisherManager", "cache"]
+- ["C10Kingfisher17KingfisherManager", "deinit"]
+- ["C10Kingfisher17KingfisherManager", "downloadAndCacheImageWithURL"]
+- ["C10Kingfisher17KingfisherManager", "downloader"]
+- ["C10Kingfisher17KingfisherManager", "init"]
+- !private ["C10Kingfisher17KingfisherManager", "instance"]
+- ["C10Kingfisher17KingfisherManager", "retrieveImageWithResource"]
+- ["C10Kingfisher17KingfisherManager", "retrieveImageWithURL"]
+- ["C10Kingfisher17KingfisherManager", "sharedManager"]
+- ["C10Kingfisher17KingfisherManager", "tryToRetrieveImageFromCacheForKey"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "cacheMemoryOnly"]
+- !private ["Ps21MutableCollectionType", "downloader"]
+- !private ["Ps21MutableCollectionType", "forceRefresh"]
+- !private ["Ps21MutableCollectionType", "targetCache"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "cacheMemoryOnly"]
+- !private ["Ps16MutableIndexable", "downloader"]
+- !private ["Ps16MutableIndexable", "forceRefresh"]
+- !private ["Ps16MutableIndexable", "targetCache"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "cacheMemoryOnly"]
+- !private ["Ps16MutableSliceable", "downloader"]
+- !private ["Ps16MutableSliceable", "forceRefresh"]
+- !private ["Ps16MutableSliceable", "targetCache"]
+- !private ["PSo8NSCoding", "code"]
+- !private ["PSo9NSCopying", "code"]
+- !private ["CSo7NSError", "code"]
+- !private ["CSo8NSObject", "code"]
+- !private ["CSo8NSObject", "defaultDownloader"]
+- !private ["CSo8NSObject", "downloadImageWithURL"]
+- !private ["PSo16NSObjectProtocol", "code"]
+- !private ["PSo16NSObjectProtocol", "defaultDownloader"]
+- !private ["PSo16NSObjectProtocol", "downloadImageWithURL"]
+- !private ["PSo14NSSecureCoding", "code"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "cacheMemoryOnly"]
+- !private ["Ps30RangeReplaceableCollectionType", "downloader"]
+- !private ["Ps30RangeReplaceableCollectionType", "forceRefresh"]
+- !private ["Ps30RangeReplaceableCollectionType", "targetCache"]
+- !private ["Ps16RawRepresentable", "NotModified"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["V10Kingfisher8Resource", "cacheKey"]
+- !private ["V10Kingfisher8Resource", "downloadURL"]
+- !private ["V10Kingfisher8Resource", "init"]
+- !private ["V10Kingfisher25RetrieveImageDownloadTask", "cancel"]
+- ["C10Kingfisher17RetrieveImageTask", "Bool"]
+- ["C10Kingfisher17RetrieveImageTask", "RetrieveImageDiskTask"]
+- ["C10Kingfisher17RetrieveImageTask", "RetrieveImageDownloadTask"]
+- ["C10Kingfisher17RetrieveImageTask", "cancel"]
+- ["C10Kingfisher17RetrieveImageTask", "cancelledBeforeDownlodStarting"]
+- ["C10Kingfisher17RetrieveImageTask", "deinit"]
+- ["C10Kingfisher17RetrieveImageTask", "diskRetrieveTask"]
+- !private ["C10Kingfisher17RetrieveImageTask", "dispatch_block_cancel"]
+- ["C10Kingfisher17RetrieveImageTask", "downloadTask"]
+- ["C10Kingfisher17RetrieveImageTask", "init"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "cacheMemoryOnly"]
+- !private ["Ps12SequenceType", "downloader"]
+- !private ["Ps12SequenceType", "forceRefresh"]
+- !private ["Ps12SequenceType", "targetCache"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "cacheMemoryOnly"]
+- !private ["Ps10_ArrayType", "downloader"]
+- !private ["Ps10_ArrayType", "forceRefresh"]
+- !private ["Ps10_ArrayType", "targetCache"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "cacheMemoryOnly"]
+- !private ["Ps24_DestructorSafeContainer", "downloader"]
+- !private ["Ps24_DestructorSafeContainer", "forceRefresh"]
+- !private ["Ps24_DestructorSafeContainer", "targetCache"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "cacheMemoryOnly"]
+- !private ["Ps21_ObjectiveCBridgeable", "downloader"]
+- !private ["Ps21_ObjectiveCBridgeable", "forceRefresh"]
+- !private ["Ps21_ObjectiveCBridgeable", "targetCache"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "cacheMemoryOnly"]
+- !private ["Ps12_Reflectable", "downloader"]
+- !private ["Ps12_Reflectable", "forceRefresh"]
+- !private ["Ps12_Reflectable", "targetCache"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps11CVarArgType"
+- !private "O10Kingfisher9CacheType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps9ErrorType"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- !private "Ps8Hashable"
+- !private "C10Kingfisher10ImageCache"
+- !private "C10Kingfisher15ImageDownloader"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "O10Kingfisher15KingfisherError"
+- "C10Kingfisher17KingfisherManager"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "V10Kingfisher8Resource"
+- !private "V10Kingfisher25RetrieveImageDownloadTask"
+- "C10Kingfisher17RetrieveImageTask"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Intermediates/Pods.build/Debug-iphonesimulator/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "49b782d1cbfe2bb8710d750028f4804c"

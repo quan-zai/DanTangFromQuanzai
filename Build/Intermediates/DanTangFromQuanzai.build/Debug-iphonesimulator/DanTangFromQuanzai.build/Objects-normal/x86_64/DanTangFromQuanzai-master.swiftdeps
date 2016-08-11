@@ -1,6 +1,19 @@
-version: "Apple Swift version 3.0 (swiftlang-800.0.30 clang-800.0.24)"
-options: "1b40d7115b4033c24a33720ce00ff71f"
-build_time: [524052134, 121403000]
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "dd99cea700fb80f52603a88f48812681"
+build_time: [524195809, 261418000]
 inputs:
   "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/ViewController.swift": [524052131, 0]
-  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/AppDelegate.swift": [524052131, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/Classes/DanTang/Model/XZQHomeItem.swift": [524112944, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/AppDelegate.swift": [524115539, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/Classes/Product/Model/XZQComment.swift": [524113488, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/Classes/Main/Controller/XZQTabBarController.swift": [524123997, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/Classes/Product/Model/XZQProductDetail.swift": [524113384, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/Classes/Main/Tools/XZQNetWorkTool.swift": [524112831, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/Classes/Classify/Model/XZQGroup.swift": [524114198, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/Classes/Main/Tools/XZQConst.swift": [524111466, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/Classes/Login&Register/Controller/XZQNewfeatureViewController.swift": [524115163, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/Classes/Classify/Model/XZQCollectionPost.swift": [524113602, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/Classes/Classify/Model/XZQCollection.swift": [524113540, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/Classes/DanTang/Model/XZQSearchResult.swift": [524113384, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/Classes/DanTang/Model/XZQChannel.swift": [524113077, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/Classes/Product/Model/XZQProduct.swift": [524113334, 0]

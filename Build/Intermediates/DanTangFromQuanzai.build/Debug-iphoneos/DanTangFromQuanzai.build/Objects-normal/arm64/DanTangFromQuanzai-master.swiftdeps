@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "d82669f54ec5194913f9b9cda72f2e8d"
+build_time: [524111376, 627964000]
+inputs:
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/ViewController.swift": [524052131, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/AppDelegate.swift": [524052756, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/DanTangFromQuanzai/Classes/Main/Tools/XZQConst.swift": !dirty [524111310, 0]

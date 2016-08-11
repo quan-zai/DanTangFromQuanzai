@@ -1,0 +1,242 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "XZQComment"
+- "User"
+provides-nominal:
+- "C18DanTangFromQuanzai10XZQComment"
+- "C18DanTangFromQuanzai4User"
+provides-member:
+- ["C18DanTangFromQuanzai10XZQComment", ""]
+- ["C18DanTangFromQuanzai4User", ""]
+provides-dynamic-lookup:
+- "avatar_url"
+- "user"
+- "content"
+- "nickname"
+depends-top-level:
+- "NSObject"
+- "Bool"
+- "AnyObject"
+- "User"
+- "XZQComment"
+- "Int"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "User"]
+- ["Ps9AnyObject", "avatar_url"]
+- ["Ps9AnyObject", "can_mobile_login"]
+- ["Ps9AnyObject", "content"]
+- ["Ps9AnyObject", "created_at"]
+- ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "item_id"]
+- ["Ps9AnyObject", "nickname"]
+- ["Ps9AnyObject", "role"]
+- ["Ps9AnyObject", "show"]
+- ["Ps9AnyObject", "user"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "User"]
+- ["Ps11CVarArgType", "avatar_url"]
+- ["Ps11CVarArgType", "can_mobile_login"]
+- ["Ps11CVarArgType", "content"]
+- ["Ps11CVarArgType", "created_at"]
+- ["Ps11CVarArgType", "id"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "item_id"]
+- ["Ps11CVarArgType", "nickname"]
+- ["Ps11CVarArgType", "role"]
+- ["Ps11CVarArgType", "show"]
+- ["Ps11CVarArgType", "user"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "User"]
+- ["Ps28CustomDebugStringConvertible", "avatar_url"]
+- ["Ps28CustomDebugStringConvertible", "can_mobile_login"]
+- ["Ps28CustomDebugStringConvertible", "content"]
+- ["Ps28CustomDebugStringConvertible", "created_at"]
+- ["Ps28CustomDebugStringConvertible", "id"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "item_id"]
+- ["Ps28CustomDebugStringConvertible", "nickname"]
+- ["Ps28CustomDebugStringConvertible", "role"]
+- ["Ps28CustomDebugStringConvertible", "show"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "user"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "User"]
+- ["Ps23CustomStringConvertible", "avatar_url"]
+- ["Ps23CustomStringConvertible", "can_mobile_login"]
+- ["Ps23CustomStringConvertible", "content"]
+- ["Ps23CustomStringConvertible", "created_at"]
+- ["Ps23CustomStringConvertible", "id"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "item_id"]
+- ["Ps23CustomStringConvertible", "nickname"]
+- ["Ps23CustomStringConvertible", "role"]
+- ["Ps23CustomStringConvertible", "show"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "user"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps28DictionaryLiteralConvertible", "Index"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Ps9Equatable", "User"]
+- ["Ps9Equatable", "avatar_url"]
+- ["Ps9Equatable", "can_mobile_login"]
+- ["Ps9Equatable", "content"]
+- ["Ps9Equatable", "created_at"]
+- ["Ps9Equatable", "id"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "item_id"]
+- ["Ps9Equatable", "nickname"]
+- ["Ps9Equatable", "role"]
+- ["Ps9Equatable", "show"]
+- ["Ps9Equatable", "user"]
+- ["Ps9Equatable", ""]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "User"]
+- ["Ps8Hashable", "avatar_url"]
+- ["Ps8Hashable", "can_mobile_login"]
+- ["Ps8Hashable", "content"]
+- ["Ps8Hashable", "created_at"]
+- ["Ps8Hashable", "id"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "item_id"]
+- ["Ps8Hashable", "nickname"]
+- ["Ps8Hashable", "role"]
+- ["Ps8Hashable", "show"]
+- ["Ps8Hashable", "user"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "User"]
+- ["CSo8NSObject", "avatar_url"]
+- ["CSo8NSObject", "can_mobile_login"]
+- ["CSo8NSObject", "content"]
+- ["CSo8NSObject", "created_at"]
+- ["CSo8NSObject", "id"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "item_id"]
+- ["CSo8NSObject", "nickname"]
+- ["CSo8NSObject", "role"]
+- ["CSo8NSObject", "show"]
+- ["CSo8NSObject", "user"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "User"]
+- ["PSo16NSObjectProtocol", "avatar_url"]
+- ["PSo16NSObjectProtocol", "can_mobile_login"]
+- ["PSo16NSObjectProtocol", "content"]
+- ["PSo16NSObjectProtocol", "created_at"]
+- ["PSo16NSObjectProtocol", "id"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "item_id"]
+- ["PSo16NSObjectProtocol", "nickname"]
+- ["PSo16NSObjectProtocol", "role"]
+- ["PSo16NSObjectProtocol", "show"]
+- ["PSo16NSObjectProtocol", "user"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Vs12StaticString", "deinit"]
+- ["C18DanTangFromQuanzai4User", "AnyObject"]
+- ["C18DanTangFromQuanzai4User", "Bool"]
+- ["C18DanTangFromQuanzai4User", "Int"]
+- ["C18DanTangFromQuanzai4User", "String"]
+- ["C18DanTangFromQuanzai4User", "avatar_url"]
+- ["C18DanTangFromQuanzai4User", "can_mobile_login"]
+- ["C18DanTangFromQuanzai4User", "deinit"]
+- ["C18DanTangFromQuanzai4User", "id"]
+- ["C18DanTangFromQuanzai4User", "init"]
+- ["C18DanTangFromQuanzai4User", "nickname"]
+- ["C18DanTangFromQuanzai4User", "role"]
+- ["C18DanTangFromQuanzai10XZQComment", "AnyObject"]
+- ["C18DanTangFromQuanzai10XZQComment", "Bool"]
+- ["C18DanTangFromQuanzai10XZQComment", "Int"]
+- ["C18DanTangFromQuanzai10XZQComment", "String"]
+- ["C18DanTangFromQuanzai10XZQComment", "User"]
+- ["C18DanTangFromQuanzai10XZQComment", "content"]
+- ["C18DanTangFromQuanzai10XZQComment", "created_at"]
+- ["C18DanTangFromQuanzai10XZQComment", "deinit"]
+- ["C18DanTangFromQuanzai10XZQComment", "id"]
+- ["C18DanTangFromQuanzai10XZQComment", "init"]
+- ["C18DanTangFromQuanzai10XZQComment", "item_id"]
+- ["C18DanTangFromQuanzai10XZQComment", "show"]
+- ["C18DanTangFromQuanzai10XZQComment", "user"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- "Ps9Equatable"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "Ps12SequenceType"
+- !private "Vs5Slice"
+- !private "Vs12StaticString"
+- "C18DanTangFromQuanzai4User"
+- "C18DanTangFromQuanzai10XZQComment"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+interface-hash: "651b2e19f4afaaf351099c9f3c8ef5b1"

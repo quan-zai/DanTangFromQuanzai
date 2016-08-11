@@ -1,0 +1,252 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "XZQTabBarController"
+provides-nominal:
+- "C18DanTangFromQuanzai19XZQTabBarController"
+provides-member:
+- ["C18DanTangFromQuanzai19XZQTabBarController", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+depends-top-level:
+- !private "NSBundle"
+- "XZQTabBarController"
+- !private "XZQColor"
+- !private "String"
+- "UITabBarController"
+depends-member:
+- !private ["Ps9AnyObject", "NSBundle"]
+- !private ["Ps9AnyObject", "XZQColor"]
+- ["Ps9AnyObject", "addChildViewController"]
+- !private ["Ps9AnyObject", "infoDictionary"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "mainBundle"]
+- !private ["Ps9AnyObject", "tabBar"]
+- !private ["Ps9AnyObject", "tintColor"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps11CVarArgType", "NSBundle"]
+- !private ["Ps11CVarArgType", "XZQColor"]
+- ["Ps11CVarArgType", "addChildViewController"]
+- !private ["Ps11CVarArgType", "infoDictionary"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "mainBundle"]
+- !private ["Ps11CVarArgType", "tabBar"]
+- !private ["Ps11CVarArgType", "tintColor"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "NSBundle"]
+- !private ["Ps28CustomDebugStringConvertible", "XZQColor"]
+- ["Ps28CustomDebugStringConvertible", "addChildViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "infoDictionary"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "mainBundle"]
+- !private ["Ps28CustomDebugStringConvertible", "tabBar"]
+- !private ["Ps28CustomDebugStringConvertible", "tintColor"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "NSBundle"]
+- !private ["Ps23CustomStringConvertible", "XZQColor"]
+- ["Ps23CustomStringConvertible", "addChildViewController"]
+- !private ["Ps23CustomStringConvertible", "infoDictionary"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "mainBundle"]
+- !private ["Ps23CustomStringConvertible", "tabBar"]
+- !private ["Ps23CustomStringConvertible", "tintColor"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSBundle"]
+- !private ["Ps9Equatable", "XZQColor"]
+- ["Ps9Equatable", "addChildViewController"]
+- !private ["Ps9Equatable", "infoDictionary"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "mainBundle"]
+- !private ["Ps9Equatable", "tabBar"]
+- !private ["Ps9Equatable", "tintColor"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "NSBundle"]
+- !private ["Ps8Hashable", "XZQColor"]
+- ["Ps8Hashable", "addChildViewController"]
+- !private ["Ps8Hashable", "infoDictionary"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "mainBundle"]
+- !private ["Ps8Hashable", "tabBar"]
+- !private ["Ps8Hashable", "tintColor"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["CSo8NSBundle", "infoDictionary"]
+- !private ["CSo8NSBundle", "mainBundle"]
+- !private ["PSo8NSCoding", "NSBundle"]
+- !private ["PSo8NSCoding", "XZQColor"]
+- ["PSo8NSCoding", "addChildViewController"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "tabBar"]
+- !private ["PSo8NSCoding", "tintColor"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "NSBundle"]
+- !private ["PSo26NSExtensionRequestHandling", "XZQColor"]
+- ["PSo26NSExtensionRequestHandling", "addChildViewController"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "tabBar"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo8NSObject", "NSBundle"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "XZQColor"]
+- ["CSo8NSObject", "addChildViewController"]
+- !private ["CSo8NSObject", "infoDictionary"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "mainBundle"]
+- !private ["CSo8NSObject", "tabBar"]
+- !private ["CSo8NSObject", "tintColor"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "NSBundle"]
+- !private ["PSo16NSObjectProtocol", "XZQColor"]
+- ["PSo16NSObjectProtocol", "addChildViewController"]
+- !private ["PSo16NSObjectProtocol", "infoDictionary"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "mainBundle"]
+- !private ["PSo16NSObjectProtocol", "tabBar"]
+- !private ["PSo16NSObjectProtocol", "tintColor"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo29UIAccessibilityIdentification", "tintColor"]
+- !private ["PSo12UIAppearance", "tintColor"]
+- !private ["PSo21UIAppearanceContainer", "NSBundle"]
+- !private ["PSo21UIAppearanceContainer", "XZQColor"]
+- ["PSo21UIAppearanceContainer", "addChildViewController"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "tabBar"]
+- !private ["PSo21UIAppearanceContainer", "tintColor"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "NSBundle"]
+- !private ["PSo18UIContentContainer", "XZQColor"]
+- ["PSo18UIContentContainer", "addChildViewController"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "tabBar"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "tintColor"]
+- !private ["PSo13UIDynamicItem", "tintColor"]
+- !private ["PSo18UIFocusEnvironment", "NSBundle"]
+- !private ["PSo18UIFocusEnvironment", "XZQColor"]
+- ["PSo18UIFocusEnvironment", "addChildViewController"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "tabBar"]
+- !private ["PSo18UIFocusEnvironment", "tintColor"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIResponder", "NSBundle"]
+- !private ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "XZQColor"]
+- ["CSo11UIResponder", "addChildViewController"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "tabBar"]
+- !private ["CSo11UIResponder", "tintColor"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "NSBundle"]
+- !private ["PSo16UIStateRestoring", "XZQColor"]
+- ["PSo16UIStateRestoring", "addChildViewController"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "tabBar"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo8UITabBar", "tintColor"]
+- !private ["CSo18UITabBarController", "NSBundle"]
+- !private ["CSo18UITabBarController", "String"]
+- !private ["CSo18UITabBarController", "XZQColor"]
+- ["CSo18UITabBarController", "addChildViewController"]
+- ["CSo18UITabBarController", "init"]
+- !private ["CSo18UITabBarController", "tabBar"]
+- ["CSo18UITabBarController", "viewDidLoad"]
+- ["CSo18UITabBarController", ""]
+- !private ["PSo16UITabBarDelegate", "NSBundle"]
+- !private ["PSo16UITabBarDelegate", "XZQColor"]
+- ["PSo16UITabBarDelegate", "addChildViewController"]
+- ["PSo16UITabBarDelegate", "init"]
+- !private ["PSo16UITabBarDelegate", "tabBar"]
+- ["PSo16UITabBarDelegate", "viewDidLoad"]
+- ["PSo16UITabBarDelegate", ""]
+- !private ["PSo18UITraitEnvironment", "NSBundle"]
+- !private ["PSo18UITraitEnvironment", "XZQColor"]
+- ["PSo18UITraitEnvironment", "addChildViewController"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "tabBar"]
+- !private ["PSo18UITraitEnvironment", "tintColor"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "tintColor"]
+- !private ["CSo16UIViewController", "NSBundle"]
+- !private ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "XZQColor"]
+- ["CSo16UIViewController", "addChildViewController"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "tabBar"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- !private ["C18DanTangFromQuanzai19XZQTabBarController", "NSBundle"]
+- !private ["C18DanTangFromQuanzai19XZQTabBarController", "String"]
+- !private ["C18DanTangFromQuanzai19XZQTabBarController", "XZQColor"]
+- !private ["C18DanTangFromQuanzai19XZQTabBarController", "addChildViewController"]
+- ["C18DanTangFromQuanzai19XZQTabBarController", "deinit"]
+- ["C18DanTangFromQuanzai19XZQTabBarController", "init"]
+- !private ["C18DanTangFromQuanzai19XZQTabBarController", "tabBar"]
+- ["C18DanTangFromQuanzai19XZQTabBarController", "viewDidLoad"]
+- !private ["Ps12_Reflectable", "tintColor"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "CSo8NSBundle"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo8UITabBar"
+- "CSo18UITabBarController"
+- "PSo16UITabBarDelegate"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C18DanTangFromQuanzai19XZQTabBarController"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+interface-hash: "487dd77f10f2e3f0a4aaa3b49a69832d"

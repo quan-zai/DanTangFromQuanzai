@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Release-iphonesimulator/Kingfisher/Kingfisher.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Intermediates/Pods.build/Release-iphonesimulator/Kingfisher.build/unextended-module.modulemap',
+    }]
+  }]
+}

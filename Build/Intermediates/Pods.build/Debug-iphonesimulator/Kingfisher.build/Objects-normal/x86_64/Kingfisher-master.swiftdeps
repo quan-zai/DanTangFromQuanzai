@@ -1,0 +1,17 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "4b653dfe5d51d7226e930a4165aadb85"
+build_time: [524111407, 404745000]
+inputs:
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Kingfisher/Sources/AnimatedImageView.swift": [524107622, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Kingfisher/Sources/Image.swift": [524107622, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Kingfisher/Sources/ImageCache.swift": [524107622, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Kingfisher/Sources/ImageDownloader.swift": [524107622, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Kingfisher/Sources/ImagePrefetcher.swift": [524107622, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Kingfisher/Sources/ImageTransition.swift": [524107622, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Kingfisher/Sources/ImageView+Kingfisher.swift": [524107622, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Kingfisher/Sources/KingfisherManager.swift": [524107622, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Kingfisher/Sources/KingfisherOptionsInfo.swift": [524107622, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Kingfisher/Sources/Resource.swift": [524107622, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Kingfisher/Sources/String+MD5.swift": [524107622, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Kingfisher/Sources/ThreadHelper.swift": [524107622, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Kingfisher/Sources/UIButton+Kingfisher.swift": [524107622, 0]
