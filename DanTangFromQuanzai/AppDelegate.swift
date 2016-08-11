@@ -9,7 +9,8 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate
+{
 
     var window: UIWindow?
 
@@ -21,11 +22,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         // 检测用户是不是第一次启动
-        if !NSUserDefaults.standardUserDefaults().boolForKey(XZQFirstLaunch) {
-            window?.rootViewController = XZQNewfeatureViewController()
-        } else {
+//        if !NSUserDefaults.standardUserDefaults().boolForKey(XZQFirstLaunch) {
+//            window?.rootViewController = XZQNewfeatureViewController()
+//        } else {
             window?.rootViewController = XZQTabBarController()
-        }
+//        }
         return true
     }
 

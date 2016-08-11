@@ -8,6 +8,7 @@
 
 import UIKit
 
-class XZQNewfeatureViewController: UIViewController {
+class XZQNewfeatureViewController: UIViewController
+{
 
 }

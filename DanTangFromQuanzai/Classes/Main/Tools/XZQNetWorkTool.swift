@@ -11,7 +11,8 @@ import Alamofire
 import SVProgressHUD
 import SwiftyJSON
 
-class XZQNetworkTool: NSObject {
+class XZQNetworkTool: NSObject
+{
     /// 单例
     static let shareNetworkTool = XZQNetworkTool()
     

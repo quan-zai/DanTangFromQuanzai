@@ -134,6 +134,20 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai14ViewController")
 @end
 
 
+SWIFT_CLASS("_TtC18DanTangFromQuanzai21XZQBaseViewController")
+@interface XZQBaseViewController : UIViewController
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC18DanTangFromQuanzai25XZQCategoryViewController")
+@interface XZQCategoryViewController : XZQBaseViewController
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC18DanTangFromQuanzai10XZQChannel")
 @interface XZQChannel : NSObject
 @property (nonatomic, copy) NSString * _Nullable name;
@@ -171,6 +185,13 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai10XZQComment")
 @end
 
 
+SWIFT_CLASS("_TtC18DanTangFromQuanzai24XZQDanTangViewController")
+@interface XZQDanTangViewController : XZQBaseViewController
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC18DanTangFromQuanzai8XZQGroup")
 @interface XZQGroup : NSObject
 @property (nonatomic, copy) NSString * _Nullable icon_url;
@@ -190,6 +211,31 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai11XZQHomeItem")
 @property (nonatomic, copy, getter=template, setter=setTemplate:) NSString * _Nullable template_;
 @property (nonatomic, copy) NSString * _Nullable url;
 - (nonnull instancetype)initWithDict:(NSDictionary<NSString *, id> * _Nonnull)dict OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC18DanTangFromQuanzai19XZQMeViewController")
+@interface XZQMeViewController : XZQBaseViewController
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC18DanTangFromQuanzai23XZQNavigationController")
+@interface XZQNavigationController : UINavigationController
++ (void)initialize;
+
+/// 统一所有控制器导航栏左上角的返回按钮，让所有push进来的控制器，它的导航栏左上角的内容都一样，能拦截所有的push操作
+///
+/// \param viewController 需要压栈的控制器
+///
+/// \param animated 是否动画
+- (void)pushViewController:(UIViewController * _Nonnull)viewController animated:(BOOL)animated;
+- (void)navigationBackClick;
+- (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class XZQSearchResult;
@@ -268,6 +314,13 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai16XZQProductDetail")
 @property (nonatomic, copy) NSString * _Nullable name;
 @property (nonatomic, copy) NSString * _Nullable price;
 - (nonnull instancetype)initWithDict:(NSDictionary<NSString *, id> * _Nonnull)dict OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC18DanTangFromQuanzai24XZQProductViewController")
+@interface XZQProductViewController : XZQBaseViewController
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
