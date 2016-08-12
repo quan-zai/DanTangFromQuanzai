@@ -8,7 +8,17 @@
 
 import UIKit
 
-class XZQNewfeatureViewController: UIViewController
+class XZQNewfeatureViewController: UICollectionViewController
 {
-
+    private var layout: UICollectionViewFlowLayout = XZQNewfeatureLayout()
+    
+    init() {
+        super.init(collectionViewLayout: layout)
+        collectionView?.showsVerticalScrollIndicator = false
+    }
+    
+    
+    
+    
+    
 }

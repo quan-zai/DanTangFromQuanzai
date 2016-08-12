@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74DC18BC1D5D586A00D57FD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC18BA1D5D586A00D57FD8 /* AppDelegate.swift */; };
+		74DC18BD1D5D586A00D57FD8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC18BB1D5D586A00D57FD8 /* Info.plist */; };
 		B8C0CD42084559EC3D1D4529 /* Pods_DanTangFromQuanzai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA19FE6D0E347B452581C267 /* Pods_DanTangFromQuanzai.framework */; };
 		C3061E8F1D5ACACC006A7962 /* XZQNetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3061E8E1D5ACACC006A7962 /* XZQNetWorkTool.swift */; };
 		C3291CBC1D5ACEBE009EEDDD /* XZQHomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3291CBB1D5ACEBE009EEDDD /* XZQHomeItem.swift */; };
@@ -27,7 +29,6 @@
 		C35C708D1D5C7BC200316B28 /* XZQCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C708C1D5C7BC200316B28 /* XZQCategoryViewController.swift */; };
 		C35C708F1D5C7C1800316B28 /* XZQMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C708E1D5C7C1800316B28 /* XZQMeViewController.swift */; };
 		C361EE471D5AC0EB00DD4684 /* XZQConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = C361EE461D5AC0EB00DD4684 /* XZQConst.swift */; };
-		C3B36EC11D59E1A30035D19E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B36EC01D59E1A30035D19E /* AppDelegate.swift */; };
 		C3B36EC31D59E1A30035D19E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B36EC21D59E1A30035D19E /* ViewController.swift */; };
 		C3B36EC81D59E1A30035D19E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B36EC71D59E1A30035D19E /* Assets.xcassets */; };
 		C3B36ED61D59E1A30035D19E /* DanTangFromQuanzaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B36ED51D59E1A30035D19E /* DanTangFromQuanzaiTests.swift */; };
@@ -52,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74DC18BA1D5D586A00D57FD8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = DanTangFromQuanzai/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		74DC18BB1D5D586A00D57FD8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DanTangFromQuanzai/Info.plist; sourceTree = SOURCE_ROOT; };
 		BA19FE6D0E347B452581C267 /* Pods_DanTangFromQuanzai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanTangFromQuanzai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3061E8E1D5ACACC006A7962 /* XZQNetWorkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQNetWorkTool.swift; sourceTree = "<group>"; };
 		C3291CBB1D5ACEBE009EEDDD /* XZQHomeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQHomeItem.swift; sourceTree = "<group>"; };
@@ -73,10 +76,8 @@
 		C35C708E1D5C7C1800316B28 /* XZQMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQMeViewController.swift; sourceTree = "<group>"; };
 		C361EE461D5AC0EB00DD4684 /* XZQConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQConst.swift; sourceTree = "<group>"; };
 		C3B36EBD1D59E1A30035D19E /* DanTangFromQuanzai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanTangFromQuanzai.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3B36EC01D59E1A30035D19E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
 		C3B36EC21D59E1A30035D19E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3B36EC71D59E1A30035D19E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C3B36ECC1D59E1A30035D19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		C3B36ED11D59E1A30035D19E /* DanTangFromQuanzaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanTangFromQuanzaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B36ED51D59E1A30035D19E /* DanTangFromQuanzaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanTangFromQuanzaiTests.swift; sourceTree = "<group>"; };
 		C3B36ED71D59E1A40035D19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -386,8 +387,8 @@
 		C3B36EF41D59E55B0035D19E /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				C3B36EC01D59E1A30035D19E /* AppDelegate.swift */,
-				C3B36ECC1D59E1A30035D19E /* Info.plist */,
+				74DC18BA1D5D586A00D57FD8 /* AppDelegate.swift */,
+				74DC18BB1D5D586A00D57FD8 /* Info.plist */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -508,6 +509,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74DC18BD1D5D586A00D57FD8 /* Info.plist in Resources */,
 				C3B36EC81D59E1A30035D19E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,7 +587,6 @@
 				C35C708F1D5C7C1800316B28 /* XZQMeViewController.swift in Sources */,
 				C35C70851D5C727A00316B28 /* XZQNavigationController.swift in Sources */,
 				C3291CBC1D5ACEBE009EEDDD /* XZQHomeItem.swift in Sources */,
-				C3B36EC11D59E1A30035D19E /* AppDelegate.swift in Sources */,
 				C3291CCA1D5AD0E7009EEDDD /* XZQComment.swift in Sources */,
 				C3291CD41D5AD7DA009EEDDD /* XZQTabBarController.swift in Sources */,
 				C3291CC81D5AD0B6009EEDDD /* XZQProductDetail.swift in Sources */,
@@ -600,6 +601,7 @@
 				C3291CCC1D5AD150009EEDDD /* XZQCollection.swift in Sources */,
 				C3291CC01D5ACFB4009EEDDD /* XZQSearchResult.swift in Sources */,
 				C35C708B1D5C7B9B00316B28 /* XZQProductViewController.swift in Sources */,
+				74DC18BC1D5D586A00D57FD8 /* AppDelegate.swift in Sources */,
 				C3291CBE1D5ACF2F009EEDDD /* XZQChannel.swift in Sources */,
 				C3291CC61D5AD07C009EEDDD /* XZQProduct.swift in Sources */,
 			);
