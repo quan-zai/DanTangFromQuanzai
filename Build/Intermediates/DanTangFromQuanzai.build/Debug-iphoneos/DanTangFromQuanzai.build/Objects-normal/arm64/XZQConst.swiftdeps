@@ -37,77 +37,93 @@ provides-member:
 - ["O18DanTangFromQuanzai23XZQOtherLoginButtonType", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "CGFloat"
-- "kXZQMineHeaderImageHeight"
-- "XZQGlobalColor"
-- !private "/"
-- "XZQTopicType"
-- "kIndicatorViewH"
-- "BASE_URL"
-- "kItemH"
-- "RETURN_OK"
-- "kTitlesVieY"
-- "XZQGlobalRedColor"
-- "XZQShareButtonType"
-- "FloatLiteralType"
 - "XZQOtherLoginButtonType"
-- !private "~="
+- "IntegerLiteralType"
+- "isIPhone6"
+- "kNewFeatureCount"
 - "=="
+- "BASE_URL"
 - "kCornerRadius"
 - "isLogin"
-- "IntegerLiteralType"
 - "kItemW"
-- "SCREENH"
+- !private "~="
+- "BooleanLiteralType"
 - "kTopViewH"
-- "kNewFeatureCount"
-- "Int"
-- "kLineWidth"
 - "kAnimationDuration"
+- "isIPhone5"
+- "RETURN_OK"
+- "kTitlesVieY"
 - "UIScreen"
-- "UIColor"
-- "XZQColor"
-- "kTitlesViewH"
-- "kMargin"
 - "StringLiteralType"
+- "kItemH"
+- "XZQGlobalRedColor"
+- "kMargin"
+- "SCREENW"
+- "kXZQMineHeaderImageHeight"
+- "XZQGlobalColor"
+- "isIPhone6P"
+- !private "/"
+- "kIndicatorViewH"
+- "kLineWidth"
+- "XZQTopicType"
+- "SCREENH"
+- "XZQColor"
+- "FloatLiteralType"
+- "CGFloat"
+- "kTitlesViewH"
+- "Int"
+- "XZQShareButtonType"
 - "XZQFirstLaunch"
+- "UIColor"
 depends-member:
+- ["Ps9AnyObject", "bounds"]
 - !private ["Ps9AnyObject", "init"]
-- ["Ps9AnyObject", "main"]
+- ["Ps9AnyObject", "mainScreen"]
 - !private ["Ps22BidirectionalIndexType", "Distance"]
 - !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
 - !private ["Ps22BidirectionalIndexType", "hashValue"]
 - !private ["Ps21BitwiseOperationsType", "Distance"]
 - !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
 - !private ["Ps21BitwiseOperationsType", "hashValue"]
-- !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps11BooleanType", "_getBuiltinLogicValue"]
 - ["V12CoreGraphics7CGFloat", "deinit"]
+- ["VSC6CGRect", "size"]
+- ["VSC6CGSize", "height"]
+- ["VSC6CGSize", "width"]
 - !private ["Ps11CVarArgType", "Distance"]
 - !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- ["Ps11CVarArgType", "bounds"]
 - !private ["Ps11CVarArgType", "hashValue"]
 - !private ["Ps11CVarArgType", "init"]
-- ["Ps11CVarArgType", "main"]
+- ["Ps11CVarArgType", "mainScreen"]
 - !private ["Ps10Comparable", "Distance"]
 - !private ["Ps10Comparable", "IntegerLiteralType"]
 - !private ["Ps10Comparable", "hashValue"]
+- ["Ps28CustomDebugStringConvertible", "bounds"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
-- ["Ps28CustomDebugStringConvertible", "main"]
+- ["Ps28CustomDebugStringConvertible", "mainScreen"]
 - !private ["Ps23CustomStringConvertible", "Distance"]
 - !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
-- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "bounds"]
 - !private ["Ps23CustomStringConvertible", "hashValue"]
 - !private ["Ps23CustomStringConvertible", "init"]
-- ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", "mainScreen"]
 - !private ["Sd", "deinit"]
 - !private ["Ps9Equatable", "Distance"]
 - !private ["Ps9Equatable", "IntegerLiteralType"]
 - ["Ps9Equatable", "RawValue"]
-- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "bounds"]
 - ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "height"]
 - ["Ps9Equatable", "init"]
-- ["Ps9Equatable", "main"]
+- ["Ps9Equatable", "mainScreen"]
 - ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "size"]
+- ["Ps9Equatable", "width"]
 - ["Ps9Equatable", ""]
 - !private ["Ps16ForwardIndexType", "Distance"]
 - !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
@@ -115,10 +131,11 @@ depends-member:
 - !private ["Ps8Hashable", "Distance"]
 - !private ["Ps8Hashable", "IntegerLiteralType"]
 - ["Ps8Hashable", "RawValue"]
-- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "bounds"]
 - ["Ps8Hashable", "hashValue"]
 - ["Ps8Hashable", "init"]
-- ["Ps8Hashable", "main"]
+- ["Ps8Hashable", "mainScreen"]
 - ["Ps8Hashable", "rawValue"]
 - ["Ps8Hashable", ""]
 - !private ["Si", "Distance"]
@@ -134,17 +151,22 @@ depends-member:
 - !private ["Ps11IntegerType", "Distance"]
 - !private ["Ps11IntegerType", "IntegerLiteralType"]
 - !private ["Ps11IntegerType", "hashValue"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "Distance"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "IntegerLiteralType"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "hashValue"]
 - !private ["Ps14MirrorPathType", "Distance"]
 - !private ["Ps14MirrorPathType", "IntegerLiteralType"]
 - !private ["Ps14MirrorPathType", "hashValue"]
 - !private ["PSo8NSCoding", "init"]
 - !private ["PSo9NSCopying", "init"]
 - !private ["CSo8NSNumber", "deinit"]
+- ["CSo8NSObject", "bounds"]
 - !private ["CSo8NSObject", "deinit"]
 - !private ["CSo8NSObject", "init"]
-- ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "mainScreen"]
+- ["PSo16NSObjectProtocol", "bounds"]
 - !private ["PSo16NSObjectProtocol", "init"]
-- ["PSo16NSObjectProtocol", "main"]
+- ["PSo16NSObjectProtocol", "mainScreen"]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo7NSValue", "deinit"]
 - !private ["Ps21RandomAccessIndexType", "Distance"]
@@ -166,8 +188,10 @@ depends-member:
 - !private ["Ps10Strideable", "IntegerLiteralType"]
 - !private ["Ps10Strideable", "hashValue"]
 - !private ["CSo7UIColor", "init"]
-- ["CSo8UIScreen", "main"]
-- ["PSo18UITraitEnvironment", "main"]
+- ["CSo8UIScreen", "bounds"]
+- ["CSo8UIScreen", "mainScreen"]
+- ["PSo18UITraitEnvironment", "bounds"]
+- ["PSo18UITraitEnvironment", "mainScreen"]
 - ["O18DanTangFromQuanzai23XZQOtherLoginButtonType", "QQLogin"]
 - ["O18DanTangFromQuanzai23XZQOtherLoginButtonType", "RawValue"]
 - ["O18DanTangFromQuanzai23XZQOtherLoginButtonType", "WeChatLogin"]
@@ -198,7 +222,7 @@ depends-member:
 - ["O18DanTangFromQuanzai12XZQTopicType", "hashValue"]
 - ["O18DanTangFromQuanzai12XZQTopicType", "init"]
 - ["O18DanTangFromQuanzai12XZQTopicType", "rawValue"]
-- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
 - !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
 - !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
@@ -214,7 +238,7 @@ depends-member:
 - !private ["Ps12_IntegerType", "hashValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "Distance"]
 - !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
-- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
 - !private ["Vs26_OptionalNilComparisonType", "deinit"]
 - !private ["Ps22_RandomAccessAmbiguity", "Distance"]
@@ -222,8 +246,11 @@ depends-member:
 - !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
 - !private ["Ps12_Reflectable", "Distance"]
 - !private ["Ps12_Reflectable", "IntegerLiteralType"]
-- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["Ps12_Reflectable", "hashValue"]
+- ["Ps12_Reflectable", "height"]
+- ["Ps12_Reflectable", "size"]
+- ["Ps12_Reflectable", "width"]
 - !private ["Ps18_SignedIntegerType", "Distance"]
 - !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
 - !private ["Ps18_SignedIntegerType", "hashValue"]
@@ -231,10 +258,12 @@ depends-nominal:
 - "Ps9AnyObject"
 - !private "Ps22BidirectionalIndexType"
 - !private "Ps21BitwiseOperationsType"
-- !private "Sb"
-- !private "Ps25BooleanLiteralConvertible"
-- !private "Ps11BooleanType"
+- "Sb"
+- "Ps25BooleanLiteralConvertible"
+- "Ps11BooleanType"
 - "V12CoreGraphics7CGFloat"
+- "VSC6CGRect"
+- "VSC6CGSize"
 - "Ps11CVarArgType"
 - !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
@@ -247,6 +276,7 @@ depends-nominal:
 - !private "Ps21IntegerArithmeticType"
 - !private "Ps25IntegerLiteralConvertible"
 - !private "Ps11IntegerType"
+- !private "P10SwiftyJSON17JSONSubscriptType"
 - !private "Ps14MirrorPathType"
 - !private "PSo8NSCoding"
 - !private "PSo9NSCopying"
@@ -267,16 +297,16 @@ depends-nominal:
 - "O18DanTangFromQuanzai23XZQOtherLoginButtonType"
 - "O18DanTangFromQuanzai18XZQShareButtonType"
 - "O18DanTangFromQuanzai12XZQTopicType"
-- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- "Ps33_BuiltinBooleanLiteralConvertible"
 - !private "Ps33_BuiltinIntegerLiteralConvertible"
 - !private "Ps24_ColorLiteralConvertible"
 - !private "Ps14_Incrementable"
 - !private "Ps22_IntegerArithmeticType"
 - !private "Ps12_IntegerType"
-- !private "Ps21_ObjectiveCBridgeable"
+- "Ps21_ObjectiveCBridgeable"
 - !private "Vs26_OptionalNilComparisonType"
 - !private "Ps22_RandomAccessAmbiguity"
-- !private "Ps12_Reflectable"
+- "Ps12_Reflectable"
 - !private "Ps18_SignedIntegerType"
 depends-dynamic-lookup:
 depends-external:
@@ -288,4 +318,22 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
-interface-hash: "477b45b7a362dc3be33fe88826bfa23d"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/arm64.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/module.modulemap"
+interface-hash: "e163e828c0542c7b7f3329f0a20af4de"

@@ -1,0 +1,254 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "XZQCollectionPost"
+provides-nominal:
+- "C18DanTangFromQuanzai17XZQCollectionPost"
+provides-member:
+- ["C18DanTangFromQuanzai17XZQCollectionPost", ""]
+provides-dynamic-lookup:
+- "url"
+- "content_url"
+- "short_title"
+- "title"
+- "cover_image_url"
+- "share_msg"
+depends-top-level:
+- "XZQCollectionPost"
+- !private "StringLiteralType"
+- "Int"
+- "NSObject"
+- "String"
+- "Bool"
+- "AnyObject"
+depends-member:
+- ["Ps9AnyObject", "content_url"]
+- ["Ps9AnyObject", "cover_image_url"]
+- ["Ps9AnyObject", "created_at"]
+- ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "liked"]
+- ["Ps9AnyObject", "likes_count"]
+- ["Ps9AnyObject", "published_at"]
+- ["Ps9AnyObject", "share_msg"]
+- ["Ps9AnyObject", "short_title"]
+- ["Ps9AnyObject", "status"]
+- ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", "updated_at"]
+- ["Ps9AnyObject", "url"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "content_url"]
+- ["Ps11CVarArgType", "cover_image_url"]
+- ["Ps11CVarArgType", "created_at"]
+- ["Ps11CVarArgType", "id"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "liked"]
+- ["Ps11CVarArgType", "likes_count"]
+- ["Ps11CVarArgType", "published_at"]
+- ["Ps11CVarArgType", "share_msg"]
+- ["Ps11CVarArgType", "short_title"]
+- ["Ps11CVarArgType", "status"]
+- ["Ps11CVarArgType", "title"]
+- ["Ps11CVarArgType", "updated_at"]
+- ["Ps11CVarArgType", "url"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- ["Ps28CustomDebugStringConvertible", "content_url"]
+- ["Ps28CustomDebugStringConvertible", "cover_image_url"]
+- ["Ps28CustomDebugStringConvertible", "created_at"]
+- ["Ps28CustomDebugStringConvertible", "id"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "liked"]
+- ["Ps28CustomDebugStringConvertible", "likes_count"]
+- ["Ps28CustomDebugStringConvertible", "published_at"]
+- ["Ps28CustomDebugStringConvertible", "share_msg"]
+- ["Ps28CustomDebugStringConvertible", "short_title"]
+- ["Ps28CustomDebugStringConvertible", "status"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "title"]
+- ["Ps28CustomDebugStringConvertible", "updated_at"]
+- ["Ps28CustomDebugStringConvertible", "url"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- ["Ps23CustomStringConvertible", "content_url"]
+- ["Ps23CustomStringConvertible", "cover_image_url"]
+- ["Ps23CustomStringConvertible", "created_at"]
+- ["Ps23CustomStringConvertible", "id"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "liked"]
+- ["Ps23CustomStringConvertible", "likes_count"]
+- ["Ps23CustomStringConvertible", "published_at"]
+- ["Ps23CustomStringConvertible", "share_msg"]
+- ["Ps23CustomStringConvertible", "short_title"]
+- ["Ps23CustomStringConvertible", "status"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "title"]
+- ["Ps23CustomStringConvertible", "updated_at"]
+- ["Ps23CustomStringConvertible", "url"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps28DictionaryLiteralConvertible", "Index"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- ["Ps9Equatable", "content_url"]
+- ["Ps9Equatable", "cover_image_url"]
+- ["Ps9Equatable", "created_at"]
+- ["Ps9Equatable", "id"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "liked"]
+- ["Ps9Equatable", "likes_count"]
+- ["Ps9Equatable", "published_at"]
+- ["Ps9Equatable", "share_msg"]
+- ["Ps9Equatable", "short_title"]
+- ["Ps9Equatable", "status"]
+- ["Ps9Equatable", "title"]
+- ["Ps9Equatable", "updated_at"]
+- ["Ps9Equatable", "url"]
+- ["Ps9Equatable", ""]
+- !private ["Ps13GeneratorType", "Element"]
+- ["Ps8Hashable", "content_url"]
+- ["Ps8Hashable", "cover_image_url"]
+- ["Ps8Hashable", "created_at"]
+- ["Ps8Hashable", "id"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "liked"]
+- ["Ps8Hashable", "likes_count"]
+- ["Ps8Hashable", "published_at"]
+- ["Ps8Hashable", "share_msg"]
+- ["Ps8Hashable", "short_title"]
+- ["Ps8Hashable", "status"]
+- ["Ps8Hashable", "title"]
+- ["Ps8Hashable", "updated_at"]
+- ["Ps8Hashable", "url"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "content_url"]
+- ["CSo8NSObject", "cover_image_url"]
+- ["CSo8NSObject", "created_at"]
+- ["CSo8NSObject", "id"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "liked"]
+- ["CSo8NSObject", "likes_count"]
+- ["CSo8NSObject", "published_at"]
+- ["CSo8NSObject", "share_msg"]
+- ["CSo8NSObject", "short_title"]
+- ["CSo8NSObject", "status"]
+- ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "updated_at"]
+- ["CSo8NSObject", "url"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "content_url"]
+- ["PSo16NSObjectProtocol", "cover_image_url"]
+- ["PSo16NSObjectProtocol", "created_at"]
+- ["PSo16NSObjectProtocol", "id"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "liked"]
+- ["PSo16NSObjectProtocol", "likes_count"]
+- ["PSo16NSObjectProtocol", "published_at"]
+- ["PSo16NSObjectProtocol", "share_msg"]
+- ["PSo16NSObjectProtocol", "short_title"]
+- ["PSo16NSObjectProtocol", "status"]
+- ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", "updated_at"]
+- ["PSo16NSObjectProtocol", "url"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Vs12StaticString", "deinit"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "AnyObject"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "Bool"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "Int"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "String"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "content_url"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "cover_image_url"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "created_at"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "deinit"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "id"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "init"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "liked"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "likes_count"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "published_at"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "share_msg"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "short_title"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "status"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "title"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "updated_at"]
+- ["C18DanTangFromQuanzai17XZQCollectionPost", "url"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- "Ps9Equatable"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "Ps12SequenceType"
+- !private "Vs5Slice"
+- !private "Vs12StaticString"
+- "C18DanTangFromQuanzai17XZQCollectionPost"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/arm64.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/module.modulemap"
+interface-hash: "b336dc754f3666565bb6de932ffb0d3d"

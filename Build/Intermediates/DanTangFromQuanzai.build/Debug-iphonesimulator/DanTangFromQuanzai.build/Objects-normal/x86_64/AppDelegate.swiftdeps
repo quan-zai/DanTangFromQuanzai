@@ -6,28 +6,35 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai11AppDelegate", ""]
 provides-dynamic-lookup:
+- "applicationWillResignActive"
+- "applicationWillTerminate"
+- "applicationDidEnterBackground"
 - "applicationWillEnterForeground"
 - "window"
-- "applicationDidEnterBackground"
-- "applicationWillTerminate"
-- "applicationWillResignActive"
 - "applicationDidBecomeActive"
 - "application"
 depends-top-level:
-- !private "XZQTabBarController"
-- "AnyObject"
-- "UIApplicationDelegate"
-- "UIApplication"
-- "UIWindow"
+- !private "XZQFirstLaunch"
 - "AppDelegate"
+- "UIApplication"
 - "Bool"
-- !private "UIScreen"
-- "NSObject"
-- !private "BooleanLiteralType"
 - "UIResponder"
+- !private "UIScreen"
+- "UIApplicationDelegate"
+- !private "!"
+- "AnyObject"
+- !private "NSUserDefaults"
+- !private "XZQNewfeatureViewController"
+- !private "BooleanLiteralType"
+- "NSObject"
+- !private "XZQTabBarController"
+- "UIWindow"
 depends-member:
+- !private ["Ps9AnyObject", "NSUserDefaults"]
 - !private ["Ps9AnyObject", "UIScreen"]
 - !private ["Ps9AnyObject", "UIWindow"]
+- !private ["Ps9AnyObject", "XZQFirstLaunch"]
+- !private ["Ps9AnyObject", "XZQNewfeatureViewController"]
 - !private ["Ps9AnyObject", "XZQTabBarController"]
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
@@ -41,19 +48,24 @@ depends-member:
 - ["Ps9AnyObject", "applicationWillEnterForeground"]
 - ["Ps9AnyObject", "applicationWillResignActive"]
 - ["Ps9AnyObject", "applicationWillTerminate"]
+- !private ["Ps9AnyObject", "boolForKey"]
 - !private ["Ps9AnyObject", "bounds"]
 - ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "mainScreen"]
 - !private ["Ps9AnyObject", "makeKeyAndVisible"]
 - !private ["Ps9AnyObject", "rootViewController"]
+- !private ["Ps9AnyObject", "standardUserDefaults"]
 - ["Ps9AnyObject", "window"]
 - ["Ps9AnyObject", ""]
 - ["C18DanTangFromQuanzai11AppDelegate", "AnyObject"]
 - ["C18DanTangFromQuanzai11AppDelegate", "Bool"]
 - ["C18DanTangFromQuanzai11AppDelegate", "NSObject"]
+- !private ["C18DanTangFromQuanzai11AppDelegate", "NSUserDefaults"]
 - ["C18DanTangFromQuanzai11AppDelegate", "UIApplication"]
 - !private ["C18DanTangFromQuanzai11AppDelegate", "UIScreen"]
 - ["C18DanTangFromQuanzai11AppDelegate", "UIWindow"]
+- !private ["C18DanTangFromQuanzai11AppDelegate", "XZQFirstLaunch"]
+- !private ["C18DanTangFromQuanzai11AppDelegate", "XZQNewfeatureViewController"]
 - !private ["C18DanTangFromQuanzai11AppDelegate", "XZQTabBarController"]
 - ["C18DanTangFromQuanzai11AppDelegate", "application"]
 - ["C18DanTangFromQuanzai11AppDelegate", "applicationDidBecomeActive"]
@@ -70,8 +82,14 @@ depends-member:
 - ["C18DanTangFromQuanzai11AppDelegate", "deinit"]
 - ["C18DanTangFromQuanzai11AppDelegate", "init"]
 - ["C18DanTangFromQuanzai11AppDelegate", "window"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "NSUserDefaults"]
 - !private ["Ps11CVarArgType", "UIScreen"]
 - !private ["Ps11CVarArgType", "UIWindow"]
+- !private ["Ps11CVarArgType", "XZQFirstLaunch"]
+- !private ["Ps11CVarArgType", "XZQNewfeatureViewController"]
 - !private ["Ps11CVarArgType", "XZQTabBarController"]
 - ["Ps11CVarArgType", "application"]
 - ["Ps11CVarArgType", "applicationDidBecomeActive"]
@@ -85,15 +103,20 @@ depends-member:
 - ["Ps11CVarArgType", "applicationWillEnterForeground"]
 - ["Ps11CVarArgType", "applicationWillResignActive"]
 - ["Ps11CVarArgType", "applicationWillTerminate"]
+- !private ["Ps11CVarArgType", "boolForKey"]
 - !private ["Ps11CVarArgType", "bounds"]
 - ["Ps11CVarArgType", "init"]
 - !private ["Ps11CVarArgType", "mainScreen"]
 - !private ["Ps11CVarArgType", "makeKeyAndVisible"]
 - !private ["Ps11CVarArgType", "rootViewController"]
+- !private ["Ps11CVarArgType", "standardUserDefaults"]
 - ["Ps11CVarArgType", "window"]
 - ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "NSUserDefaults"]
 - !private ["Ps28CustomDebugStringConvertible", "UIScreen"]
 - !private ["Ps28CustomDebugStringConvertible", "UIWindow"]
+- !private ["Ps28CustomDebugStringConvertible", "XZQFirstLaunch"]
+- !private ["Ps28CustomDebugStringConvertible", "XZQNewfeatureViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "XZQTabBarController"]
 - ["Ps28CustomDebugStringConvertible", "application"]
 - ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
@@ -107,16 +130,22 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
 - ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
 - ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- !private ["Ps28CustomDebugStringConvertible", "boolForKey"]
 - !private ["Ps28CustomDebugStringConvertible", "bounds"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "mainScreen"]
 - !private ["Ps28CustomDebugStringConvertible", "makeKeyAndVisible"]
 - !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "standardUserDefaults"]
 - ["Ps28CustomDebugStringConvertible", "window"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "NSUserDefaults"]
 - !private ["Ps23CustomStringConvertible", "UIScreen"]
 - !private ["Ps23CustomStringConvertible", "UIWindow"]
+- !private ["Ps23CustomStringConvertible", "XZQFirstLaunch"]
+- !private ["Ps23CustomStringConvertible", "XZQNewfeatureViewController"]
 - !private ["Ps23CustomStringConvertible", "XZQTabBarController"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - ["Ps23CustomStringConvertible", "application"]
 - ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
 - ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
@@ -129,16 +158,22 @@ depends-member:
 - ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
 - ["Ps23CustomStringConvertible", "applicationWillResignActive"]
 - ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["Ps23CustomStringConvertible", "boolForKey"]
 - !private ["Ps23CustomStringConvertible", "bounds"]
 - ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "mainScreen"]
 - !private ["Ps23CustomStringConvertible", "makeKeyAndVisible"]
 - !private ["Ps23CustomStringConvertible", "rootViewController"]
+- !private ["Ps23CustomStringConvertible", "standardUserDefaults"]
 - ["Ps23CustomStringConvertible", "window"]
 - ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSUserDefaults"]
 - !private ["Ps9Equatable", "UIScreen"]
 - !private ["Ps9Equatable", "UIWindow"]
+- !private ["Ps9Equatable", "XZQFirstLaunch"]
+- !private ["Ps9Equatable", "XZQNewfeatureViewController"]
 - !private ["Ps9Equatable", "XZQTabBarController"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - ["Ps9Equatable", "application"]
 - ["Ps9Equatable", "applicationDidBecomeActive"]
 - ["Ps9Equatable", "applicationDidEnterBackground"]
@@ -151,16 +186,22 @@ depends-member:
 - ["Ps9Equatable", "applicationWillEnterForeground"]
 - ["Ps9Equatable", "applicationWillResignActive"]
 - ["Ps9Equatable", "applicationWillTerminate"]
+- !private ["Ps9Equatable", "boolForKey"]
 - !private ["Ps9Equatable", "bounds"]
 - ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "mainScreen"]
 - !private ["Ps9Equatable", "makeKeyAndVisible"]
 - !private ["Ps9Equatable", "rootViewController"]
+- !private ["Ps9Equatable", "standardUserDefaults"]
 - ["Ps9Equatable", "window"]
 - ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "NSUserDefaults"]
 - !private ["Ps8Hashable", "UIScreen"]
 - !private ["Ps8Hashable", "UIWindow"]
+- !private ["Ps8Hashable", "XZQFirstLaunch"]
+- !private ["Ps8Hashable", "XZQNewfeatureViewController"]
 - !private ["Ps8Hashable", "XZQTabBarController"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - ["Ps8Hashable", "application"]
 - ["Ps8Hashable", "applicationDidBecomeActive"]
 - ["Ps8Hashable", "applicationDidEnterBackground"]
@@ -173,11 +214,13 @@ depends-member:
 - ["Ps8Hashable", "applicationWillEnterForeground"]
 - ["Ps8Hashable", "applicationWillResignActive"]
 - ["Ps8Hashable", "applicationWillTerminate"]
+- !private ["Ps8Hashable", "boolForKey"]
 - !private ["Ps8Hashable", "bounds"]
 - ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "mainScreen"]
 - !private ["Ps8Hashable", "makeKeyAndVisible"]
 - !private ["Ps8Hashable", "rootViewController"]
+- !private ["Ps8Hashable", "standardUserDefaults"]
 - ["Ps8Hashable", "window"]
 - ["Ps8Hashable", ""]
 - !private ["PSo8NSCoding", "init"]
@@ -187,9 +230,12 @@ depends-member:
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Bool"]
 - ["CSo8NSObject", "NSObject"]
+- !private ["CSo8NSObject", "NSUserDefaults"]
 - ["CSo8NSObject", "UIApplication"]
 - !private ["CSo8NSObject", "UIScreen"]
 - ["CSo8NSObject", "UIWindow"]
+- !private ["CSo8NSObject", "XZQFirstLaunch"]
+- !private ["CSo8NSObject", "XZQNewfeatureViewController"]
 - !private ["CSo8NSObject", "XZQTabBarController"]
 - ["CSo8NSObject", "application"]
 - ["CSo8NSObject", "applicationDidBecomeActive"]
@@ -203,14 +249,19 @@ depends-member:
 - ["CSo8NSObject", "applicationWillEnterForeground"]
 - ["CSo8NSObject", "applicationWillResignActive"]
 - ["CSo8NSObject", "applicationWillTerminate"]
+- !private ["CSo8NSObject", "boolForKey"]
 - !private ["CSo8NSObject", "bounds"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "mainScreen"]
 - !private ["CSo8NSObject", "makeKeyAndVisible"]
 - !private ["CSo8NSObject", "rootViewController"]
+- !private ["CSo8NSObject", "standardUserDefaults"]
 - ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "NSUserDefaults"]
 - !private ["PSo16NSObjectProtocol", "UIScreen"]
 - !private ["PSo16NSObjectProtocol", "UIWindow"]
+- !private ["PSo16NSObjectProtocol", "XZQFirstLaunch"]
+- !private ["PSo16NSObjectProtocol", "XZQNewfeatureViewController"]
 - !private ["PSo16NSObjectProtocol", "XZQTabBarController"]
 - ["PSo16NSObjectProtocol", "application"]
 - ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
@@ -224,13 +275,17 @@ depends-member:
 - ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
 - ["PSo16NSObjectProtocol", "applicationWillResignActive"]
 - ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "boolForKey"]
 - !private ["PSo16NSObjectProtocol", "bounds"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "mainScreen"]
 - !private ["PSo16NSObjectProtocol", "makeKeyAndVisible"]
 - !private ["PSo16NSObjectProtocol", "rootViewController"]
+- !private ["PSo16NSObjectProtocol", "standardUserDefaults"]
 - ["PSo16NSObjectProtocol", "window"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["CSo14NSUserDefaults", "boolForKey"]
+- !private ["CSo14NSUserDefaults", "standardUserDefaults"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "makeKeyAndVisible"]
 - !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
@@ -240,8 +295,11 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "makeKeyAndVisible"]
 - !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIApplicationDelegate", "NSUserDefaults"]
 - !private ["PSo21UIApplicationDelegate", "UIScreen"]
 - !private ["PSo21UIApplicationDelegate", "UIWindow"]
+- !private ["PSo21UIApplicationDelegate", "XZQFirstLaunch"]
+- !private ["PSo21UIApplicationDelegate", "XZQNewfeatureViewController"]
 - !private ["PSo21UIApplicationDelegate", "XZQTabBarController"]
 - ["PSo21UIApplicationDelegate", "application"]
 - ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
@@ -257,6 +315,8 @@ depends-member:
 - ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
 - ["PSo21UIApplicationDelegate", "window"]
 - ["PSo21UIApplicationDelegate", ""]
+- !private ["PSo26UICollectionViewDataSource", "init"]
+- !private ["PSo24UICollectionViewDelegate", "init"]
 - !private ["PSo18UIContentContainer", "init"]
 - !private ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "makeKeyAndVisible"]
@@ -270,9 +330,12 @@ depends-member:
 - ["CSo11UIResponder", "AnyObject"]
 - ["CSo11UIResponder", "Bool"]
 - ["CSo11UIResponder", "NSObject"]
+- !private ["CSo11UIResponder", "NSUserDefaults"]
 - ["CSo11UIResponder", "UIApplication"]
 - !private ["CSo11UIResponder", "UIScreen"]
 - ["CSo11UIResponder", "UIWindow"]
+- !private ["CSo11UIResponder", "XZQFirstLaunch"]
+- !private ["CSo11UIResponder", "XZQNewfeatureViewController"]
 - !private ["CSo11UIResponder", "XZQTabBarController"]
 - ["CSo11UIResponder", "application"]
 - ["CSo11UIResponder", "applicationDidBecomeActive"]
@@ -293,6 +356,7 @@ depends-member:
 - ["CSo11UIResponder", ""]
 - !private ["CSo8UIScreen", "bounds"]
 - !private ["CSo8UIScreen", "mainScreen"]
+- !private ["PSo20UIScrollViewDelegate", "init"]
 - !private ["PSo16UIStateRestoring", "init"]
 - !private ["CSo18UITabBarController", "init"]
 - !private ["PSo16UITabBarDelegate", "init"]
@@ -308,13 +372,20 @@ depends-member:
 - !private ["CSo8UIWindow", "init"]
 - !private ["CSo8UIWindow", "makeKeyAndVisible"]
 - !private ["CSo8UIWindow", "rootViewController"]
+- !private ["C18DanTangFromQuanzai27XZQNewfeatureViewController", "init"]
 - !private ["C18DanTangFromQuanzai19XZQTabBarController", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["Ps12_Reflectable", "init"]
 - !private ["Ps12_Reflectable", "makeKeyAndVisible"]
 - !private ["Ps12_Reflectable", "rootViewController"]
 depends-nominal:
 - "Ps9AnyObject"
 - "C18DanTangFromQuanzai11AppDelegate"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
 - "Ps11CVarArgType"
 - "Ps28CustomDebugStringConvertible"
 - "Ps23CustomStringConvertible"
@@ -324,16 +395,20 @@ depends-nominal:
 - !private "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "CSo14NSUserDefaults"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - !private "PSo21UIAppearanceContainer"
 - "PSo21UIApplicationDelegate"
+- !private "PSo26UICollectionViewDataSource"
+- !private "PSo24UICollectionViewDelegate"
 - !private "PSo18UIContentContainer"
 - !private "PSo17UICoordinateSpace"
 - !private "PSo13UIDynamicItem"
 - !private "PSo18UIFocusEnvironment"
 - "CSo11UIResponder"
 - !private "CSo8UIScreen"
+- !private "PSo20UIScrollViewDelegate"
 - !private "PSo16UIStateRestoring"
 - !private "CSo18UITabBarController"
 - !private "PSo16UITabBarDelegate"
@@ -341,7 +416,10 @@ depends-nominal:
 - !private "CSo6UIView"
 - !private "CSo16UIViewController"
 - !private "CSo8UIWindow"
+- !private "C18DanTangFromQuanzai27XZQNewfeatureViewController"
 - !private "C18DanTangFromQuanzai19XZQTabBarController"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
 - !private "Ps12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
@@ -367,4 +445,8 @@ depends-external:
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
 interface-hash: "eb6deb7e97b205db2b1f8c4c6c87743c"

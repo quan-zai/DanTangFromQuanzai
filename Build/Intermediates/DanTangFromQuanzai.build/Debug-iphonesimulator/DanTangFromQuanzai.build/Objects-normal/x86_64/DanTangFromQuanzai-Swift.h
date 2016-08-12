@@ -285,9 +285,10 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai14XZQNetworkTool")
 
 
 SWIFT_CLASS("_TtC18DanTangFromQuanzai27XZQNewfeatureViewController")
-@interface XZQNewfeatureViewController : UIViewController
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+@interface XZQNewfeatureViewController : UICollectionViewController
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
 @end
 
 

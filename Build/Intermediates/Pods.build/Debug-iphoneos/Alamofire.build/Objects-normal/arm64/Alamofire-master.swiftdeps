@@ -1,6 +1,6 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
 options: "f858e90cfb8efd0ea00414a210f04488"
-build_time: [524111359, 343863000]
+build_time: [524303701, 326027000]
 inputs:
   "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Alamofire/Source/Alamofire.swift": [524107599, 0]
   "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Alamofire/Source/Download.swift": [524107599, 0]
