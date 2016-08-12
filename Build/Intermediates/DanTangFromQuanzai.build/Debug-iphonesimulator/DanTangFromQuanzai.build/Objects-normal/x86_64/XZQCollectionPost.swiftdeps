@@ -6,20 +6,20 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai17XZQCollectionPost", ""]
 provides-dynamic-lookup:
-- "share_msg"
 - "cover_image_url"
-- "content_url"
-- "title"
 - "short_title"
+- "title"
+- "content_url"
+- "share_msg"
 - "url"
 depends-top-level:
+- "AnyObject"
 - "XZQCollectionPost"
 - "String"
-- "NSObject"
 - "Int"
+- "NSObject"
 - "Bool"
 - !private "StringLiteralType"
-- "AnyObject"
 depends-member:
 - ["Ps9AnyObject", "content_url"]
 - ["Ps9AnyObject", "cover_image_url"]

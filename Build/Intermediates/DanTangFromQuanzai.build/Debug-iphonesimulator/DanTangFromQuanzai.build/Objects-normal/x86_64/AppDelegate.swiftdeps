@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationDidBecomeActive"
-- "window"
-- "applicationWillResignActive"
-- "applicationWillTerminate"
-- "applicationDidEnterBackground"
-- "application"
 - "applicationWillEnterForeground"
+- "window"
+- "applicationDidEnterBackground"
+- "applicationWillTerminate"
+- "applicationWillResignActive"
+- "applicationDidBecomeActive"
+- "application"
 depends-top-level:
-- "NSObject"
+- !private "XZQTabBarController"
+- "AnyObject"
 - "UIApplicationDelegate"
+- "UIApplication"
+- "UIWindow"
+- "AppDelegate"
+- "Bool"
+- !private "UIScreen"
+- "NSObject"
 - !private "BooleanLiteralType"
 - "UIResponder"
-- "UIWindow"
-- "AnyObject"
-- "UIApplication"
-- !private "XZQTabBarController"
-- !private "UIScreen"
-- "Bool"
-- "AppDelegate"
 depends-member:
 - !private ["Ps9AnyObject", "UIScreen"]
 - !private ["Ps9AnyObject", "UIWindow"]
