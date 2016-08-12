@@ -18,7 +18,7 @@ class XZQNewfeatureViewController: UICollectionViewController
     }
     
     
-    
+     
     
     
 }
