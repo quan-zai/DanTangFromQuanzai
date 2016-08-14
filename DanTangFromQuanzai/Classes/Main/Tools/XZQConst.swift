@@ -93,7 +93,7 @@ let kNewFeatureCount = 4
 let kTitlesViewH: CGFloat = 35
 
 // 顶部标题的y
-let kTitlesVieY: CGFloat = 64
+let kTitlesViewY: CGFloat = 64
 
 // 动画时长
 let kAnimationDuration = 0.25

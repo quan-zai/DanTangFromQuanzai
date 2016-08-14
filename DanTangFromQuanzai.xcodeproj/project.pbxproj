@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		744C01A81D5EAA6E007762B1 /* XZQTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C01A71D5EAA6E007762B1 /* XZQTopicViewController.swift */; };
+		744C01AA1D5EAD01007762B1 /* XZQRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C01A91D5EAD01007762B1 /* XZQRefreshControl.swift */; };
+		744C01AE1D5EB1D1007762B1 /* XZQRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C01AD1D5EB1D1007762B1 /* XZQRefreshView.swift */; };
+		744C01B21D5EB3B0007762B1 /* XZQRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744C01B11D5EB3B0007762B1 /* XZQRefreshView.xib */; };
+		744C01B91D6039DD007762B1 /* XZQHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C01B71D6039DD007762B1 /* XZQHomeCell.swift */; };
+		744C01BA1D6039DD007762B1 /* XZQHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744C01B81D6039DD007762B1 /* XZQHomeCell.xib */; };
 		74DC18BC1D5D586A00D57FD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC18BA1D5D586A00D57FD8 /* AppDelegate.swift */; };
 		74DC18BD1D5D586A00D57FD8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC18BB1D5D586A00D57FD8 /* Info.plist */; };
 		B8C0CD42084559EC3D1D4529 /* Pods_DanTangFromQuanzai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA19FE6D0E347B452581C267 /* Pods_DanTangFromQuanzai.framework */; };
@@ -53,6 +59,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		744C01A71D5EAA6E007762B1 /* XZQTopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQTopicViewController.swift; sourceTree = "<group>"; };
+		744C01A91D5EAD01007762B1 /* XZQRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQRefreshControl.swift; sourceTree = "<group>"; };
+		744C01AD1D5EB1D1007762B1 /* XZQRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XZQRefreshView.swift; path = DanTangFromQuanzai/Classes/DanTang/Controller/XZQRefreshView.swift; sourceTree = SOURCE_ROOT; };
+		744C01B11D5EB3B0007762B1 /* XZQRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XZQRefreshView.xib; path = DanTangFromQuanzai/Classes/DanTang/Controller/XZQRefreshView.xib; sourceTree = SOURCE_ROOT; };
+		744C01B71D6039DD007762B1 /* XZQHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XZQHomeCell.swift; path = DanTangFromQuanzai/Classes/DanTang/Controller/XZQHomeCell.swift; sourceTree = SOURCE_ROOT; };
+		744C01B81D6039DD007762B1 /* XZQHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XZQHomeCell.xib; path = DanTangFromQuanzai/Classes/DanTang/Controller/XZQHomeCell.xib; sourceTree = SOURCE_ROOT; };
 		74DC18BA1D5D586A00D57FD8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = DanTangFromQuanzai/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		74DC18BB1D5D586A00D57FD8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DanTangFromQuanzai/Info.plist; sourceTree = SOURCE_ROOT; };
 		BA19FE6D0E347B452581C267 /* Pods_DanTangFromQuanzai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanTangFromQuanzai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,6 +207,8 @@
 			isa = PBXGroup;
 			children = (
 				C35C70881D5C7B2A00316B28 /* XZQDanTangViewController.swift */,
+				744C01A71D5EAA6E007762B1 /* XZQTopicViewController.swift */,
+				744C01A91D5EAD01007762B1 /* XZQRefreshControl.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -212,6 +226,10 @@
 		C361EE3E1D5AC04C00DD4684 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				744C01AD1D5EB1D1007762B1 /* XZQRefreshView.swift */,
+				744C01B11D5EB3B0007762B1 /* XZQRefreshView.xib */,
+				744C01B71D6039DD007762B1 /* XZQHomeCell.swift */,
+				744C01B81D6039DD007762B1 /* XZQHomeCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -509,6 +527,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744C01BA1D6039DD007762B1 /* XZQHomeCell.xib in Resources */,
+				744C01B21D5EB3B0007762B1 /* XZQRefreshView.xib in Resources */,
 				74DC18BD1D5D586A00D57FD8 /* Info.plist in Resources */,
 				C3B36EC81D59E1A30035D19E /* Assets.xcassets in Resources */,
 			);
@@ -587,7 +607,9 @@
 				C35C708F1D5C7C1800316B28 /* XZQMeViewController.swift in Sources */,
 				C35C70851D5C727A00316B28 /* XZQNavigationController.swift in Sources */,
 				C3291CBC1D5ACEBE009EEDDD /* XZQHomeItem.swift in Sources */,
+				744C01AE1D5EB1D1007762B1 /* XZQRefreshView.swift in Sources */,
 				C3291CCA1D5AD0E7009EEDDD /* XZQComment.swift in Sources */,
+				744C01B91D6039DD007762B1 /* XZQHomeCell.swift in Sources */,
 				C3291CD41D5AD7DA009EEDDD /* XZQTabBarController.swift in Sources */,
 				C3291CC81D5AD0B6009EEDDD /* XZQProductDetail.swift in Sources */,
 				C3061E8F1D5ACACC006A7962 /* XZQNetWorkTool.swift in Sources */,
@@ -599,10 +621,12 @@
 				C35C70871D5C7AF400316B28 /* XZQBaseViewController.swift in Sources */,
 				C35C708D1D5C7BC200316B28 /* XZQCategoryViewController.swift in Sources */,
 				C3291CCC1D5AD150009EEDDD /* XZQCollection.swift in Sources */,
+				744C01AA1D5EAD01007762B1 /* XZQRefreshControl.swift in Sources */,
 				C3291CC01D5ACFB4009EEDDD /* XZQSearchResult.swift in Sources */,
 				C35C708B1D5C7B9B00316B28 /* XZQProductViewController.swift in Sources */,
 				74DC18BC1D5D586A00D57FD8 /* AppDelegate.swift in Sources */,
 				C3291CBE1D5ACF2F009EEDDD /* XZQChannel.swift in Sources */,
+				744C01A81D5EAA6E007762B1 /* XZQTopicViewController.swift in Sources */,
 				C3291CC61D5AD07C009EEDDD /* XZQProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
