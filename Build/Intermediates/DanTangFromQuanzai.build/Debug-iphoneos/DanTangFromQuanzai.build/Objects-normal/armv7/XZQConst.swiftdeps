@@ -1,0 +1,337 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "XZQTopicType"
+- "XZQShareButtonType"
+- "XZQOtherLoginButtonType"
+- "BASE_URL"
+- "XZQFirstLaunch"
+- "isLogin"
+- "RETURN_OK"
+- "kMargin"
+- "kCornerRadius"
+- "kLineWidth"
+- "kIndicatorViewH"
+- "kNewFeatureCount"
+- "kTitlesViewH"
+- "kTitlesVieY"
+- "kAnimationDuration"
+- "SCREENW"
+- "SCREENH"
+- "kItemH"
+- "kItemW"
+- "kXZQMineHeaderImageHeight"
+- "kTopViewH"
+- "XZQColor"
+- "XZQGlobalColor"
+- "XZQGlobalRedColor"
+- "isIPhone5"
+- "isIPhone6"
+- "isIPhone6P"
+provides-nominal:
+- "O18DanTangFromQuanzai12XZQTopicType"
+- "O18DanTangFromQuanzai18XZQShareButtonType"
+- "O18DanTangFromQuanzai23XZQOtherLoginButtonType"
+provides-member:
+- ["O18DanTangFromQuanzai12XZQTopicType", ""]
+- ["O18DanTangFromQuanzai18XZQShareButtonType", ""]
+- ["O18DanTangFromQuanzai23XZQOtherLoginButtonType", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "kTitlesVieY"
+- "kItemH"
+- "XZQGlobalRedColor"
+- "isIPhone5"
+- "XZQTopicType"
+- "kCornerRadius"
+- "XZQShareButtonType"
+- "XZQFirstLaunch"
+- "XZQColor"
+- "kNewFeatureCount"
+- "UIColor"
+- "kAnimationDuration"
+- "kTopViewH"
+- "BooleanLiteralType"
+- "kLineWidth"
+- "isIPhone6"
+- "SCREENH"
+- "kItemW"
+- !private "~="
+- "=="
+- "kMargin"
+- "kTitlesViewH"
+- "kXZQMineHeaderImageHeight"
+- "Int"
+- "XZQOtherLoginButtonType"
+- "StringLiteralType"
+- "BASE_URL"
+- "CGFloat"
+- "UIScreen"
+- "SCREENW"
+- "isIPhone6P"
+- "isLogin"
+- "RETURN_OK"
+- "XZQGlobalColor"
+- "kIndicatorViewH"
+- !private "/"
+depends-member:
+- ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "mainScreen"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps22BidirectionalIndexType", "hashValue"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "hashValue"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["VSC6CGRect", "size"]
+- ["VSC6CGSize", "height"]
+- ["VSC6CGSize", "width"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- ["Ps11CVarArgType", "bounds"]
+- !private ["Ps11CVarArgType", "hashValue"]
+- !private ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "mainScreen"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "mainScreen"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "mainScreen"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- ["Ps9Equatable", "RawValue"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "bounds"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "mainScreen"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "size"]
+- ["Ps9Equatable", "width"]
+- ["Ps9Equatable", ""]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps16ForwardIndexType", "hashValue"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- ["Ps8Hashable", "RawValue"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "bounds"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "mainScreen"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "hashValue"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "Distance"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "IntegerLiteralType"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "hashValue"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "hashValue"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo8NSNumber", "deinit"]
+- ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "mainScreen"]
+- ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "mainScreen"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo7NSValue", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps17SignedIntegerType", "hashValue"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "hashValue"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["CSo7UIColor", "init"]
+- ["CSo8UIScreen", "bounds"]
+- ["CSo8UIScreen", "mainScreen"]
+- ["PSo18UITraitEnvironment", "bounds"]
+- ["PSo18UITraitEnvironment", "mainScreen"]
+- ["O18DanTangFromQuanzai23XZQOtherLoginButtonType", "QQLogin"]
+- ["O18DanTangFromQuanzai23XZQOtherLoginButtonType", "RawValue"]
+- ["O18DanTangFromQuanzai23XZQOtherLoginButtonType", "WeChatLogin"]
+- ["O18DanTangFromQuanzai23XZQOtherLoginButtonType", "WeiboLogin"]
+- ["O18DanTangFromQuanzai23XZQOtherLoginButtonType", "deinit"]
+- ["O18DanTangFromQuanzai23XZQOtherLoginButtonType", "hashValue"]
+- ["O18DanTangFromQuanzai23XZQOtherLoginButtonType", "init"]
+- ["O18DanTangFromQuanzai23XZQOtherLoginButtonType", "rawValue"]
+- ["O18DanTangFromQuanzai18XZQShareButtonType", "CopyLink"]
+- ["O18DanTangFromQuanzai18XZQShareButtonType", "QQFriends"]
+- ["O18DanTangFromQuanzai18XZQShareButtonType", "QZone"]
+- ["O18DanTangFromQuanzai18XZQShareButtonType", "RawValue"]
+- ["O18DanTangFromQuanzai18XZQShareButtonType", "WeChatSession"]
+- ["O18DanTangFromQuanzai18XZQShareButtonType", "WeChatTimeline"]
+- ["O18DanTangFromQuanzai18XZQShareButtonType", "Weibo"]
+- ["O18DanTangFromQuanzai18XZQShareButtonType", "deinit"]
+- ["O18DanTangFromQuanzai18XZQShareButtonType", "hashValue"]
+- ["O18DanTangFromQuanzai18XZQShareButtonType", "init"]
+- ["O18DanTangFromQuanzai18XZQShareButtonType", "rawValue"]
+- ["O18DanTangFromQuanzai12XZQTopicType", "Digital"]
+- ["O18DanTangFromQuanzai12XZQTopicType", "Food"]
+- ["O18DanTangFromQuanzai12XZQTopicType", "GoodThing"]
+- ["O18DanTangFromQuanzai12XZQTopicType", "Grocery"]
+- ["O18DanTangFromQuanzai12XZQTopicType", "HouseHold"]
+- ["O18DanTangFromQuanzai12XZQTopicType", "RawValue"]
+- ["O18DanTangFromQuanzai12XZQTopicType", "Selection"]
+- ["O18DanTangFromQuanzai12XZQTopicType", "deinit"]
+- ["O18DanTangFromQuanzai12XZQTopicType", "hashValue"]
+- ["O18DanTangFromQuanzai12XZQTopicType", "init"]
+- ["O18DanTangFromQuanzai12XZQTopicType", "rawValue"]
+- ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps24_ColorLiteralConvertible", "init"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "hashValue"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "hashValue"]
+- ["Ps12_Reflectable", "height"]
+- ["Ps12_Reflectable", "size"]
+- ["Ps12_Reflectable", "width"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps18_SignedIntegerType", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- "Sb"
+- "Ps25BooleanLiteralConvertible"
+- "Ps11BooleanType"
+- "V12CoreGraphics7CGFloat"
+- "VSC6CGRect"
+- "VSC6CGSize"
+- "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "P10SwiftyJSON17JSONSubscriptType"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo7NSValue"
+- !private "Ps21RandomAccessIndexType"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- !private "CSo7UIColor"
+- "CSo8UIScreen"
+- "PSo18UITraitEnvironment"
+- "O18DanTangFromQuanzai23XZQOtherLoginButtonType"
+- "O18DanTangFromQuanzai18XZQShareButtonType"
+- "O18DanTangFromQuanzai12XZQTopicType"
+- "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/arm.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/module.modulemap"
+interface-hash: "e163e828c0542c7b7f3329f0a20af4de"
