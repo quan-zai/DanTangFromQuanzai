@@ -2,57 +2,64 @@
 provides-top-level:
 - "newFeatureID"
 - "XZQNewfeatureViewController"
+- "collectionView"
 provides-nominal:
 - "C18DanTangFromQuanzai27XZQNewfeatureViewController"
 provides-member:
 - ["C18DanTangFromQuanzai27XZQNewfeatureViewController", ""]
 - ["C18DanTangFromQuanzai27XZQNewfeatureViewController", "collectionView"]
 - ["C18DanTangFromQuanzai27XZQNewfeatureViewController", "collectionView"]
-- ["C18DanTangFromQuanzai27XZQNewfeatureViewController", "collectionView"]
 provides-dynamic-lookup:
 - "collectionView"
 - "collectionView"
-- "collectionView"
-- "viewDidLoad"
 - "startButtonClick"
 - "prepareLayout"
+- "prepareLayout"
+- "viewDidLoad"
 depends-top-level:
-- !private "fatalError"
-- !private "CGSizeMake"
-- !private "XZQNewfeatureCell"
-- "newFeatureID"
+- "UICollectionView"
 - !private "-"
-- !private "UIImageView"
-- "UICollectionViewController"
-- !private "UIButton"
-- !private "CGAffineTransformIdentity"
-- "StringLiteralType"
-- "XZQNewfeatureViewController"
+- !private "UIImage"
+- "UICollectionViewFlowLayout"
+- "collectionView"
+- !private "====="
+- !private "+"
+- !private "HEAD"
+- !private "==="
+- !private "="
+- !private "XZQNewfeatureCell"
+- !private "fatalError"
+- !private "<<<<<<<"
+- !private "======"
 - !private "kNewFeatureCount"
+- !private "===="
 - "NSIndexPath"
 - !private "UIViewAnimationOptions"
-- !private "UIView"
-- !private "UIImage"
-- !private "=="
+- "UICollectionViewCell"
+- !private "BooleanLiteralType"
 - !private "XZQTabBarController"
 - "Int"
-- "UICollectionViewCell"
-- !private "CGRect"
-- !private "CGAffineTransformMakeScale"
+- !private "UIImageView"
+- "XZQNewfeatureViewController"
 - !private "UIApplication"
-- "BooleanLiteralType"
-- "UICollectionViewFlowLayout"
-- "UICollectionView"
-- "NSCoder"
+- !private "CGAffineTransformMakeScale"
+- !private "CGSizeMake"
+- !private "=="
 - !private "UIScreen"
-- !private "+"
+- !private "CGRect"
+- "StringLiteralType"
+- "newFeatureID"
+- "NSCoder"
+- !private "UIButton"
+- !private "UIView"
+- !private "======="
 - "XZQNewfeatureLayout"
+- "UICollectionViewController"
 depends-member:
-- !private ["Ps9AnyObject", "CGAffineTransformIdentity"]
 - !private ["Ps9AnyObject", "CGAffineTransformMakeScale"]
 - !private ["Ps9AnyObject", "CGSizeMake"]
+- !private ["Ps9AnyObject", "HEAD"]
 - !private ["Ps9AnyObject", "UIApplication"]
-- !private ["Ps9AnyObject", "UIButton"]
 - !private ["Ps9AnyObject", "UIImage"]
 - !private ["Ps9AnyObject", "UIImageView"]
 - !private ["Ps9AnyObject", "UIScreen"]
@@ -62,7 +69,6 @@ depends-member:
 - ["Ps9AnyObject", "XZQNewfeatureLayout"]
 - !private ["Ps9AnyObject", "XZQTabBarController"]
 - !private ["Ps9AnyObject", "addSubview"]
-- !private ["Ps9AnyObject", "addTarget"]
 - !private ["Ps9AnyObject", "animateWithDuration"]
 - !private ["Ps9AnyObject", "bottom"]
 - !private ["Ps9AnyObject", "bounces"]
@@ -85,10 +91,8 @@ depends-member:
 - !private ["Ps9AnyObject", "itemSize"]
 - !private ["Ps9AnyObject", "kNewFeatureCount"]
 - !private ["Ps9AnyObject", "keyWindow"]
-- !private ["Ps9AnyObject", "layer"]
 - ["Ps9AnyObject", "layout"]
 - !private ["Ps9AnyObject", "mainScreen"]
-- !private ["Ps9AnyObject", "masksToBounds"]
 - !private ["Ps9AnyObject", "minimumInteritemSpacing"]
 - !private ["Ps9AnyObject", "minimumLineSpacing"]
 - !private ["Ps9AnyObject", "newFeatureID"]
@@ -97,7 +101,6 @@ depends-member:
 - !private ["Ps9AnyObject", "registerClass"]
 - !private ["Ps9AnyObject", "rootViewController"]
 - !private ["Ps9AnyObject", "scrollDirection"]
-- !private ["Ps9AnyObject", "setBackgroundImage"]
 - !private ["Ps9AnyObject", "setupUI"]
 - !private ["Ps9AnyObject", "sharedApplication"]
 - !private ["Ps9AnyObject", "showsVerticalScrollIndicator"]
@@ -119,9 +122,7 @@ depends-member:
 - !private ["Sa", "last"]
 - !private ["Ps23ArrayLiteralConvertible", "Generator"]
 - !private ["Ps23ArrayLiteralConvertible", "Index"]
-- !private ["Ps23ArrayLiteralConvertible", "Normal"]
 - !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
-- !private ["Ps23ArrayLiteralConvertible", "TouchUpInside"]
 - !private ["Ps23ArrayLiteralConvertible", "_Element"]
 - !private ["Ps23ArrayLiteralConvertible", "init"]
 - !private ["Ps23ArrayLiteralConvertible", "last"]
@@ -132,22 +133,18 @@ depends-member:
 - !private ["Ps21BitwiseOperationsType", "Distance"]
 - !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["Sb", "deinit"]
 - !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
-- !private ["CSo7CALayer", "masksToBounds"]
-- !private ["PSo13CAMediaTiming", "masksToBounds"]
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["VSC7CGPoint", "deinit"]
 - !private ["VSC6CGRect", "size"]
 - !private ["VSC6CGSize", "deinit"]
-- !private ["Ps11CVarArgType", "CGAffineTransformIdentity"]
 - !private ["Ps11CVarArgType", "CGAffineTransformMakeScale"]
 - !private ["Ps11CVarArgType", "CGSizeMake"]
 - !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "HEAD"]
 - !private ["Ps11CVarArgType", "IntegerLiteralType"]
 - !private ["Ps11CVarArgType", "UIApplication"]
-- !private ["Ps11CVarArgType", "UIButton"]
 - !private ["Ps11CVarArgType", "UIImage"]
 - !private ["Ps11CVarArgType", "UIImageView"]
 - !private ["Ps11CVarArgType", "UIScreen"]
@@ -157,7 +154,6 @@ depends-member:
 - ["Ps11CVarArgType", "XZQNewfeatureLayout"]
 - !private ["Ps11CVarArgType", "XZQTabBarController"]
 - !private ["Ps11CVarArgType", "addSubview"]
-- !private ["Ps11CVarArgType", "addTarget"]
 - !private ["Ps11CVarArgType", "animateWithDuration"]
 - !private ["Ps11CVarArgType", "bounces"]
 - !private ["Ps11CVarArgType", "bounds"]
@@ -177,10 +173,8 @@ depends-member:
 - !private ["Ps11CVarArgType", "itemSize"]
 - !private ["Ps11CVarArgType", "kNewFeatureCount"]
 - !private ["Ps11CVarArgType", "keyWindow"]
-- !private ["Ps11CVarArgType", "layer"]
 - ["Ps11CVarArgType", "layout"]
 - !private ["Ps11CVarArgType", "mainScreen"]
-- !private ["Ps11CVarArgType", "masksToBounds"]
 - !private ["Ps11CVarArgType", "minimumInteritemSpacing"]
 - !private ["Ps11CVarArgType", "minimumLineSpacing"]
 - !private ["Ps11CVarArgType", "newFeatureID"]
@@ -189,7 +183,6 @@ depends-member:
 - !private ["Ps11CVarArgType", "registerClass"]
 - !private ["Ps11CVarArgType", "rootViewController"]
 - !private ["Ps11CVarArgType", "scrollDirection"]
-- !private ["Ps11CVarArgType", "setBackgroundImage"]
 - !private ["Ps11CVarArgType", "setupUI"]
 - !private ["Ps11CVarArgType", "sharedApplication"]
 - !private ["Ps11CVarArgType", "showsVerticalScrollIndicator"]
@@ -203,7 +196,6 @@ depends-member:
 - !private ["Ps11CVarArgType", "userInteractionEnabled"]
 - ["Ps11CVarArgType", "viewDidLoad"]
 - ["Ps11CVarArgType", ""]
-- !private ["Vs9Character", "deinit"]
 - !private ["Ps14CollectionType", "Generator"]
 - !private ["Ps14CollectionType", "Index"]
 - !private ["Ps14CollectionType", "SubSequence"]
@@ -211,7 +203,6 @@ depends-member:
 - !private ["Ps14CollectionType", "last"]
 - !private ["Ps10Comparable", "Distance"]
 - !private ["Ps10Comparable", "IntegerLiteralType"]
-- !private ["Ps10Comparable", "init"]
 - !private ["P7SnapKit29ConstraintDescriptionEditable", "offset"]
 - !private ["P7SnapKit31ConstraintDescriptionExtendable", "equalTo"]
 - !private ["P7SnapKit32ConstraintDescriptionFinalizable", "offset"]
@@ -222,14 +213,13 @@ depends-member:
 - !private ["C7SnapKit15ConstraintMaker", "centerX"]
 - !private ["C7SnapKit15ConstraintMaker", "edges"]
 - !private ["C7SnapKit15ConstraintMaker", "size"]
-- !private ["Ps28CustomDebugStringConvertible", "CGAffineTransformIdentity"]
 - !private ["Ps28CustomDebugStringConvertible", "CGAffineTransformMakeScale"]
 - !private ["Ps28CustomDebugStringConvertible", "CGSizeMake"]
 - !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "HEAD"]
 - !private ["Ps28CustomDebugStringConvertible", "Index"]
 - !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
 - !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
-- !private ["Ps28CustomDebugStringConvertible", "UIButton"]
 - !private ["Ps28CustomDebugStringConvertible", "UIImage"]
 - !private ["Ps28CustomDebugStringConvertible", "UIImageView"]
 - !private ["Ps28CustomDebugStringConvertible", "UIScreen"]
@@ -240,7 +230,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "XZQTabBarController"]
 - !private ["Ps28CustomDebugStringConvertible", "_Element"]
 - !private ["Ps28CustomDebugStringConvertible", "addSubview"]
-- !private ["Ps28CustomDebugStringConvertible", "addTarget"]
 - !private ["Ps28CustomDebugStringConvertible", "animateWithDuration"]
 - !private ["Ps28CustomDebugStringConvertible", "bounces"]
 - !private ["Ps28CustomDebugStringConvertible", "bounds"]
@@ -261,10 +250,8 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "kNewFeatureCount"]
 - !private ["Ps28CustomDebugStringConvertible", "keyWindow"]
 - !private ["Ps28CustomDebugStringConvertible", "last"]
-- !private ["Ps28CustomDebugStringConvertible", "layer"]
 - ["Ps28CustomDebugStringConvertible", "layout"]
 - !private ["Ps28CustomDebugStringConvertible", "mainScreen"]
-- !private ["Ps28CustomDebugStringConvertible", "masksToBounds"]
 - !private ["Ps28CustomDebugStringConvertible", "minimumInteritemSpacing"]
 - !private ["Ps28CustomDebugStringConvertible", "minimumLineSpacing"]
 - !private ["Ps28CustomDebugStringConvertible", "newFeatureID"]
@@ -273,7 +260,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "registerClass"]
 - !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "scrollDirection"]
-- !private ["Ps28CustomDebugStringConvertible", "setBackgroundImage"]
 - !private ["Ps28CustomDebugStringConvertible", "setupUI"]
 - !private ["Ps28CustomDebugStringConvertible", "sharedApplication"]
 - !private ["Ps28CustomDebugStringConvertible", "showsVerticalScrollIndicator"]
@@ -287,16 +273,15 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "userInteractionEnabled"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", ""]
-- !private ["Ps23CustomStringConvertible", "CGAffineTransformIdentity"]
 - !private ["Ps23CustomStringConvertible", "CGAffineTransformMakeScale"]
 - !private ["Ps23CustomStringConvertible", "CGSizeMake"]
 - !private ["Ps23CustomStringConvertible", "Distance"]
 - !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "HEAD"]
 - !private ["Ps23CustomStringConvertible", "Index"]
 - !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["Ps23CustomStringConvertible", "SubSequence"]
 - !private ["Ps23CustomStringConvertible", "UIApplication"]
-- !private ["Ps23CustomStringConvertible", "UIButton"]
 - !private ["Ps23CustomStringConvertible", "UIImage"]
 - !private ["Ps23CustomStringConvertible", "UIImageView"]
 - !private ["Ps23CustomStringConvertible", "UIScreen"]
@@ -308,7 +293,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "_Element"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "addSubview"]
-- !private ["Ps23CustomStringConvertible", "addTarget"]
 - !private ["Ps23CustomStringConvertible", "animateWithDuration"]
 - !private ["Ps23CustomStringConvertible", "bounces"]
 - !private ["Ps23CustomStringConvertible", "bounds"]
@@ -329,10 +313,8 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "kNewFeatureCount"]
 - !private ["Ps23CustomStringConvertible", "keyWindow"]
 - !private ["Ps23CustomStringConvertible", "last"]
-- !private ["Ps23CustomStringConvertible", "layer"]
 - ["Ps23CustomStringConvertible", "layout"]
 - !private ["Ps23CustomStringConvertible", "mainScreen"]
-- !private ["Ps23CustomStringConvertible", "masksToBounds"]
 - !private ["Ps23CustomStringConvertible", "minimumInteritemSpacing"]
 - !private ["Ps23CustomStringConvertible", "minimumLineSpacing"]
 - !private ["Ps23CustomStringConvertible", "newFeatureID"]
@@ -341,7 +323,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "registerClass"]
 - !private ["Ps23CustomStringConvertible", "rootViewController"]
 - !private ["Ps23CustomStringConvertible", "scrollDirection"]
-- !private ["Ps23CustomStringConvertible", "setBackgroundImage"]
 - !private ["Ps23CustomStringConvertible", "setupUI"]
 - !private ["Ps23CustomStringConvertible", "sharedApplication"]
 - !private ["Ps23CustomStringConvertible", "showsVerticalScrollIndicator"]
@@ -356,16 +337,13 @@ depends-member:
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
 - !private ["Sd", "deinit"]
-- !private ["Ps9Equatable", "CGAffineTransformIdentity"]
 - !private ["Ps9Equatable", "CGAffineTransformMakeScale"]
 - !private ["Ps9Equatable", "CGSizeMake"]
 - !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "HEAD"]
 - !private ["Ps9Equatable", "Horizontal"]
 - !private ["Ps9Equatable", "IntegerLiteralType"]
-- !private ["Ps9Equatable", "Normal"]
-- !private ["Ps9Equatable", "TouchUpInside"]
 - !private ["Ps9Equatable", "UIApplication"]
-- !private ["Ps9Equatable", "UIButton"]
 - !private ["Ps9Equatable", "UIImage"]
 - !private ["Ps9Equatable", "UIImageView"]
 - !private ["Ps9Equatable", "UIScreen"]
@@ -376,7 +354,6 @@ depends-member:
 - !private ["Ps9Equatable", "XZQTabBarController"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "addSubview"]
-- !private ["Ps9Equatable", "addTarget"]
 - !private ["Ps9Equatable", "animateWithDuration"]
 - !private ["Ps9Equatable", "bounces"]
 - !private ["Ps9Equatable", "bounds"]
@@ -396,10 +373,8 @@ depends-member:
 - !private ["Ps9Equatable", "itemSize"]
 - !private ["Ps9Equatable", "kNewFeatureCount"]
 - !private ["Ps9Equatable", "keyWindow"]
-- !private ["Ps9Equatable", "layer"]
 - ["Ps9Equatable", "layout"]
 - !private ["Ps9Equatable", "mainScreen"]
-- !private ["Ps9Equatable", "masksToBounds"]
 - !private ["Ps9Equatable", "minimumInteritemSpacing"]
 - !private ["Ps9Equatable", "minimumLineSpacing"]
 - !private ["Ps9Equatable", "newFeatureID"]
@@ -408,7 +383,6 @@ depends-member:
 - !private ["Ps9Equatable", "registerClass"]
 - !private ["Ps9Equatable", "rootViewController"]
 - !private ["Ps9Equatable", "scrollDirection"]
-- !private ["Ps9Equatable", "setBackgroundImage"]
 - !private ["Ps9Equatable", "setupUI"]
 - !private ["Ps9Equatable", "sharedApplication"]
 - !private ["Ps9Equatable", "showsVerticalScrollIndicator"]
@@ -423,19 +397,16 @@ depends-member:
 - !private ["Ps9Equatable", "userInteractionEnabled"]
 - ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", ""]
-- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
-- !private ["Sf", "deinit"]
 - !private ["Ps16ForwardIndexType", "Distance"]
 - !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
 - !private ["Ps13GeneratorType", "Element"]
-- !private ["Ps8Hashable", "CGAffineTransformIdentity"]
 - !private ["Ps8Hashable", "CGAffineTransformMakeScale"]
 - !private ["Ps8Hashable", "CGSizeMake"]
 - !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "HEAD"]
 - !private ["Ps8Hashable", "Horizontal"]
 - !private ["Ps8Hashable", "IntegerLiteralType"]
 - !private ["Ps8Hashable", "UIApplication"]
-- !private ["Ps8Hashable", "UIButton"]
 - !private ["Ps8Hashable", "UIImage"]
 - !private ["Ps8Hashable", "UIImageView"]
 - !private ["Ps8Hashable", "UIScreen"]
@@ -446,7 +417,6 @@ depends-member:
 - !private ["Ps8Hashable", "XZQTabBarController"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps8Hashable", "addSubview"]
-- !private ["Ps8Hashable", "addTarget"]
 - !private ["Ps8Hashable", "animateWithDuration"]
 - !private ["Ps8Hashable", "bounces"]
 - !private ["Ps8Hashable", "bounds"]
@@ -466,10 +436,8 @@ depends-member:
 - !private ["Ps8Hashable", "itemSize"]
 - !private ["Ps8Hashable", "kNewFeatureCount"]
 - !private ["Ps8Hashable", "keyWindow"]
-- !private ["Ps8Hashable", "layer"]
 - ["Ps8Hashable", "layout"]
 - !private ["Ps8Hashable", "mainScreen"]
-- !private ["Ps8Hashable", "masksToBounds"]
 - !private ["Ps8Hashable", "minimumInteritemSpacing"]
 - !private ["Ps8Hashable", "minimumLineSpacing"]
 - !private ["Ps8Hashable", "newFeatureID"]
@@ -478,7 +446,6 @@ depends-member:
 - !private ["Ps8Hashable", "registerClass"]
 - !private ["Ps8Hashable", "rootViewController"]
 - !private ["Ps8Hashable", "scrollDirection"]
-- !private ["Ps8Hashable", "setBackgroundImage"]
 - !private ["Ps8Hashable", "setupUI"]
 - !private ["Ps8Hashable", "sharedApplication"]
 - !private ["Ps8Hashable", "showsVerticalScrollIndicator"]
@@ -501,10 +468,6 @@ depends-member:
 - !private ["Si", "Distance"]
 - !private ["Si", "IntegerLiteralType"]
 - !private ["Si", "deinit"]
-- !private ["Vs5Int16", "deinit"]
-- !private ["Vs5Int32", "deinit"]
-- !private ["Vs5Int64", "deinit"]
-- !private ["Vs4Int8", "deinit"]
 - !private ["Ps21IntegerArithmeticType", "Distance"]
 - !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
 - !private ["Ps25IntegerLiteralConvertible", "Distance"]
@@ -513,10 +476,8 @@ depends-member:
 - !private ["Ps11IntegerType", "IntegerLiteralType"]
 - !private ["P10SwiftyJSON17JSONSubscriptType", "Distance"]
 - !private ["P10SwiftyJSON17JSONSubscriptType", "IntegerLiteralType"]
-- !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
 - !private ["Ps14MirrorPathType", "Distance"]
 - !private ["Ps14MirrorPathType", "IntegerLiteralType"]
-- !private ["Ps14MirrorPathType", "init"]
 - !private ["Ps21MutableCollectionType", "Generator"]
 - !private ["Ps21MutableCollectionType", "Index"]
 - !private ["Ps21MutableCollectionType", "SubSequence"]
@@ -532,11 +493,10 @@ depends-member:
 - !private ["Ps16MutableSliceable", "SubSequence"]
 - !private ["Ps16MutableSliceable", "_Element"]
 - !private ["Ps16MutableSliceable", "last"]
-- !private ["PSo8NSCoding", "CGAffineTransformIdentity"]
 - !private ["PSo8NSCoding", "CGAffineTransformMakeScale"]
 - !private ["PSo8NSCoding", "CGSizeMake"]
+- !private ["PSo8NSCoding", "HEAD"]
 - !private ["PSo8NSCoding", "UIApplication"]
-- !private ["PSo8NSCoding", "UIButton"]
 - !private ["PSo8NSCoding", "UIImage"]
 - !private ["PSo8NSCoding", "UIImageView"]
 - !private ["PSo8NSCoding", "UIScreen"]
@@ -546,7 +506,6 @@ depends-member:
 - ["PSo8NSCoding", "XZQNewfeatureLayout"]
 - !private ["PSo8NSCoding", "XZQTabBarController"]
 - !private ["PSo8NSCoding", "addSubview"]
-- !private ["PSo8NSCoding", "addTarget"]
 - !private ["PSo8NSCoding", "animateWithDuration"]
 - !private ["PSo8NSCoding", "bounces"]
 - !private ["PSo8NSCoding", "cellForItemAtIndexPath"]
@@ -564,9 +523,7 @@ depends-member:
 - !private ["PSo8NSCoding", "item"]
 - !private ["PSo8NSCoding", "itemSize"]
 - !private ["PSo8NSCoding", "kNewFeatureCount"]
-- !private ["PSo8NSCoding", "layer"]
 - ["PSo8NSCoding", "layout"]
-- !private ["PSo8NSCoding", "masksToBounds"]
 - !private ["PSo8NSCoding", "minimumInteritemSpacing"]
 - !private ["PSo8NSCoding", "minimumLineSpacing"]
 - !private ["PSo8NSCoding", "newFeatureID"]
@@ -575,7 +532,6 @@ depends-member:
 - !private ["PSo8NSCoding", "registerClass"]
 - !private ["PSo8NSCoding", "rootViewController"]
 - !private ["PSo8NSCoding", "scrollDirection"]
-- !private ["PSo8NSCoding", "setBackgroundImage"]
 - !private ["PSo8NSCoding", "setupUI"]
 - !private ["PSo8NSCoding", "showsVerticalScrollIndicator"]
 - !private ["PSo8NSCoding", "snp_bottom"]
@@ -588,8 +544,8 @@ depends-member:
 - !private ["PSo8NSCoding", "userInteractionEnabled"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
-- !private ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "item"]
+- !private ["PSo26NSExtensionRequestHandling", "HEAD"]
 - !private ["PSo26NSExtensionRequestHandling", "XZQNewfeatureCell"]
 - ["PSo26NSExtensionRequestHandling", "XZQNewfeatureLayout"]
 - ["PSo26NSExtensionRequestHandling", "collectionView"]
@@ -602,12 +558,11 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", ""]
 - !private ["CSo11NSIndexPath", "item"]
 - !private ["CSo14NSLayoutAnchor", "deinit"]
-- !private ["PSo16NSMutableCopying", "init"]
 - !private ["CSo8NSNumber", "deinit"]
-- !private ["CSo8NSObject", "CGAffineTransformIdentity"]
 - !private ["CSo8NSObject", "CGAffineTransformMakeScale"]
 - !private ["CSo8NSObject", "CGRect"]
 - !private ["CSo8NSObject", "CGSizeMake"]
+- !private ["CSo8NSObject", "HEAD"]
 - ["CSo8NSObject", "Int"]
 - ["CSo8NSObject", "NSCoder"]
 - ["CSo8NSObject", "NSIndexPath"]
@@ -625,7 +580,6 @@ depends-member:
 - ["CSo8NSObject", "XZQNewfeatureLayout"]
 - !private ["CSo8NSObject", "XZQTabBarController"]
 - !private ["CSo8NSObject", "addSubview"]
-- !private ["CSo8NSObject", "addTarget"]
 - !private ["CSo8NSObject", "animateWithDuration"]
 - !private ["CSo8NSObject", "bounces"]
 - !private ["CSo8NSObject", "bounds"]
@@ -645,10 +599,8 @@ depends-member:
 - !private ["CSo8NSObject", "itemSize"]
 - !private ["CSo8NSObject", "kNewFeatureCount"]
 - !private ["CSo8NSObject", "keyWindow"]
-- !private ["CSo8NSObject", "layer"]
 - ["CSo8NSObject", "layout"]
 - !private ["CSo8NSObject", "mainScreen"]
-- !private ["CSo8NSObject", "masksToBounds"]
 - !private ["CSo8NSObject", "minimumInteritemSpacing"]
 - !private ["CSo8NSObject", "minimumLineSpacing"]
 - !private ["CSo8NSObject", "newFeatureID"]
@@ -657,7 +609,6 @@ depends-member:
 - !private ["CSo8NSObject", "registerClass"]
 - !private ["CSo8NSObject", "rootViewController"]
 - !private ["CSo8NSObject", "scrollDirection"]
-- !private ["CSo8NSObject", "setBackgroundImage"]
 - !private ["CSo8NSObject", "setupUI"]
 - !private ["CSo8NSObject", "sharedApplication"]
 - !private ["CSo8NSObject", "showsVerticalScrollIndicator"]
@@ -670,11 +621,10 @@ depends-member:
 - !private ["CSo8NSObject", "transform"]
 - !private ["CSo8NSObject", "userInteractionEnabled"]
 - ["CSo8NSObject", "viewDidLoad"]
-- !private ["PSo16NSObjectProtocol", "CGAffineTransformIdentity"]
 - !private ["PSo16NSObjectProtocol", "CGAffineTransformMakeScale"]
 - !private ["PSo16NSObjectProtocol", "CGSizeMake"]
+- !private ["PSo16NSObjectProtocol", "HEAD"]
 - !private ["PSo16NSObjectProtocol", "UIApplication"]
-- !private ["PSo16NSObjectProtocol", "UIButton"]
 - !private ["PSo16NSObjectProtocol", "UIImage"]
 - !private ["PSo16NSObjectProtocol", "UIImageView"]
 - !private ["PSo16NSObjectProtocol", "UIScreen"]
@@ -684,7 +634,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", "XZQNewfeatureLayout"]
 - !private ["PSo16NSObjectProtocol", "XZQTabBarController"]
 - !private ["PSo16NSObjectProtocol", "addSubview"]
-- !private ["PSo16NSObjectProtocol", "addTarget"]
 - !private ["PSo16NSObjectProtocol", "animateWithDuration"]
 - !private ["PSo16NSObjectProtocol", "bounces"]
 - !private ["PSo16NSObjectProtocol", "bounds"]
@@ -704,10 +653,8 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "itemSize"]
 - !private ["PSo16NSObjectProtocol", "kNewFeatureCount"]
 - !private ["PSo16NSObjectProtocol", "keyWindow"]
-- !private ["PSo16NSObjectProtocol", "layer"]
 - ["PSo16NSObjectProtocol", "layout"]
 - !private ["PSo16NSObjectProtocol", "mainScreen"]
-- !private ["PSo16NSObjectProtocol", "masksToBounds"]
 - !private ["PSo16NSObjectProtocol", "minimumInteritemSpacing"]
 - !private ["PSo16NSObjectProtocol", "minimumLineSpacing"]
 - !private ["PSo16NSObjectProtocol", "newFeatureID"]
@@ -716,7 +663,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "registerClass"]
 - !private ["PSo16NSObjectProtocol", "rootViewController"]
 - !private ["PSo16NSObjectProtocol", "scrollDirection"]
-- !private ["PSo16NSObjectProtocol", "setBackgroundImage"]
 - !private ["PSo16NSObjectProtocol", "setupUI"]
 - !private ["PSo16NSObjectProtocol", "sharedApplication"]
 - !private ["PSo16NSObjectProtocol", "showsVerticalScrollIndicator"]
@@ -732,12 +678,8 @@ depends-member:
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "item"]
-- !private ["CSo8NSString", "init"]
-- !private ["Ps13OptionSetType", "Normal"]
-- !private ["Ps13OptionSetType", "TouchUpInside"]
 - !private ["Ps13OptionSetType", "init"]
 - !private ["Sq", "deinit"]
-- !private ["Ps16OutputStreamType", "init"]
 - !private ["Ps21RandomAccessIndexType", "Distance"]
 - !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
 - !private ["Ps30RangeReplaceableCollectionType", "Generator"]
@@ -746,8 +688,6 @@ depends-member:
 - !private ["Ps30RangeReplaceableCollectionType", "_Element"]
 - !private ["Ps30RangeReplaceableCollectionType", "last"]
 - !private ["Ps16RawRepresentable", "Horizontal"]
-- !private ["Ps16RawRepresentable", "Normal"]
-- !private ["Ps16RawRepresentable", "TouchUpInside"]
 - !private ["Ps16RawRepresentable", "init"]
 - !private ["Ps12SequenceType", "Element"]
 - !private ["Ps12SequenceType", "Generator"]
@@ -755,32 +695,25 @@ depends-member:
 - !private ["Ps12SequenceType", "SubSequence"]
 - !private ["Ps12SequenceType", "_Element"]
 - !private ["Ps12SequenceType", "last"]
-- !private ["Ps14SetAlgebraType", "Normal"]
-- !private ["Ps14SetAlgebraType", "TouchUpInside"]
 - !private ["Ps14SetAlgebraType", "init"]
 - !private ["Ps17SignedIntegerType", "Distance"]
 - !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
 - !private ["Ps16SignedNumberType", "Distance"]
 - !private ["Ps16SignedNumberType", "IntegerLiteralType"]
 - !private ["Vs12StaticString", "deinit"]
-- !private ["Ps10Streamable", "init"]
 - !private ["Ps10Strideable", "Distance"]
 - !private ["Ps10Strideable", "IntegerLiteralType"]
-- !private ["SS", "init"]
-- !private ["Ps30StringInterpolationConvertible", "init"]
-- !private ["Ps24StringLiteralConvertible", "init"]
-- !private ["PSo29UIAccessibilityIdentification", "CGAffineTransformIdentity"]
 - !private ["PSo29UIAccessibilityIdentification", "CGAffineTransformMakeScale"]
 - !private ["PSo29UIAccessibilityIdentification", "CGSizeMake"]
+- !private ["PSo29UIAccessibilityIdentification", "HEAD"]
 - !private ["PSo29UIAccessibilityIdentification", "UIApplication"]
-- !private ["PSo29UIAccessibilityIdentification", "UIButton"]
 - !private ["PSo29UIAccessibilityIdentification", "UIImage"]
 - !private ["PSo29UIAccessibilityIdentification", "UIImageView"]
+- !private ["PSo29UIAccessibilityIdentification", "UIScreen"]
 - !private ["PSo29UIAccessibilityIdentification", "UIView"]
 - !private ["PSo29UIAccessibilityIdentification", "UIViewAnimationOptions"]
 - !private ["PSo29UIAccessibilityIdentification", "XZQTabBarController"]
 - !private ["PSo29UIAccessibilityIdentification", "addSubview"]
-- !private ["PSo29UIAccessibilityIdentification", "addTarget"]
 - !private ["PSo29UIAccessibilityIdentification", "animateWithDuration"]
 - !private ["PSo29UIAccessibilityIdentification", "bounces"]
 - !private ["PSo29UIAccessibilityIdentification", "cellForItemAtIndexPath"]
@@ -794,11 +727,9 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "imageIndex"]
 - !private ["PSo29UIAccessibilityIdentification", "indexPathsForVisibleItems"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
-- !private ["PSo29UIAccessibilityIdentification", "layer"]
 - !private ["PSo29UIAccessibilityIdentification", "pagingEnabled"]
 - !private ["PSo29UIAccessibilityIdentification", "registerClass"]
 - !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
-- !private ["PSo29UIAccessibilityIdentification", "setBackgroundImage"]
 - !private ["PSo29UIAccessibilityIdentification", "setupUI"]
 - !private ["PSo29UIAccessibilityIdentification", "showsVerticalScrollIndicator"]
 - !private ["PSo29UIAccessibilityIdentification", "snp_bottom"]
@@ -810,18 +741,17 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "transform"]
 - !private ["PSo29UIAccessibilityIdentification", "userInteractionEnabled"]
 - !private ["PSo29UIAccessibilityIdentification", ""]
-- !private ["PSo12UIAppearance", "CGAffineTransformIdentity"]
 - !private ["PSo12UIAppearance", "CGAffineTransformMakeScale"]
 - !private ["PSo12UIAppearance", "CGSizeMake"]
+- !private ["PSo12UIAppearance", "HEAD"]
 - !private ["PSo12UIAppearance", "UIApplication"]
-- !private ["PSo12UIAppearance", "UIButton"]
 - !private ["PSo12UIAppearance", "UIImage"]
 - !private ["PSo12UIAppearance", "UIImageView"]
+- !private ["PSo12UIAppearance", "UIScreen"]
 - !private ["PSo12UIAppearance", "UIView"]
 - !private ["PSo12UIAppearance", "UIViewAnimationOptions"]
 - !private ["PSo12UIAppearance", "XZQTabBarController"]
 - !private ["PSo12UIAppearance", "addSubview"]
-- !private ["PSo12UIAppearance", "addTarget"]
 - !private ["PSo12UIAppearance", "animateWithDuration"]
 - !private ["PSo12UIAppearance", "bounces"]
 - !private ["PSo12UIAppearance", "cellForItemAtIndexPath"]
@@ -835,11 +765,9 @@ depends-member:
 - !private ["PSo12UIAppearance", "imageIndex"]
 - !private ["PSo12UIAppearance", "indexPathsForVisibleItems"]
 - !private ["PSo12UIAppearance", "init"]
-- !private ["PSo12UIAppearance", "layer"]
 - !private ["PSo12UIAppearance", "pagingEnabled"]
 - !private ["PSo12UIAppearance", "registerClass"]
 - !private ["PSo12UIAppearance", "rootViewController"]
-- !private ["PSo12UIAppearance", "setBackgroundImage"]
 - !private ["PSo12UIAppearance", "setupUI"]
 - !private ["PSo12UIAppearance", "showsVerticalScrollIndicator"]
 - !private ["PSo12UIAppearance", "snp_bottom"]
@@ -851,20 +779,19 @@ depends-member:
 - !private ["PSo12UIAppearance", "transform"]
 - !private ["PSo12UIAppearance", "userInteractionEnabled"]
 - !private ["PSo12UIAppearance", ""]
-- !private ["PSo21UIAppearanceContainer", "CGAffineTransformIdentity"]
 - !private ["PSo21UIAppearanceContainer", "CGAffineTransformMakeScale"]
 - !private ["PSo21UIAppearanceContainer", "CGSizeMake"]
+- !private ["PSo21UIAppearanceContainer", "HEAD"]
 - !private ["PSo21UIAppearanceContainer", "UIApplication"]
-- !private ["PSo21UIAppearanceContainer", "UIButton"]
 - !private ["PSo21UIAppearanceContainer", "UIImage"]
 - !private ["PSo21UIAppearanceContainer", "UIImageView"]
+- !private ["PSo21UIAppearanceContainer", "UIScreen"]
 - !private ["PSo21UIAppearanceContainer", "UIView"]
 - !private ["PSo21UIAppearanceContainer", "UIViewAnimationOptions"]
 - !private ["PSo21UIAppearanceContainer", "XZQNewfeatureCell"]
 - ["PSo21UIAppearanceContainer", "XZQNewfeatureLayout"]
 - !private ["PSo21UIAppearanceContainer", "XZQTabBarController"]
 - !private ["PSo21UIAppearanceContainer", "addSubview"]
-- !private ["PSo21UIAppearanceContainer", "addTarget"]
 - !private ["PSo21UIAppearanceContainer", "animateWithDuration"]
 - !private ["PSo21UIAppearanceContainer", "bounces"]
 - !private ["PSo21UIAppearanceContainer", "cellForItemAtIndexPath"]
@@ -880,13 +807,11 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "indexPathsForVisibleItems"]
 - ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "kNewFeatureCount"]
-- !private ["PSo21UIAppearanceContainer", "layer"]
 - ["PSo21UIAppearanceContainer", "layout"]
 - !private ["PSo21UIAppearanceContainer", "newFeatureID"]
 - !private ["PSo21UIAppearanceContainer", "pagingEnabled"]
 - !private ["PSo21UIAppearanceContainer", "registerClass"]
 - !private ["PSo21UIAppearanceContainer", "rootViewController"]
-- !private ["PSo21UIAppearanceContainer", "setBackgroundImage"]
 - !private ["PSo21UIAppearanceContainer", "setupUI"]
 - !private ["PSo21UIAppearanceContainer", "showsVerticalScrollIndicator"]
 - !private ["PSo21UIAppearanceContainer", "snp_bottom"]
@@ -901,24 +826,22 @@ depends-member:
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["CSo13UIApplication", "keyWindow"]
 - !private ["CSo13UIApplication", "sharedApplication"]
-- !private ["CSo8UIButton", "addTarget"]
 - !private ["CSo8UIButton", "hidden"]
-- !private ["CSo8UIButton", "init"]
-- !private ["CSo8UIButton", "layer"]
-- !private ["CSo8UIButton", "setBackgroundImage"]
 - !private ["CSo8UIButton", "snp_makeConstraints"]
 - !private ["CSo8UIButton", "transform"]
 - !private ["CSo8UIButton", "userInteractionEnabled"]
-- !private ["CSo24UICollectionReusableView", "CGAffineTransformIdentity"]
 - !private ["CSo24UICollectionReusableView", "CGAffineTransformMakeScale"]
 - !private ["CSo24UICollectionReusableView", "CGRect"]
 - !private ["CSo24UICollectionReusableView", "CGSizeMake"]
+- !private ["CSo24UICollectionReusableView", "HEAD"]
 - !private ["CSo24UICollectionReusableView", "Int"]
 - !private ["CSo24UICollectionReusableView", "NSCoder"]
 - !private ["CSo24UICollectionReusableView", "UIApplication"]
 - !private ["CSo24UICollectionReusableView", "UIButton"]
+- !private ["CSo24UICollectionReusableView", "UICollectionViewFlowLayout"]
 - !private ["CSo24UICollectionReusableView", "UIImage"]
 - !private ["CSo24UICollectionReusableView", "UIImageView"]
+- !private ["CSo24UICollectionReusableView", "UIScreen"]
 - !private ["CSo24UICollectionReusableView", "UIView"]
 - !private ["CSo24UICollectionReusableView", "UIViewAnimationOptions"]
 - !private ["CSo24UICollectionReusableView", "XZQTabBarController"]
@@ -940,16 +863,18 @@ depends-member:
 - !private ["CSo16UICollectionView", "pagingEnabled"]
 - !private ["CSo16UICollectionView", "registerClass"]
 - !private ["CSo16UICollectionView", "showsVerticalScrollIndicator"]
-- !private ["CSo20UICollectionViewCell", "CGAffineTransformIdentity"]
 - !private ["CSo20UICollectionViewCell", "CGAffineTransformMakeScale"]
 - !private ["CSo20UICollectionViewCell", "CGRect"]
 - !private ["CSo20UICollectionViewCell", "CGSizeMake"]
+- !private ["CSo20UICollectionViewCell", "HEAD"]
 - !private ["CSo20UICollectionViewCell", "Int"]
 - !private ["CSo20UICollectionViewCell", "NSCoder"]
 - !private ["CSo20UICollectionViewCell", "UIApplication"]
 - !private ["CSo20UICollectionViewCell", "UIButton"]
+- !private ["CSo20UICollectionViewCell", "UICollectionViewFlowLayout"]
 - !private ["CSo20UICollectionViewCell", "UIImage"]
 - !private ["CSo20UICollectionViewCell", "UIImageView"]
+- !private ["CSo20UICollectionViewCell", "UIScreen"]
 - !private ["CSo20UICollectionViewCell", "UIView"]
 - !private ["CSo20UICollectionViewCell", "UIViewAnimationOptions"]
 - !private ["CSo20UICollectionViewCell", "XZQTabBarController"]
@@ -966,6 +891,7 @@ depends-member:
 - !private ["CSo20UICollectionViewCell", "startButton.storage"]
 - !private ["CSo20UICollectionViewCell", "startButtonClick"]
 - !private ["CSo20UICollectionViewCell", ""]
+- !private ["CSo26UICollectionViewController", "HEAD"]
 - ["CSo26UICollectionViewController", "Int"]
 - ["CSo26UICollectionViewController", "NSCoder"]
 - ["CSo26UICollectionViewController", "NSIndexPath"]
@@ -982,6 +908,7 @@ depends-member:
 - !private ["CSo26UICollectionViewController", "newFeatureID"]
 - ["CSo26UICollectionViewController", "viewDidLoad"]
 - ["CSo26UICollectionViewController", ""]
+- !private ["PSo26UICollectionViewDataSource", "HEAD"]
 - !private ["PSo26UICollectionViewDataSource", "XZQNewfeatureCell"]
 - ["PSo26UICollectionViewDataSource", "XZQNewfeatureLayout"]
 - ["PSo26UICollectionViewDataSource", "collectionView"]
@@ -992,6 +919,7 @@ depends-member:
 - !private ["PSo26UICollectionViewDataSource", "newFeatureID"]
 - ["PSo26UICollectionViewDataSource", "viewDidLoad"]
 - ["PSo26UICollectionViewDataSource", ""]
+- !private ["PSo24UICollectionViewDelegate", "HEAD"]
 - !private ["PSo24UICollectionViewDelegate", "XZQNewfeatureCell"]
 - ["PSo24UICollectionViewDelegate", "XZQNewfeatureLayout"]
 - ["PSo24UICollectionViewDelegate", "collectionView"]
@@ -1004,7 +932,7 @@ depends-member:
 - ["PSo24UICollectionViewDelegate", ""]
 - !private ["CSo26UICollectionViewFlowLayout", "UIScreen"]
 - !private ["CSo26UICollectionViewFlowLayout", "collectionView"]
-- ["CSo26UICollectionViewFlowLayout", "init"]
+- !private ["CSo26UICollectionViewFlowLayout", "init"]
 - !private ["CSo26UICollectionViewFlowLayout", "itemSize"]
 - !private ["CSo26UICollectionViewFlowLayout", "minimumInteritemSpacing"]
 - !private ["CSo26UICollectionViewFlowLayout", "minimumLineSpacing"]
@@ -1013,13 +941,14 @@ depends-member:
 - !private ["CSo26UICollectionViewFlowLayout", ""]
 - !private ["CSo22UICollectionViewLayout", "UIScreen"]
 - !private ["CSo22UICollectionViewLayout", "collectionView"]
-- ["CSo22UICollectionViewLayout", "init"]
+- !private ["CSo22UICollectionViewLayout", "init"]
 - !private ["CSo22UICollectionViewLayout", "itemSize"]
 - !private ["CSo22UICollectionViewLayout", "minimumInteritemSpacing"]
 - !private ["CSo22UICollectionViewLayout", "minimumLineSpacing"]
 - !private ["CSo22UICollectionViewLayout", "prepareLayout"]
 - !private ["CSo22UICollectionViewLayout", "scrollDirection"]
 - !private ["OSC31UICollectionViewScrollDirection", "Horizontal"]
+- !private ["PSo18UIContentContainer", "HEAD"]
 - !private ["PSo18UIContentContainer", "XZQNewfeatureCell"]
 - ["PSo18UIContentContainer", "XZQNewfeatureLayout"]
 - ["PSo18UIContentContainer", "collectionView"]
@@ -1030,28 +959,21 @@ depends-member:
 - !private ["PSo18UIContentContainer", "newFeatureID"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
-- !private ["CSo9UIControl", "addTarget"]
 - !private ["CSo9UIControl", "hidden"]
-- !private ["CSo9UIControl", "init"]
-- !private ["CSo9UIControl", "layer"]
-- !private ["CSo9UIControl", "setBackgroundImage"]
 - !private ["CSo9UIControl", "snp_makeConstraints"]
 - !private ["CSo9UIControl", "transform"]
 - !private ["CSo9UIControl", "userInteractionEnabled"]
-- !private ["VSC15UIControlEvents", "TouchUpInside"]
-- !private ["VSC14UIControlState", "Normal"]
-- !private ["PSo17UICoordinateSpace", "CGAffineTransformIdentity"]
 - !private ["PSo17UICoordinateSpace", "CGAffineTransformMakeScale"]
 - !private ["PSo17UICoordinateSpace", "CGSizeMake"]
+- !private ["PSo17UICoordinateSpace", "HEAD"]
 - !private ["PSo17UICoordinateSpace", "UIApplication"]
-- !private ["PSo17UICoordinateSpace", "UIButton"]
 - !private ["PSo17UICoordinateSpace", "UIImage"]
 - !private ["PSo17UICoordinateSpace", "UIImageView"]
+- !private ["PSo17UICoordinateSpace", "UIScreen"]
 - !private ["PSo17UICoordinateSpace", "UIView"]
 - !private ["PSo17UICoordinateSpace", "UIViewAnimationOptions"]
 - !private ["PSo17UICoordinateSpace", "XZQTabBarController"]
 - !private ["PSo17UICoordinateSpace", "addSubview"]
-- !private ["PSo17UICoordinateSpace", "addTarget"]
 - !private ["PSo17UICoordinateSpace", "animateWithDuration"]
 - !private ["PSo17UICoordinateSpace", "bounces"]
 - !private ["PSo17UICoordinateSpace", "cellForItemAtIndexPath"]
@@ -1065,11 +987,9 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "imageIndex"]
 - !private ["PSo17UICoordinateSpace", "indexPathsForVisibleItems"]
 - !private ["PSo17UICoordinateSpace", "init"]
-- !private ["PSo17UICoordinateSpace", "layer"]
 - !private ["PSo17UICoordinateSpace", "pagingEnabled"]
 - !private ["PSo17UICoordinateSpace", "registerClass"]
 - !private ["PSo17UICoordinateSpace", "rootViewController"]
-- !private ["PSo17UICoordinateSpace", "setBackgroundImage"]
 - !private ["PSo17UICoordinateSpace", "setupUI"]
 - !private ["PSo17UICoordinateSpace", "showsVerticalScrollIndicator"]
 - !private ["PSo17UICoordinateSpace", "snp_bottom"]
@@ -1081,18 +1001,17 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "transform"]
 - !private ["PSo17UICoordinateSpace", "userInteractionEnabled"]
 - !private ["PSo17UICoordinateSpace", ""]
-- !private ["PSo13UIDynamicItem", "CGAffineTransformIdentity"]
 - !private ["PSo13UIDynamicItem", "CGAffineTransformMakeScale"]
 - !private ["PSo13UIDynamicItem", "CGSizeMake"]
+- !private ["PSo13UIDynamicItem", "HEAD"]
 - !private ["PSo13UIDynamicItem", "UIApplication"]
-- !private ["PSo13UIDynamicItem", "UIButton"]
 - !private ["PSo13UIDynamicItem", "UIImage"]
 - !private ["PSo13UIDynamicItem", "UIImageView"]
+- !private ["PSo13UIDynamicItem", "UIScreen"]
 - !private ["PSo13UIDynamicItem", "UIView"]
 - !private ["PSo13UIDynamicItem", "UIViewAnimationOptions"]
 - !private ["PSo13UIDynamicItem", "XZQTabBarController"]
 - !private ["PSo13UIDynamicItem", "addSubview"]
-- !private ["PSo13UIDynamicItem", "addTarget"]
 - !private ["PSo13UIDynamicItem", "animateWithDuration"]
 - !private ["PSo13UIDynamicItem", "bounces"]
 - !private ["PSo13UIDynamicItem", "cellForItemAtIndexPath"]
@@ -1106,11 +1025,9 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "imageIndex"]
 - !private ["PSo13UIDynamicItem", "indexPathsForVisibleItems"]
 - !private ["PSo13UIDynamicItem", "init"]
-- !private ["PSo13UIDynamicItem", "layer"]
 - !private ["PSo13UIDynamicItem", "pagingEnabled"]
 - !private ["PSo13UIDynamicItem", "registerClass"]
 - !private ["PSo13UIDynamicItem", "rootViewController"]
-- !private ["PSo13UIDynamicItem", "setBackgroundImage"]
 - !private ["PSo13UIDynamicItem", "setupUI"]
 - !private ["PSo13UIDynamicItem", "showsVerticalScrollIndicator"]
 - !private ["PSo13UIDynamicItem", "snp_bottom"]
@@ -1123,20 +1040,19 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "userInteractionEnabled"]
 - !private ["PSo13UIDynamicItem", ""]
 - !private ["VSC12UIEdgeInsets", "deinit"]
-- !private ["PSo18UIFocusEnvironment", "CGAffineTransformIdentity"]
 - !private ["PSo18UIFocusEnvironment", "CGAffineTransformMakeScale"]
 - !private ["PSo18UIFocusEnvironment", "CGSizeMake"]
+- !private ["PSo18UIFocusEnvironment", "HEAD"]
 - !private ["PSo18UIFocusEnvironment", "UIApplication"]
-- !private ["PSo18UIFocusEnvironment", "UIButton"]
 - !private ["PSo18UIFocusEnvironment", "UIImage"]
 - !private ["PSo18UIFocusEnvironment", "UIImageView"]
+- !private ["PSo18UIFocusEnvironment", "UIScreen"]
 - !private ["PSo18UIFocusEnvironment", "UIView"]
 - !private ["PSo18UIFocusEnvironment", "UIViewAnimationOptions"]
 - !private ["PSo18UIFocusEnvironment", "XZQNewfeatureCell"]
 - ["PSo18UIFocusEnvironment", "XZQNewfeatureLayout"]
 - !private ["PSo18UIFocusEnvironment", "XZQTabBarController"]
 - !private ["PSo18UIFocusEnvironment", "addSubview"]
-- !private ["PSo18UIFocusEnvironment", "addTarget"]
 - !private ["PSo18UIFocusEnvironment", "animateWithDuration"]
 - !private ["PSo18UIFocusEnvironment", "bounces"]
 - !private ["PSo18UIFocusEnvironment", "cellForItemAtIndexPath"]
@@ -1152,13 +1068,11 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "indexPathsForVisibleItems"]
 - ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "kNewFeatureCount"]
-- !private ["PSo18UIFocusEnvironment", "layer"]
 - ["PSo18UIFocusEnvironment", "layout"]
 - !private ["PSo18UIFocusEnvironment", "newFeatureID"]
 - !private ["PSo18UIFocusEnvironment", "pagingEnabled"]
 - !private ["PSo18UIFocusEnvironment", "registerClass"]
 - !private ["PSo18UIFocusEnvironment", "rootViewController"]
-- !private ["PSo18UIFocusEnvironment", "setBackgroundImage"]
 - !private ["PSo18UIFocusEnvironment", "setupUI"]
 - !private ["PSo18UIFocusEnvironment", "showsVerticalScrollIndicator"]
 - !private ["PSo18UIFocusEnvironment", "snp_bottom"]
@@ -1176,10 +1090,10 @@ depends-member:
 - !private ["CSo11UIImageView", "init"]
 - !private ["CSo11UIImageView", "snp_makeConstraints"]
 - !private ["PSo15UILayoutSupport", "deinit"]
-- !private ["CSo11UIResponder", "CGAffineTransformIdentity"]
 - !private ["CSo11UIResponder", "CGAffineTransformMakeScale"]
 - !private ["CSo11UIResponder", "CGRect"]
 - !private ["CSo11UIResponder", "CGSizeMake"]
+- !private ["CSo11UIResponder", "HEAD"]
 - ["CSo11UIResponder", "Int"]
 - ["CSo11UIResponder", "NSCoder"]
 - ["CSo11UIResponder", "NSIndexPath"]
@@ -1190,13 +1104,13 @@ depends-member:
 - ["CSo11UIResponder", "UICollectionViewFlowLayout"]
 - !private ["CSo11UIResponder", "UIImage"]
 - !private ["CSo11UIResponder", "UIImageView"]
+- !private ["CSo11UIResponder", "UIScreen"]
 - !private ["CSo11UIResponder", "UIView"]
 - !private ["CSo11UIResponder", "UIViewAnimationOptions"]
 - !private ["CSo11UIResponder", "XZQNewfeatureCell"]
 - ["CSo11UIResponder", "XZQNewfeatureLayout"]
 - !private ["CSo11UIResponder", "XZQTabBarController"]
 - !private ["CSo11UIResponder", "addSubview"]
-- !private ["CSo11UIResponder", "addTarget"]
 - !private ["CSo11UIResponder", "animateWithDuration"]
 - !private ["CSo11UIResponder", "bounces"]
 - !private ["CSo11UIResponder", "cellForItemAtIndexPath"]
@@ -1213,13 +1127,11 @@ depends-member:
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "kNewFeatureCount"]
 - !private ["CSo11UIResponder", "keyWindow"]
-- !private ["CSo11UIResponder", "layer"]
 - ["CSo11UIResponder", "layout"]
 - !private ["CSo11UIResponder", "newFeatureID"]
 - !private ["CSo11UIResponder", "pagingEnabled"]
 - !private ["CSo11UIResponder", "registerClass"]
 - !private ["CSo11UIResponder", "rootViewController"]
-- !private ["CSo11UIResponder", "setBackgroundImage"]
 - !private ["CSo11UIResponder", "setupUI"]
 - !private ["CSo11UIResponder", "sharedApplication"]
 - !private ["CSo11UIResponder", "showsVerticalScrollIndicator"]
@@ -1241,6 +1153,7 @@ depends-member:
 - !private ["CSo12UIScrollView", "pagingEnabled"]
 - !private ["CSo12UIScrollView", "registerClass"]
 - !private ["CSo12UIScrollView", "showsVerticalScrollIndicator"]
+- !private ["PSo20UIScrollViewDelegate", "HEAD"]
 - !private ["PSo20UIScrollViewDelegate", "XZQNewfeatureCell"]
 - ["PSo20UIScrollViewDelegate", "XZQNewfeatureLayout"]
 - ["PSo20UIScrollViewDelegate", "collectionView"]
@@ -1251,6 +1164,7 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "newFeatureID"]
 - ["PSo20UIScrollViewDelegate", "viewDidLoad"]
 - ["PSo20UIScrollViewDelegate", ""]
+- !private ["PSo16UIStateRestoring", "HEAD"]
 - !private ["PSo16UIStateRestoring", "XZQNewfeatureCell"]
 - ["PSo16UIStateRestoring", "XZQNewfeatureLayout"]
 - ["PSo16UIStateRestoring", "collectionView"]
@@ -1263,20 +1177,19 @@ depends-member:
 - ["PSo16UIStateRestoring", ""]
 - !private ["CSo18UITabBarController", "init"]
 - !private ["PSo16UITabBarDelegate", "init"]
-- !private ["PSo18UITraitEnvironment", "CGAffineTransformIdentity"]
 - !private ["PSo18UITraitEnvironment", "CGAffineTransformMakeScale"]
 - !private ["PSo18UITraitEnvironment", "CGSizeMake"]
+- !private ["PSo18UITraitEnvironment", "HEAD"]
 - !private ["PSo18UITraitEnvironment", "UIApplication"]
-- !private ["PSo18UITraitEnvironment", "UIButton"]
 - !private ["PSo18UITraitEnvironment", "UIImage"]
 - !private ["PSo18UITraitEnvironment", "UIImageView"]
+- !private ["PSo18UITraitEnvironment", "UIScreen"]
 - !private ["PSo18UITraitEnvironment", "UIView"]
 - !private ["PSo18UITraitEnvironment", "UIViewAnimationOptions"]
 - !private ["PSo18UITraitEnvironment", "XZQNewfeatureCell"]
 - ["PSo18UITraitEnvironment", "XZQNewfeatureLayout"]
 - !private ["PSo18UITraitEnvironment", "XZQTabBarController"]
 - !private ["PSo18UITraitEnvironment", "addSubview"]
-- !private ["PSo18UITraitEnvironment", "addTarget"]
 - !private ["PSo18UITraitEnvironment", "animateWithDuration"]
 - !private ["PSo18UITraitEnvironment", "bounces"]
 - !private ["PSo18UITraitEnvironment", "bounds"]
@@ -1293,14 +1206,12 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "indexPathsForVisibleItems"]
 - ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "kNewFeatureCount"]
-- !private ["PSo18UITraitEnvironment", "layer"]
 - ["PSo18UITraitEnvironment", "layout"]
 - !private ["PSo18UITraitEnvironment", "mainScreen"]
 - !private ["PSo18UITraitEnvironment", "newFeatureID"]
 - !private ["PSo18UITraitEnvironment", "pagingEnabled"]
 - !private ["PSo18UITraitEnvironment", "registerClass"]
 - !private ["PSo18UITraitEnvironment", "rootViewController"]
-- !private ["PSo18UITraitEnvironment", "setBackgroundImage"]
 - !private ["PSo18UITraitEnvironment", "setupUI"]
 - !private ["PSo18UITraitEnvironment", "showsVerticalScrollIndicator"]
 - !private ["PSo18UITraitEnvironment", "snp_bottom"]
@@ -1313,21 +1224,22 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "userInteractionEnabled"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
-- !private ["CSo6UIView", "CGAffineTransformIdentity"]
 - !private ["CSo6UIView", "CGAffineTransformMakeScale"]
 - !private ["CSo6UIView", "CGRect"]
 - !private ["CSo6UIView", "CGSizeMake"]
+- !private ["CSo6UIView", "HEAD"]
 - !private ["CSo6UIView", "Int"]
 - !private ["CSo6UIView", "NSCoder"]
 - !private ["CSo6UIView", "UIApplication"]
 - !private ["CSo6UIView", "UIButton"]
+- !private ["CSo6UIView", "UICollectionViewFlowLayout"]
 - !private ["CSo6UIView", "UIImage"]
 - !private ["CSo6UIView", "UIImageView"]
+- !private ["CSo6UIView", "UIScreen"]
 - !private ["CSo6UIView", "UIView"]
 - !private ["CSo6UIView", "UIViewAnimationOptions"]
 - !private ["CSo6UIView", "XZQTabBarController"]
 - !private ["CSo6UIView", "addSubview"]
-- !private ["CSo6UIView", "addTarget"]
 - !private ["CSo6UIView", "animateWithDuration"]
 - !private ["CSo6UIView", "bounces"]
 - !private ["CSo6UIView", "cellForItemAtIndexPath"]
@@ -1342,11 +1254,9 @@ depends-member:
 - !private ["CSo6UIView", "imageIndex"]
 - !private ["CSo6UIView", "indexPathsForVisibleItems"]
 - !private ["CSo6UIView", "init"]
-- !private ["CSo6UIView", "layer"]
 - !private ["CSo6UIView", "pagingEnabled"]
 - !private ["CSo6UIView", "registerClass"]
 - !private ["CSo6UIView", "rootViewController"]
-- !private ["CSo6UIView", "setBackgroundImage"]
 - !private ["CSo6UIView", "setupUI"]
 - !private ["CSo6UIView", "showsVerticalScrollIndicator"]
 - !private ["CSo6UIView", "snp_bottom"]
@@ -1358,6 +1268,7 @@ depends-member:
 - !private ["CSo6UIView", "transform"]
 - !private ["CSo6UIView", "userInteractionEnabled"]
 - !private ["VSC22UIViewAnimationOptions", "init"]
+- !private ["CSo16UIViewController", "HEAD"]
 - ["CSo16UIViewController", "Int"]
 - ["CSo16UIViewController", "NSCoder"]
 - ["CSo16UIViewController", "NSIndexPath"]
@@ -1374,14 +1285,7 @@ depends-member:
 - !private ["CSo16UIViewController", "newFeatureID"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - !private ["CSo8UIWindow", "rootViewController"]
-- !private ["Su", "deinit"]
-- !private ["Vs6UInt16", "deinit"]
-- !private ["Vs6UInt32", "deinit"]
-- !private ["Vs6UInt64", "deinit"]
-- !private ["Vs5UInt8", "deinit"]
-- !private ["P9Alamofire20URLStringConvertible", "init"]
-- !private ["Sc", "deinit"]
-- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["C18DanTangFromQuanzai27XZQNewfeatureViewController", "HEAD"]
 - ["C18DanTangFromQuanzai27XZQNewfeatureViewController", "Int"]
 - ["C18DanTangFromQuanzai27XZQNewfeatureViewController", "NSCoder"]
 - ["C18DanTangFromQuanzai27XZQNewfeatureViewController", "NSIndexPath"]
@@ -1405,12 +1309,8 @@ depends-member:
 - !private ["Ps10_ArrayType", "_Element"]
 - !private ["Ps10_ArrayType", "last"]
 - !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
 - !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
-- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
-- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
-- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
 - !private ["Ps24_DestructorSafeContainer", "Generator"]
 - !private ["Ps24_DestructorSafeContainer", "Index"]
 - !private ["Ps24_DestructorSafeContainer", "SubSequence"]
@@ -1430,29 +1330,27 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
 - !private ["Ps21_ObjectiveCBridgeable", "_Element"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "last"]
 - !private ["Ps22_RandomAccessAmbiguity", "Distance"]
 - !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
-- !private ["Ps12_Reflectable", "CGAffineTransformIdentity"]
 - !private ["Ps12_Reflectable", "CGAffineTransformMakeScale"]
 - !private ["Ps12_Reflectable", "CGSizeMake"]
 - !private ["Ps12_Reflectable", "Distance"]
 - !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "HEAD"]
 - !private ["Ps12_Reflectable", "Index"]
 - !private ["Ps12_Reflectable", "IntegerLiteralType"]
 - !private ["Ps12_Reflectable", "SubSequence"]
 - !private ["Ps12_Reflectable", "UIApplication"]
-- !private ["Ps12_Reflectable", "UIButton"]
 - !private ["Ps12_Reflectable", "UIImage"]
 - !private ["Ps12_Reflectable", "UIImageView"]
+- !private ["Ps12_Reflectable", "UIScreen"]
 - !private ["Ps12_Reflectable", "UIView"]
 - !private ["Ps12_Reflectable", "UIViewAnimationOptions"]
 - !private ["Ps12_Reflectable", "XZQTabBarController"]
 - !private ["Ps12_Reflectable", "_Element"]
 - !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["Ps12_Reflectable", "addSubview"]
-- !private ["Ps12_Reflectable", "addTarget"]
 - !private ["Ps12_Reflectable", "animateWithDuration"]
 - !private ["Ps12_Reflectable", "bounces"]
 - !private ["Ps12_Reflectable", "cellForItemAtIndexPath"]
@@ -1467,11 +1365,9 @@ depends-member:
 - !private ["Ps12_Reflectable", "indexPathsForVisibleItems"]
 - !private ["Ps12_Reflectable", "init"]
 - !private ["Ps12_Reflectable", "last"]
-- !private ["Ps12_Reflectable", "layer"]
 - !private ["Ps12_Reflectable", "pagingEnabled"]
 - !private ["Ps12_Reflectable", "registerClass"]
 - !private ["Ps12_Reflectable", "rootViewController"]
-- !private ["Ps12_Reflectable", "setBackgroundImage"]
 - !private ["Ps12_Reflectable", "setupUI"]
 - !private ["Ps12_Reflectable", "showsVerticalScrollIndicator"]
 - !private ["Ps12_Reflectable", "size"]
@@ -1496,14 +1392,11 @@ depends-nominal:
 - !private "Sb"
 - !private "Ps25BooleanLiteralConvertible"
 - !private "Ps11BooleanType"
-- !private "CSo7CALayer"
-- !private "PSo13CAMediaTiming"
 - !private "V12CoreGraphics7CGFloat"
 - !private "VSC7CGPoint"
 - !private "VSC6CGRect"
 - !private "VSC6CGSize"
 - "Ps11CVarArgType"
-- !private "Vs9Character"
 - !private "Ps14CollectionType"
 - !private "Ps10Comparable"
 - !private "P7SnapKit29ConstraintDescriptionEditable"
@@ -1517,18 +1410,12 @@ depends-nominal:
 - "Ps23CustomStringConvertible"
 - !private "Sd"
 - "Ps9Equatable"
-- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
-- !private "Sf"
 - !private "Ps16ForwardIndexType"
 - !private "Ps13GeneratorType"
 - "Ps8Hashable"
 - !private "Ps9Indexable"
 - !private "Vs17IndexingGenerator"
 - !private "Si"
-- !private "Vs5Int16"
-- !private "Vs5Int32"
-- !private "Vs5Int64"
-- !private "Vs4Int8"
 - !private "Ps21IntegerArithmeticType"
 - !private "Ps25IntegerLiteralConvertible"
 - !private "Ps11IntegerType"
@@ -1542,15 +1429,12 @@ depends-nominal:
 - "PSo26NSExtensionRequestHandling"
 - !private "CSo11NSIndexPath"
 - !private "CSo14NSLayoutAnchor"
-- !private "PSo16NSMutableCopying"
 - !private "CSo8NSNumber"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
-- !private "CSo8NSString"
 - !private "Ps13OptionSetType"
 - !private "Sq"
-- !private "Ps16OutputStreamType"
 - !private "Ps21RandomAccessIndexType"
 - !private "Ps30RangeReplaceableCollectionType"
 - !private "Ps16RawRepresentable"
@@ -1559,11 +1443,7 @@ depends-nominal:
 - !private "Ps17SignedIntegerType"
 - !private "Ps16SignedNumberType"
 - !private "Vs12StaticString"
-- !private "Ps10Streamable"
 - !private "Ps10Strideable"
-- !private "SS"
-- !private "Ps30StringInterpolationConvertible"
-- !private "Ps24StringLiteralConvertible"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
@@ -1575,13 +1455,11 @@ depends-nominal:
 - "CSo26UICollectionViewController"
 - "PSo26UICollectionViewDataSource"
 - "PSo24UICollectionViewDelegate"
-- "CSo26UICollectionViewFlowLayout"
-- "CSo22UICollectionViewLayout"
+- !private "CSo26UICollectionViewFlowLayout"
+- !private "CSo22UICollectionViewLayout"
 - !private "OSC31UICollectionViewScrollDirection"
 - "PSo18UIContentContainer"
 - !private "CSo9UIControl"
-- !private "VSC15UIControlEvents"
-- !private "VSC14UIControlState"
 - !private "PSo17UICoordinateSpace"
 - !private "PSo13UIDynamicItem"
 - !private "VSC12UIEdgeInsets"
@@ -1601,23 +1479,11 @@ depends-nominal:
 - !private "VSC22UIViewAnimationOptions"
 - "CSo16UIViewController"
 - !private "CSo8UIWindow"
-- !private "Su"
-- !private "Vs6UInt16"
-- !private "Vs6UInt32"
-- !private "Vs6UInt64"
-- !private "Vs5UInt8"
-- !private "P9Alamofire20URLStringConvertible"
-- !private "Sc"
-- !private "Ps31UnicodeScalarLiteralConvertible"
 - "C18DanTangFromQuanzai27XZQNewfeatureViewController"
 - !private "C18DanTangFromQuanzai19XZQTabBarController"
 - !private "Ps10_ArrayType"
 - !private "Ps33_BuiltinBooleanLiteralConvertible"
-- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
 - !private "Ps33_BuiltinIntegerLiteralConvertible"
-- !private "Ps32_BuiltinStringLiteralConvertible"
-- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
-- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
 - !private "Ps24_DestructorSafeContainer"
 - !private "Ps24_ImageLiteralConvertible"
 - !private "Ps14_Incrementable"
@@ -1643,6 +1509,11 @@ depends-external:
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
@@ -1655,4 +1526,7 @@ depends-external:
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/module.modulemap"
-interface-hash: "83a8d59b73eb6262d2b649dde26d120a"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/FDFullscreenPopGesture/FDFullscreenPopGesture.framework/Headers/UINavigationController+FDFullscreenPopGesture.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/FDFullscreenPopGesture/FDFullscreenPopGesture.framework/Headers/FDFullscreenPopGesture-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphoneos/FDFullscreenPopGesture/FDFullscreenPopGesture.framework/Modules/module.modulemap"
+interface-hash: "fcccee477a2503664ba0723a01d71eb1"

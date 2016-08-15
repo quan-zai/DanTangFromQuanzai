@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="XZQHomeCell" customModule="DanTangFromQuanzai" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="159"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U47-2i-T2q" userLabel="Placeholder Btn">
+                        <rect key="frame" x="145" y="67" width="31" height="26"/>
+                        <state key="normal" title="Button" image="PlaceHolderImage_small_31x26_"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o80-rK-Frs" userLabel="Bg Image View">
+                        <rect key="frame" x="8" y="8" width="304" height="143"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAn-jy-kwG" userLabel="Favorite Btn">
+                        <rect key="frame" x="275" y="19" width="26" height="22"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="P8v-05-4zf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="0" image="Feed_FavoriteIcon_17x17_"/>
+                        <connections>
+                            <action selector="favoriteBtnClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="DGI-rb-P0p"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDS-7i-S9A" userLabel="Title Label">
+                        <rect key="frame" x="13" y="124" width="44" height="22"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="o80-rK-Frs" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="05v-8J-hhb"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="o80-rK-Frs" secondAttribute="bottom" id="6I8-Nd-o74"/>
+                    <constraint firstAttribute="topMargin" secondItem="o80-rK-Frs" secondAttribute="top" id="HzU-3I-1WH"/>
+                    <constraint firstItem="o80-rK-Frs" firstAttribute="top" secondItem="UAn-jy-kwG" secondAttribute="bottom" constant="-33" id="TKe-mm-dCf"/>
+                    <constraint firstItem="SDS-7i-S9A" firstAttribute="top" secondItem="o80-rK-Frs" secondAttribute="bottom" constant="-27" id="X7h-Rv-mM3"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="o80-rK-Frs" secondAttribute="trailing" id="rqP-98-7OD"/>
+                    <constraint firstItem="UAn-jy-kwG" firstAttribute="leading" secondItem="o80-rK-Frs" secondAttribute="trailing" constant="-37" id="t4y-Jd-WRI"/>
+                    <constraint firstItem="o80-rK-Frs" firstAttribute="leading" secondItem="SDS-7i-S9A" secondAttribute="trailing" constant="-49" id="tVu-eO-rsw"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="o80-rK-Frs" secondAttribute="leading" id="wZ9-E5-JSg"/>
+                    <constraint firstItem="o80-rK-Frs" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="zMk-CF-Tl6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bgImageView" destination="o80-rK-Frs" id="yg8-8z-VJu"/>
+                <outlet property="favoriteBtn" destination="UAn-jy-kwG" id="sON-fo-o7T"/>
+                <outlet property="placeholderBtn" destination="U47-2i-T2q" id="wjy-Fq-hkw"/>
+                <outlet property="titleLabel" destination="SDS-7i-S9A" id="vxE-yJ-Pkd"/>
+            </connections>
+            <point key="canvasLocation" x="206" y="223"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Feed_FavoriteIcon_17x17_" width="17" height="17"/>
+        <image name="PlaceHolderImage_small_31x26_" width="31" height="26"/>
+    </resources>
+</document>
