@@ -6,16 +6,16 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai21XZQBaseViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
 depends-top-level:
-- "XZQBaseViewController"
-- !private "SVProgressHUDStyle"
-- !private "UIColor"
-- !private "BooleanLiteralType"
-- "UIViewController"
 - !private "XZQGlobalColor"
+- !private "UIColor"
+- "UIViewController"
+- "XZQBaseViewController"
+- !private "BooleanLiteralType"
 - !private "SVProgressHUD"
+- !private "SVProgressHUDStyle"
 depends-member:
 - !private ["Ps9AnyObject", "SVProgressHUD"]
 - !private ["Ps9AnyObject", "SVProgressHUDStyle"]

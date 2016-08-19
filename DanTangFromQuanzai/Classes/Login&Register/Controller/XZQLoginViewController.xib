@@ -5,7 +5,14 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XZQLoginViewController" customModule="DanTangFromQuanzai" customModuleProvider="target">
+            <connections>
+                <outlet property="forgetPwdBtn" destination="CwT-QB-b1D" id="gjH-1f-dET"/>
+                <outlet property="loginButton" destination="GOm-kF-Tl9" id="iSV-oj-XhT"/>
+                <outlet property="mobileField" destination="CjE-7J-Pr1" id="33R-gs-kXK"/>
+                <outlet property="passwordField" destination="YYc-yV-S04" id="mMb-fY-dwI"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="id9-nZ-Piy">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
@@ -66,17 +73,6 @@
                         <constraint firstItem="CjE-7J-Pr1" firstAttribute="top" secondItem="fQ6-X9-FaS" secondAttribute="top" id="yAQ-oO-5Eb"/>
                     </constraints>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOm-kF-Tl9" userLabel="Login Button">
-                    <rect key="frame" x="15" y="216" width="570" height="36"/>
-                    <color key="backgroundColor" red="0.90980392156862744" green="0.32941176470588235" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="36" id="myI-Qz-qvU"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <state key="normal" title="登录">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CwT-QB-b1D" userLabel="Forget Pwd Btn">
                     <rect key="frame" x="529" y="267" width="56" height="30"/>
                     <constraints>
@@ -125,7 +121,7 @@
                         <constraint firstAttribute="trailing" secondItem="CA0-S3-AXH" secondAttribute="trailing" constant="15" id="q6y-gz-TDj"/>
                     </constraints>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNJ-Fb-jWU">
+                <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNJ-Fb-jWU">
                     <rect key="frame" x="265" y="362" width="70" height="70"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="70" id="Ldo-Et-YbU"/>
@@ -134,8 +130,11 @@
                     <state key="normal" title="Button" image="Share_WeChatSessionIcon_70x70_">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="otherLoginButtonClick:" destination="-1" eventType="touchUpInside" id="IWD-54-OK7"/>
+                    </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sh-sc-EfF">
+                <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sh-sc-EfF">
                     <rect key="frame" x="165" y="362" width="70" height="70"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="70" id="7JC-88-PrY"/>
@@ -144,14 +143,34 @@
                     <state key="normal" image="Share_WeiboIcon_70x70_">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="otherLoginButtonClick:" destination="-1" eventType="touchUpInside" id="kdG-1c-vmc"/>
+                    </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Flf-eb-kkz">
+                <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Flf-eb-kkz">
                     <rect key="frame" x="365" y="362" width="70" height="70"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="70" id="Ffv-49-nkw"/>
                         <constraint firstAttribute="width" constant="70" id="bjL-nr-g0O"/>
                     </constraints>
                     <state key="normal" title="Button" image="Share_QQIcon_70x70_"/>
+                    <connections>
+                        <action selector="otherLoginButtonClick:" destination="-1" eventType="touchUpInside" id="bk5-Si-T0X"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOm-kF-Tl9" userLabel="Login Button">
+                    <rect key="frame" x="15" y="216" width="570" height="36"/>
+                    <color key="backgroundColor" red="0.90980392156862744" green="0.32941176470588235" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="myI-Qz-qvU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="登录">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="loginButtonClick:" destination="-1" eventType="touchUpInside" id="SaP-A5-ZbH"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
@@ -174,7 +193,7 @@
                 <constraint firstItem="Wqd-hS-kwZ" firstAttribute="leading" secondItem="id9-nZ-Piy" secondAttribute="leading" id="ueR-3N-Abx"/>
                 <constraint firstItem="rNJ-Fb-jWU" firstAttribute="centerX" secondItem="id9-nZ-Piy" secondAttribute="centerX" id="w1G-ke-21S"/>
             </constraints>
-            <point key="canvasLocation" x="993" y="526"/>
+            <point key="canvasLocation" x="922" y="578"/>
         </view>
     </objects>
     <resources>

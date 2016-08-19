@@ -93,8 +93,8 @@ extension XZQTopicViewController: XZQHomeCellDelegate {
             // 登录页面
             let loginVC = XZQLoginViewController()
             loginVC.title = "登录"
-            
-            
+            let nav = XZQNavigationController(rootViewController: loginVC)
+            presentViewController(nav, animated: true, completion: nil)
         } else {
             
         }

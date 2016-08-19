@@ -8,11 +8,11 @@ provides-member:
 provides-dynamic-lookup:
 - "name"
 depends-top-level:
-- !private "StringLiteralType"
 - "Bool"
 - "NSObject"
 - "String"
 - "Int"
+- !private "StringLiteralType"
 - "XZQChannel"
 - "AnyObject"
 depends-member:

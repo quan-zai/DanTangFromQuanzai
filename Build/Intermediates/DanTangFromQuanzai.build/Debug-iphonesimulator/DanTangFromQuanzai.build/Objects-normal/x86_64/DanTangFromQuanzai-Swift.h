@@ -93,6 +93,7 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import CoreGraphics;
 @import ObjectiveC;
 #endif
 
@@ -112,6 +113,30 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai11AppDelegate")
 - (void)applicationDidBecomeActive:(UIApplication * _Nonnull)application;
 - (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface UIView (SWIFT_EXTENSION(DanTangFromQuanzai))
+- (void)clipRectCorner:(UIRectCorner)direction cornerRadius:(CGFloat)cornerRadius;
+
+/// x
+@property (nonatomic) CGFloat x;
+
+/// y
+@property (nonatomic) CGFloat y;
+
+/// height
+@property (nonatomic) CGFloat height;
+
+/// width
+@property (nonatomic) CGFloat width;
+
+/// size
+@property (nonatomic) CGSize size;
+
+/// centerX
+@property (nonatomic) CGFloat centerX;
+@property (nonatomic) CGFloat centerY;
 @end
 
 
@@ -136,6 +161,8 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai14ViewController")
 
 SWIFT_CLASS("_TtC18DanTangFromQuanzai21XZQBaseViewController")
 @interface XZQBaseViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -184,11 +211,58 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai10XZQComment")
 - (nonnull instancetype)initWithDict:(NSDictionary<NSString *, id> * _Nonnull)dict OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIButton;
+@class UIScrollView;
 
 SWIFT_CLASS("_TtC18DanTangFromQuanzai24XZQDanTangViewController")
 @interface XZQDanTangViewController : XZQBaseViewController
+@property (nonatomic, copy) NSArray<XZQChannel *> * _Nonnull channels;
+
+/// 标签
+@property (nonatomic, weak) UIView * _Nullable titlesView;
+
+/// 底部红色指示器
+@property (nonatomic, weak) UIView * _Nullable indicatorView;
+
+/// 内容视图
+@property (nonatomic, weak) UIScrollView * _Nullable contentView;
+
+/// 当前选中的按钮
+@property (nonatomic, weak) UIButton * _Nullable selectedButton;
+- (void)viewDidLoad;
+- (void)setupTitlesView;
+- (void)arrowButtonClick:(UIButton * _Nonnull)button;
+- (void)titlesClick:(UIButton * _Nonnull)button;
+- (void)setupContentView;
+- (void)setupNav;
+- (void)dantangRightButtonClick;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface XZQDanTangViewController (SWIFT_EXTENSION(DanTangFromQuanzai)) <UIScrollViewDelegate>
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView * _Nonnull)scrollView;
+- (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
+@end
+
+@class XZQHomeItem;
+
+SWIFT_CLASS("_TtC18DanTangFromQuanzai23XZQDetailViewController")
+@interface XZQDetailViewController : XZQBaseViewController
+@property (nonatomic, strong) XZQHomeItem * _Nullable homeItem;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIWebView;
+@class NSURLRequest;
+
+@interface XZQDetailViewController (SWIFT_EXTENSION(DanTangFromQuanzai)) <UIWebViewDelegate>
+- (void)webViewDidStartLoad:(UIWebView * _Nonnull)webView;
+- (void)webViewDidFinishLoad:(UIWebView * _Nonnull)webView;
+- (BOOL)webView:(UIWebView * _Nonnull)webView shouldStartLoadWithRequest:(NSURLRequest * _Nonnull)request navigationType:(UIWebViewNavigationType)navigationType;
 @end
 
 
@@ -197,6 +271,33 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai8XZQGroup")
 @property (nonatomic, copy) NSString * _Nullable icon_url;
 @property (nonatomic, copy) NSString * _Nullable name;
 - (nonnull instancetype)initWithDict:(NSDictionary<NSString *, id> * _Nonnull)dict OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImageView;
+@class UILabel;
+
+SWIFT_CLASS("_TtC18DanTangFromQuanzai11XZQHomeCell")
+@interface XZQHomeCell : UITableViewCell
+
+/// 背景图片
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified bgImageView;
+
+/// 标题
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
+
+/// 喜爱按钮
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified favoriteBtn;
+
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified placeholderBtn;
+@property (nonatomic, strong) XZQHomeItem * _Nullable homeItem;
+- (void)awakeFromNib;
+
+/// 点击了喜欢按钮
+///
+/// \param sender 喜欢按钮
+- (IBAction)favoriteBtnClick:(id _Nonnull)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -211,6 +312,31 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai11XZQHomeItem")
 @property (nonatomic, copy, getter=template, setter=setTemplate:) NSString * _Nullable template_;
 @property (nonatomic, copy) NSString * _Nullable url;
 - (nonnull instancetype)initWithDict:(NSDictionary<NSString *, id> * _Nonnull)dict OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITextField;
+
+SWIFT_CLASS("_TtC18DanTangFromQuanzai22XZQLoginViewController")
+@interface XZQLoginViewController : XZQBaseViewController
+
+/// 手机号
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified mobileField;
+
+/// 密码
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordField;
+
+/// 忘记密码
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified forgetPwdBtn;
+
+/// 登录
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified loginButton;
+- (void)viewDidLoad;
+- (IBAction)loginButtonClick:(id _Nonnull)sender;
+- (void)cancelButtonClick;
+- (void)regiisterButtonClick;
+- (IBAction)otherLoginButtonClick:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -291,6 +417,16 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai27XZQNewfeatureViewController")
 - (void)viewDidLoad;
 @end
 
+@class UICollectionView;
+@class NSIndexPath;
+@class UICollectionViewCell;
+
+@interface XZQNewfeatureViewController (SWIFT_EXTENSION(DanTangFromQuanzai))
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didEndDisplayingCell:(UICollectionViewCell * _Nonnull)cell forItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
 
 SWIFT_CLASS("_TtC18DanTangFromQuanzai10XZQProduct")
 @interface XZQProduct : NSObject
@@ -325,6 +461,29 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai24XZQProductViewController")
 @end
 
 
+SWIFT_CLASS("_TtC18DanTangFromQuanzai17XZQRefreshControl")
+@interface XZQRefreshControl : UIRefreshControl
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSString *, id> * _Nullable)change context:(void * _Null_unspecified)context;
+- (void)endRefreshing;
+@end
+
+
+SWIFT_CLASS("_TtC18DanTangFromQuanzai14XZQRefreshView")
+@interface XZQRefreshView : UIView
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified loadingView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified tipView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified arrowIcon;
+- (void)rotationArrowIcon:(BOOL)flag;
+- (void)startLoadingViewAnimation;
+- (void)stopLoadingViewAnimation;
++ (XZQRefreshView * _Nonnull)refreshView;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC18DanTangFromQuanzai15XZQSearchResult")
 @interface XZQSearchResult : NSObject
 @property (nonatomic, copy) NSString * _Nullable price;
@@ -340,6 +499,29 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai19XZQTabBarController")
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC18DanTangFromQuanzai22XZQTopicViewController")
+@interface XZQTopicViewController : UITableViewController
+@property (nonatomic) NSInteger type;
+@property (nonatomic, copy) NSArray<XZQHomeItem *> * _Nonnull items;
+- (void)viewDidLoad;
+- (void)loadHomeData;
+- (void)setupTableView;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+
+@interface XZQTopicViewController (SWIFT_EXTENSION(DanTangFromQuanzai))
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)homeCellDidClickedFavoriteButton:(UIButton * _Nonnull)button;
 @end
 
 #pragma clang diagnostic pop

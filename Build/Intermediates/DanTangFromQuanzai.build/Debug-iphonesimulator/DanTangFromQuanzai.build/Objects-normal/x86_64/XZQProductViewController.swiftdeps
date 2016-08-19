@@ -7,8 +7,8 @@ provides-member:
 - ["C18DanTangFromQuanzai24XZQProductViewController", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "XZQProductViewController"
 - "XZQBaseViewController"
+- "XZQProductViewController"
 depends-member:
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", ""]

@@ -7,16 +7,16 @@ provides-member:
 - ["C18DanTangFromQuanzai13XZQCollection", ""]
 provides-dynamic-lookup:
 - "subtitle"
+- "title"
 - "cover_image_url"
 - "banner_image_url"
-- "title"
 depends-top-level:
-- "NSObject"
-- "String"
+- "XZQCollection"
 - "Int"
 - !private "StringLiteralType"
+- "String"
 - "AnyObject"
-- "XZQCollection"
+- "NSObject"
 depends-member:
 - ["Ps9AnyObject", "banner_image_url"]
 - ["Ps9AnyObject", "cover_image_url"]

@@ -10,11 +10,11 @@ import UIKit
 
 class XZQRefreshView: UIView {
 
-    @IBOutlet var loadingView: UIImageView!
+    @IBOutlet weak var loadingView: UIImageView!
  
-    @IBOutlet var tipView: UIView!
+    @IBOutlet weak var tipView: UIView!
     
-    @IBOutlet var arrowIcon: UIImageView!
+    @IBOutlet weak var arrowIcon: UIImageView!
     
     // 旋转箭头
     func rotationArrowIcon(flag: Bool) {

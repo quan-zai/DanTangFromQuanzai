@@ -7,45 +7,46 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai22XZQTopicViewController", ""]
 provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
 - "items"
-- "tableView"
-- "tableView"
-- "tableView"
+- "viewDidLoad"
 - "homeCellDidClickedFavoriteButton"
 - "type"
-- "loadHomeData"
 - "setupTableView"
-- "didReceiveMemoryWarning"
-- "viewDidLoad"
+- "loadHomeData"
+- "tableView"
+- "tableView"
+- "tableView"
 depends-top-level:
 - !private "isLogin"
-- !private "kTitlesViewY"
-- !private "XZQNetworkTool"
-- !private "??"
-- !private "UINib"
-- !private "!"
-- !private "NSUserDefaults"
-- !private "XZQLoginViewController"
-- !private "kTitlesViewH"
-- !private "String"
-- !private "BooleanLiteralType"
-- "Int"
-- "UITableView"
+- "StringLiteralType"
+- !private "UIEdgeInsetsMake"
+- !private "XZQNavigationController"
 - "UITableViewController"
-- "UIButton"
-- !private "XZQHomeCell"
+- !private "XZQLoginViewController"
 - "XZQTopicViewController"
 - "XZQHomeItem"
-- "StringLiteralType"
-- !private "XZQGlobalColor"
-- !private "XZQRefreshControl"
-- !private "UIEdgeInsetsMake"
-- "XZQHomeCellDelegate"
-- "homeCellID"
-- !private "+"
-- "UITableViewCell"
 - "NSIndexPath"
+- !private "??"
+- !private "XZQRefreshControl"
+- "Int"
 - !private "XZQDetailViewController"
+- "UITableViewCell"
+- !private "!"
+- !private "XZQGlobalColor"
+- !private "kTitlesViewH"
+- !private "String"
+- !private "+"
+- !private "XZQHomeCell"
+- "homeCellID"
+- !private "UINib"
+- !private "BooleanLiteralType"
+- "UIButton"
+- "XZQHomeCellDelegate"
+- !private "NSUserDefaults"
+- !private "XZQNetworkTool"
+- !private "kTitlesViewY"
+- "UITableView"
 depends-member:
 - ["Ps9AnyObject", "Int"]
 - !private ["Ps9AnyObject", "NSUserDefaults"]
@@ -57,6 +58,7 @@ depends-member:
 - !private ["Ps9AnyObject", "XZQHomeCell"]
 - ["Ps9AnyObject", "XZQHomeItem"]
 - !private ["Ps9AnyObject", "XZQLoginViewController"]
+- !private ["Ps9AnyObject", "XZQNavigationController"]
 - !private ["Ps9AnyObject", "XZQNetworkTool"]
 - !private ["Ps9AnyObject", "XZQRefreshControl"]
 - !private ["Ps9AnyObject", "addTarget"]
@@ -80,6 +82,7 @@ depends-member:
 - ["Ps9AnyObject", "loadHomeData"]
 - !private ["Ps9AnyObject", "loadHomeInfo"]
 - !private ["Ps9AnyObject", "navigationController"]
+- !private ["Ps9AnyObject", "presentViewController"]
 - !private ["Ps9AnyObject", "pushViewController"]
 - !private ["Ps9AnyObject", "refreshControl"]
 - !private ["Ps9AnyObject", "registerNib"]
@@ -140,6 +143,7 @@ depends-member:
 - !private ["Ps11CVarArgType", "XZQHomeCell"]
 - ["Ps11CVarArgType", "XZQHomeItem"]
 - !private ["Ps11CVarArgType", "XZQLoginViewController"]
+- !private ["Ps11CVarArgType", "XZQNavigationController"]
 - !private ["Ps11CVarArgType", "XZQNetworkTool"]
 - !private ["Ps11CVarArgType", "XZQRefreshControl"]
 - !private ["Ps11CVarArgType", "addTarget"]
@@ -163,6 +167,7 @@ depends-member:
 - ["Ps11CVarArgType", "loadHomeData"]
 - !private ["Ps11CVarArgType", "loadHomeInfo"]
 - !private ["Ps11CVarArgType", "navigationController"]
+- !private ["Ps11CVarArgType", "presentViewController"]
 - !private ["Ps11CVarArgType", "pushViewController"]
 - !private ["Ps11CVarArgType", "refreshControl"]
 - !private ["Ps11CVarArgType", "registerNib"]
@@ -207,6 +212,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "XZQHomeCell"]
 - ["Ps28CustomDebugStringConvertible", "XZQHomeItem"]
 - !private ["Ps28CustomDebugStringConvertible", "XZQLoginViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "XZQNavigationController"]
 - !private ["Ps28CustomDebugStringConvertible", "XZQNetworkTool"]
 - !private ["Ps28CustomDebugStringConvertible", "XZQRefreshControl"]
 - ["Ps28CustomDebugStringConvertible", "_Element"]
@@ -232,6 +238,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "loadHomeData"]
 - !private ["Ps28CustomDebugStringConvertible", "loadHomeInfo"]
 - !private ["Ps28CustomDebugStringConvertible", "navigationController"]
+- !private ["Ps28CustomDebugStringConvertible", "presentViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "pushViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "refreshControl"]
 - !private ["Ps28CustomDebugStringConvertible", "registerNib"]
@@ -268,6 +275,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "XZQHomeCell"]
 - ["Ps23CustomStringConvertible", "XZQHomeItem"]
 - !private ["Ps23CustomStringConvertible", "XZQLoginViewController"]
+- !private ["Ps23CustomStringConvertible", "XZQNavigationController"]
 - !private ["Ps23CustomStringConvertible", "XZQNetworkTool"]
 - !private ["Ps23CustomStringConvertible", "XZQRefreshControl"]
 - ["Ps23CustomStringConvertible", "_Element"]
@@ -294,6 +302,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "loadHomeData"]
 - !private ["Ps23CustomStringConvertible", "loadHomeInfo"]
 - !private ["Ps23CustomStringConvertible", "navigationController"]
+- !private ["Ps23CustomStringConvertible", "presentViewController"]
 - !private ["Ps23CustomStringConvertible", "pushViewController"]
 - !private ["Ps23CustomStringConvertible", "refreshControl"]
 - !private ["Ps23CustomStringConvertible", "registerNib"]
@@ -329,6 +338,7 @@ depends-member:
 - !private ["Ps9Equatable", "XZQHomeCell"]
 - ["Ps9Equatable", "XZQHomeItem"]
 - !private ["Ps9Equatable", "XZQLoginViewController"]
+- !private ["Ps9Equatable", "XZQNavigationController"]
 - !private ["Ps9Equatable", "XZQNetworkTool"]
 - !private ["Ps9Equatable", "XZQRefreshControl"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
@@ -353,6 +363,7 @@ depends-member:
 - ["Ps9Equatable", "loadHomeData"]
 - !private ["Ps9Equatable", "loadHomeInfo"]
 - !private ["Ps9Equatable", "navigationController"]
+- !private ["Ps9Equatable", "presentViewController"]
 - !private ["Ps9Equatable", "pushViewController"]
 - !private ["Ps9Equatable", "refreshControl"]
 - !private ["Ps9Equatable", "registerNib"]
@@ -391,6 +402,7 @@ depends-member:
 - !private ["Ps8Hashable", "XZQHomeCell"]
 - ["Ps8Hashable", "XZQHomeItem"]
 - !private ["Ps8Hashable", "XZQLoginViewController"]
+- !private ["Ps8Hashable", "XZQNavigationController"]
 - !private ["Ps8Hashable", "XZQNetworkTool"]
 - !private ["Ps8Hashable", "XZQRefreshControl"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
@@ -415,6 +427,7 @@ depends-member:
 - ["Ps8Hashable", "loadHomeData"]
 - !private ["Ps8Hashable", "loadHomeInfo"]
 - !private ["Ps8Hashable", "navigationController"]
+- !private ["Ps8Hashable", "presentViewController"]
 - !private ["Ps8Hashable", "pushViewController"]
 - !private ["Ps8Hashable", "refreshControl"]
 - !private ["Ps8Hashable", "registerNib"]
@@ -492,6 +505,7 @@ depends-member:
 - !private ["PSo8NSCoding", "XZQHomeCell"]
 - ["PSo8NSCoding", "XZQHomeItem"]
 - !private ["PSo8NSCoding", "XZQLoginViewController"]
+- !private ["PSo8NSCoding", "XZQNavigationController"]
 - !private ["PSo8NSCoding", "XZQNetworkTool"]
 - !private ["PSo8NSCoding", "XZQRefreshControl"]
 - !private ["PSo8NSCoding", "addTarget"]
@@ -513,6 +527,7 @@ depends-member:
 - !private ["PSo8NSCoding", "kTitlesViewY"]
 - ["PSo8NSCoding", "loadHomeData"]
 - !private ["PSo8NSCoding", "navigationController"]
+- !private ["PSo8NSCoding", "presentViewController"]
 - !private ["PSo8NSCoding", "pushViewController"]
 - !private ["PSo8NSCoding", "refreshControl"]
 - !private ["PSo8NSCoding", "registerNib"]
@@ -542,6 +557,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "XZQHomeCell"]
 - ["PSo26NSExtensionRequestHandling", "XZQHomeItem"]
 - !private ["PSo26NSExtensionRequestHandling", "XZQLoginViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "XZQNavigationController"]
 - !private ["PSo26NSExtensionRequestHandling", "XZQNetworkTool"]
 - !private ["PSo26NSExtensionRequestHandling", "XZQRefreshControl"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
@@ -555,6 +571,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "kTitlesViewY"]
 - ["PSo26NSExtensionRequestHandling", "loadHomeData"]
 - !private ["PSo26NSExtensionRequestHandling", "navigationController"]
+- !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
 - !private ["PSo26NSExtensionRequestHandling", "pushViewController"]
 - !private ["PSo26NSExtensionRequestHandling", "refreshControl"]
 - ["PSo26NSExtensionRequestHandling", "setupTableView"]
@@ -581,6 +598,7 @@ depends-member:
 - !private ["CSo8NSObject", "XZQHomeCell"]
 - ["CSo8NSObject", "XZQHomeItem"]
 - !private ["CSo8NSObject", "XZQLoginViewController"]
+- !private ["CSo8NSObject", "XZQNavigationController"]
 - !private ["CSo8NSObject", "XZQNetworkTool"]
 - !private ["CSo8NSObject", "XZQRefreshControl"]
 - !private ["CSo8NSObject", "addTarget"]
@@ -604,6 +622,7 @@ depends-member:
 - ["CSo8NSObject", "loadHomeData"]
 - !private ["CSo8NSObject", "loadHomeInfo"]
 - !private ["CSo8NSObject", "navigationController"]
+- !private ["CSo8NSObject", "presentViewController"]
 - !private ["CSo8NSObject", "pushViewController"]
 - !private ["CSo8NSObject", "refreshControl"]
 - !private ["CSo8NSObject", "registerNib"]
@@ -633,6 +652,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "XZQHomeCell"]
 - ["PSo16NSObjectProtocol", "XZQHomeItem"]
 - !private ["PSo16NSObjectProtocol", "XZQLoginViewController"]
+- !private ["PSo16NSObjectProtocol", "XZQNavigationController"]
 - !private ["PSo16NSObjectProtocol", "XZQNetworkTool"]
 - !private ["PSo16NSObjectProtocol", "XZQRefreshControl"]
 - !private ["PSo16NSObjectProtocol", "addTarget"]
@@ -656,6 +676,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "loadHomeData"]
 - !private ["PSo16NSObjectProtocol", "loadHomeInfo"]
 - !private ["PSo16NSObjectProtocol", "navigationController"]
+- !private ["PSo16NSObjectProtocol", "presentViewController"]
 - !private ["PSo16NSObjectProtocol", "pushViewController"]
 - !private ["PSo16NSObjectProtocol", "refreshControl"]
 - !private ["PSo16NSObjectProtocol", "registerNib"]
@@ -764,6 +785,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "XZQHomeCell"]
 - ["PSo21UIAppearanceContainer", "XZQHomeItem"]
 - !private ["PSo21UIAppearanceContainer", "XZQLoginViewController"]
+- !private ["PSo21UIAppearanceContainer", "XZQNavigationController"]
 - !private ["PSo21UIAppearanceContainer", "XZQNetworkTool"]
 - !private ["PSo21UIAppearanceContainer", "XZQRefreshControl"]
 - !private ["PSo21UIAppearanceContainer", "addTarget"]
@@ -785,6 +807,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "kTitlesViewY"]
 - ["PSo21UIAppearanceContainer", "loadHomeData"]
 - !private ["PSo21UIAppearanceContainer", "navigationController"]
+- !private ["PSo21UIAppearanceContainer", "presentViewController"]
 - !private ["PSo21UIAppearanceContainer", "pushViewController"]
 - !private ["PSo21UIAppearanceContainer", "refreshControl"]
 - !private ["PSo21UIAppearanceContainer", "registerNib"]
@@ -812,6 +835,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "XZQHomeCell"]
 - ["PSo18UIContentContainer", "XZQHomeItem"]
 - !private ["PSo18UIContentContainer", "XZQLoginViewController"]
+- !private ["PSo18UIContentContainer", "XZQNavigationController"]
 - !private ["PSo18UIContentContainer", "XZQNetworkTool"]
 - !private ["PSo18UIContentContainer", "XZQRefreshControl"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
@@ -825,6 +849,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "kTitlesViewY"]
 - ["PSo18UIContentContainer", "loadHomeData"]
 - !private ["PSo18UIContentContainer", "navigationController"]
+- !private ["PSo18UIContentContainer", "presentViewController"]
 - !private ["PSo18UIContentContainer", "pushViewController"]
 - !private ["PSo18UIContentContainer", "refreshControl"]
 - ["PSo18UIContentContainer", "setupTableView"]
@@ -882,6 +907,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "XZQHomeCell"]
 - ["PSo18UIFocusEnvironment", "XZQHomeItem"]
 - !private ["PSo18UIFocusEnvironment", "XZQLoginViewController"]
+- !private ["PSo18UIFocusEnvironment", "XZQNavigationController"]
 - !private ["PSo18UIFocusEnvironment", "XZQNetworkTool"]
 - !private ["PSo18UIFocusEnvironment", "XZQRefreshControl"]
 - !private ["PSo18UIFocusEnvironment", "addTarget"]
@@ -903,6 +929,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "kTitlesViewY"]
 - ["PSo18UIFocusEnvironment", "loadHomeData"]
 - !private ["PSo18UIFocusEnvironment", "navigationController"]
+- !private ["PSo18UIFocusEnvironment", "presentViewController"]
 - !private ["PSo18UIFocusEnvironment", "pushViewController"]
 - !private ["PSo18UIFocusEnvironment", "refreshControl"]
 - !private ["PSo18UIFocusEnvironment", "registerNib"]
@@ -923,6 +950,7 @@ depends-member:
 - !private ["PSo27UIGestureRecognizerDelegate", "delegate"]
 - !private ["PSo27UIGestureRecognizerDelegate", "homeItem"]
 - !private ["PSo27UIGestureRecognizerDelegate", "selectionStyle"]
+- !private ["CSo22UINavigationController", "init"]
 - !private ["CSo22UINavigationController", "pushViewController"]
 - !private ["CSo5UINib", "init"]
 - !private ["CSo16UIRefreshControl", "addTarget"]
@@ -942,6 +970,7 @@ depends-member:
 - !private ["CSo11UIResponder", "XZQHomeCell"]
 - ["CSo11UIResponder", "XZQHomeItem"]
 - !private ["CSo11UIResponder", "XZQLoginViewController"]
+- !private ["CSo11UIResponder", "XZQNavigationController"]
 - !private ["CSo11UIResponder", "XZQNetworkTool"]
 - !private ["CSo11UIResponder", "XZQRefreshControl"]
 - !private ["CSo11UIResponder", "addTarget"]
@@ -963,6 +992,7 @@ depends-member:
 - !private ["CSo11UIResponder", "kTitlesViewY"]
 - ["CSo11UIResponder", "loadHomeData"]
 - !private ["CSo11UIResponder", "navigationController"]
+- !private ["CSo11UIResponder", "presentViewController"]
 - !private ["CSo11UIResponder", "pushViewController"]
 - !private ["CSo11UIResponder", "refreshControl"]
 - !private ["CSo11UIResponder", "registerNib"]
@@ -996,6 +1026,7 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "XZQHomeCell"]
 - ["PSo20UIScrollViewDelegate", "XZQHomeItem"]
 - !private ["PSo20UIScrollViewDelegate", "XZQLoginViewController"]
+- !private ["PSo20UIScrollViewDelegate", "XZQNavigationController"]
 - !private ["PSo20UIScrollViewDelegate", "XZQNetworkTool"]
 - !private ["PSo20UIScrollViewDelegate", "XZQRefreshControl"]
 - ["PSo20UIScrollViewDelegate", "didReceiveMemoryWarning"]
@@ -1008,6 +1039,7 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "kTitlesViewY"]
 - ["PSo20UIScrollViewDelegate", "loadHomeData"]
 - !private ["PSo20UIScrollViewDelegate", "navigationController"]
+- !private ["PSo20UIScrollViewDelegate", "presentViewController"]
 - !private ["PSo20UIScrollViewDelegate", "refreshControl"]
 - ["PSo20UIScrollViewDelegate", "setupTableView"]
 - !private ["PSo20UIScrollViewDelegate", "tabBarController"]
@@ -1026,6 +1058,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "XZQHomeCell"]
 - ["PSo16UIStateRestoring", "XZQHomeItem"]
 - !private ["PSo16UIStateRestoring", "XZQLoginViewController"]
+- !private ["PSo16UIStateRestoring", "XZQNavigationController"]
 - !private ["PSo16UIStateRestoring", "XZQNetworkTool"]
 - !private ["PSo16UIStateRestoring", "XZQRefreshControl"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
@@ -1039,6 +1072,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "kTitlesViewY"]
 - ["PSo16UIStateRestoring", "loadHomeData"]
 - !private ["PSo16UIStateRestoring", "navigationController"]
+- !private ["PSo16UIStateRestoring", "presentViewController"]
 - !private ["PSo16UIStateRestoring", "pushViewController"]
 - !private ["PSo16UIStateRestoring", "refreshControl"]
 - ["PSo16UIStateRestoring", "setupTableView"]
@@ -1078,6 +1112,7 @@ depends-member:
 - !private ["CSo21UITableViewController", "XZQHomeCell"]
 - ["CSo21UITableViewController", "XZQHomeItem"]
 - !private ["CSo21UITableViewController", "XZQLoginViewController"]
+- !private ["CSo21UITableViewController", "XZQNavigationController"]
 - !private ["CSo21UITableViewController", "XZQNetworkTool"]
 - !private ["CSo21UITableViewController", "XZQRefreshControl"]
 - ["CSo21UITableViewController", "didReceiveMemoryWarning"]
@@ -1090,6 +1125,7 @@ depends-member:
 - !private ["CSo21UITableViewController", "kTitlesViewY"]
 - ["CSo21UITableViewController", "loadHomeData"]
 - !private ["CSo21UITableViewController", "navigationController"]
+- !private ["CSo21UITableViewController", "presentViewController"]
 - !private ["CSo21UITableViewController", "refreshControl"]
 - ["CSo21UITableViewController", "setupTableView"]
 - !private ["CSo21UITableViewController", "tabBarController"]
@@ -1108,6 +1144,7 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "XZQHomeCell"]
 - ["PSo21UITableViewDataSource", "XZQHomeItem"]
 - !private ["PSo21UITableViewDataSource", "XZQLoginViewController"]
+- !private ["PSo21UITableViewDataSource", "XZQNavigationController"]
 - !private ["PSo21UITableViewDataSource", "XZQNetworkTool"]
 - !private ["PSo21UITableViewDataSource", "XZQRefreshControl"]
 - ["PSo21UITableViewDataSource", "didReceiveMemoryWarning"]
@@ -1120,6 +1157,7 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "kTitlesViewY"]
 - ["PSo21UITableViewDataSource", "loadHomeData"]
 - !private ["PSo21UITableViewDataSource", "navigationController"]
+- !private ["PSo21UITableViewDataSource", "presentViewController"]
 - !private ["PSo21UITableViewDataSource", "refreshControl"]
 - ["PSo21UITableViewDataSource", "setupTableView"]
 - !private ["PSo21UITableViewDataSource", "tabBarController"]
@@ -1138,6 +1176,7 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "XZQHomeCell"]
 - ["PSo19UITableViewDelegate", "XZQHomeItem"]
 - !private ["PSo19UITableViewDelegate", "XZQLoginViewController"]
+- !private ["PSo19UITableViewDelegate", "XZQNavigationController"]
 - !private ["PSo19UITableViewDelegate", "XZQNetworkTool"]
 - !private ["PSo19UITableViewDelegate", "XZQRefreshControl"]
 - ["PSo19UITableViewDelegate", "didReceiveMemoryWarning"]
@@ -1150,6 +1189,7 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "kTitlesViewY"]
 - ["PSo19UITableViewDelegate", "loadHomeData"]
 - !private ["PSo19UITableViewDelegate", "navigationController"]
+- !private ["PSo19UITableViewDelegate", "presentViewController"]
 - !private ["PSo19UITableViewDelegate", "refreshControl"]
 - ["PSo19UITableViewDelegate", "setupTableView"]
 - !private ["PSo19UITableViewDelegate", "tabBarController"]
@@ -1168,6 +1208,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "XZQHomeCell"]
 - ["PSo18UITraitEnvironment", "XZQHomeItem"]
 - !private ["PSo18UITraitEnvironment", "XZQLoginViewController"]
+- !private ["PSo18UITraitEnvironment", "XZQNavigationController"]
 - !private ["PSo18UITraitEnvironment", "XZQNetworkTool"]
 - !private ["PSo18UITraitEnvironment", "XZQRefreshControl"]
 - !private ["PSo18UITraitEnvironment", "addTarget"]
@@ -1189,6 +1230,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "kTitlesViewY"]
 - ["PSo18UITraitEnvironment", "loadHomeData"]
 - !private ["PSo18UITraitEnvironment", "navigationController"]
+- !private ["PSo18UITraitEnvironment", "presentViewController"]
 - !private ["PSo18UITraitEnvironment", "pushViewController"]
 - !private ["PSo18UITraitEnvironment", "refreshControl"]
 - !private ["PSo18UITraitEnvironment", "registerNib"]
@@ -1235,6 +1277,7 @@ depends-member:
 - !private ["CSo16UIViewController", "XZQHomeCell"]
 - ["CSo16UIViewController", "XZQHomeItem"]
 - !private ["CSo16UIViewController", "XZQLoginViewController"]
+- !private ["CSo16UIViewController", "XZQNavigationController"]
 - !private ["CSo16UIViewController", "XZQNetworkTool"]
 - !private ["CSo16UIViewController", "XZQRefreshControl"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
@@ -1248,6 +1291,7 @@ depends-member:
 - !private ["CSo16UIViewController", "kTitlesViewY"]
 - ["CSo16UIViewController", "loadHomeData"]
 - !private ["CSo16UIViewController", "navigationController"]
+- !private ["CSo16UIViewController", "presentViewController"]
 - !private ["CSo16UIViewController", "pushViewController"]
 - !private ["CSo16UIViewController", "refreshControl"]
 - ["CSo16UIViewController", "setupTableView"]
@@ -1282,6 +1326,7 @@ depends-member:
 - !private ["P18DanTangFromQuanzai19XZQHomeCellDelegate", "XZQHomeCell"]
 - ["P18DanTangFromQuanzai19XZQHomeCellDelegate", "XZQHomeItem"]
 - !private ["P18DanTangFromQuanzai19XZQHomeCellDelegate", "XZQLoginViewController"]
+- !private ["P18DanTangFromQuanzai19XZQHomeCellDelegate", "XZQNavigationController"]
 - !private ["P18DanTangFromQuanzai19XZQHomeCellDelegate", "XZQNetworkTool"]
 - !private ["P18DanTangFromQuanzai19XZQHomeCellDelegate", "XZQRefreshControl"]
 - ["P18DanTangFromQuanzai19XZQHomeCellDelegate", "homeCellDidClickedFavoriteButton"]
@@ -1292,6 +1337,7 @@ depends-member:
 - !private ["P18DanTangFromQuanzai19XZQHomeCellDelegate", "kTitlesViewY"]
 - !private ["P18DanTangFromQuanzai19XZQHomeCellDelegate", "loadHomeData"]
 - !private ["P18DanTangFromQuanzai19XZQHomeCellDelegate", "navigationController"]
+- !private ["P18DanTangFromQuanzai19XZQHomeCellDelegate", "presentViewController"]
 - !private ["P18DanTangFromQuanzai19XZQHomeCellDelegate", "refreshControl"]
 - !private ["P18DanTangFromQuanzai19XZQHomeCellDelegate", "setupTableView"]
 - !private ["P18DanTangFromQuanzai19XZQHomeCellDelegate", "tabBarController"]
@@ -1301,6 +1347,7 @@ depends-member:
 - ["P18DanTangFromQuanzai19XZQHomeCellDelegate", ""]
 - !private ["C18DanTangFromQuanzai22XZQLoginViewController", "init"]
 - !private ["C18DanTangFromQuanzai22XZQLoginViewController", "title"]
+- !private ["C18DanTangFromQuanzai23XZQNavigationController", "init"]
 - !private ["C18DanTangFromQuanzai14XZQNetworkTool", "loadHomeInfo"]
 - !private ["C18DanTangFromQuanzai14XZQNetworkTool", "shareNetworkTool"]
 - !private ["C18DanTangFromQuanzai17XZQRefreshControl", "init"]
@@ -1318,6 +1365,7 @@ depends-member:
 - !private ["C18DanTangFromQuanzai22XZQTopicViewController", "XZQHomeCell"]
 - ["C18DanTangFromQuanzai22XZQTopicViewController", "XZQHomeItem"]
 - !private ["C18DanTangFromQuanzai22XZQTopicViewController", "XZQLoginViewController"]
+- !private ["C18DanTangFromQuanzai22XZQTopicViewController", "XZQNavigationController"]
 - !private ["C18DanTangFromQuanzai22XZQTopicViewController", "XZQNetworkTool"]
 - !private ["C18DanTangFromQuanzai22XZQTopicViewController", "XZQRefreshControl"]
 - ["C18DanTangFromQuanzai22XZQTopicViewController", "deinit"]
@@ -1331,6 +1379,7 @@ depends-member:
 - !private ["C18DanTangFromQuanzai22XZQTopicViewController", "kTitlesViewY"]
 - ["C18DanTangFromQuanzai22XZQTopicViewController", "loadHomeData"]
 - !private ["C18DanTangFromQuanzai22XZQTopicViewController", "navigationController"]
+- !private ["C18DanTangFromQuanzai22XZQTopicViewController", "presentViewController"]
 - !private ["C18DanTangFromQuanzai22XZQTopicViewController", "refreshControl"]
 - ["C18DanTangFromQuanzai22XZQTopicViewController", "setupTableView"]
 - !private ["C18DanTangFromQuanzai22XZQTopicViewController", "tabBarController"]
@@ -1505,6 +1554,7 @@ depends-nominal:
 - !private "C18DanTangFromQuanzai11XZQHomeCell"
 - "P18DanTangFromQuanzai19XZQHomeCellDelegate"
 - !private "C18DanTangFromQuanzai22XZQLoginViewController"
+- !private "C18DanTangFromQuanzai23XZQNavigationController"
 - !private "C18DanTangFromQuanzai14XZQNetworkTool"
 - !private "C18DanTangFromQuanzai17XZQRefreshControl"
 - "C18DanTangFromQuanzai22XZQTopicViewController"

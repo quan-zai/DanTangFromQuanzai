@@ -6,18 +6,18 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai15XZQSearchResult", ""]
 provides-dynamic-lookup:
-- "describe"
-- "price"
-- "cover_image_url"
 - "name"
+- "describe"
+- "cover_image_url"
+- "price"
 depends-top-level:
-- "Int"
-- "XZQSearchResult"
 - "AnyObject"
-- "NSObject"
-- "Bool"
-- !private "StringLiteralType"
 - "String"
+- "NSObject"
+- "XZQSearchResult"
+- "Bool"
+- "Int"
+- !private "StringLiteralType"
 depends-member:
 - ["Ps9AnyObject", "cover_image_url"]
 - ["Ps9AnyObject", "describe"]
