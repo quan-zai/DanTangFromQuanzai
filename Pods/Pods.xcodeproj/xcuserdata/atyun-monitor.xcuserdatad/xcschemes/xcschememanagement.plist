@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RAMAnimatedTabBarController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SVProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,7 +47,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1A0C1D0FD38BB25285633FC2D6716ACD</key>
+		<key>062B802E9400540223E6845F07E2A65E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,12 +57,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>42E42F88D88E4EAA9C6447EBAD3EF3B5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4B16C950812F0383F34D8C00A76FB7EE</key>
+		<key>5081EB1E3B01EEE8DF63ABD314AA1B84</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,7 +67,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E458293892239A6405F1A4A28883116E</key>
+		<key>84D93BAA86656731298D21FC3FB1AB03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>947EA1F546F7D4E58C880FB9B0847ADB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9896D3AB72A825ADFE5E38A28E89D169</key>
 		<dict>
 			<key>primary</key>
 			<true/>

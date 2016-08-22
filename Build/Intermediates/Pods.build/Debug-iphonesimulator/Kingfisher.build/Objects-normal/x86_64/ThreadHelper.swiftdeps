@@ -6,12 +6,12 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- !private "==="
 - "dispatch_async_safely_to_main_queue"
+- !private "&&"
 - !private "dispatch_get_main_queue"
 - !private "NSThread"
-- !private "&&"
 - !private "dispatch_async"
+- !private "==="
 - "dispatch_queue_t"
 - "dispatch_async_safely_to_queue"
 depends-member:

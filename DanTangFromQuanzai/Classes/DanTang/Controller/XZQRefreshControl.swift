@@ -84,4 +84,5 @@ class XZQRefreshControl: UIRefreshControl {
 
     // MARK: - 懒加载
     private lazy var refreshView: XZQRefreshView = XZQRefreshView.refreshView()
+    
 }

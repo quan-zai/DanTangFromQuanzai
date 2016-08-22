@@ -35,7 +35,7 @@
                         </connections>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDS-7i-S9A" userLabel="Title Label">
-                        <rect key="frame" x="13" y="124" width="44" height="22"/>
+                        <rect key="frame" x="16" y="124" width="44" height="22"/>
                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                         <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <nil key="highlightedColor"/>
@@ -44,15 +44,29 @@
                 <constraints>
                     <constraint firstItem="o80-rK-Frs" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="05v-8J-hhb"/>
                     <constraint firstAttribute="bottomMargin" secondItem="o80-rK-Frs" secondAttribute="bottom" id="6I8-Nd-o74"/>
+                    <constraint firstItem="SDS-7i-S9A" firstAttribute="leading" secondItem="o80-rK-Frs" secondAttribute="leading" constant="8" id="8O6-fD-6wq"/>
                     <constraint firstAttribute="topMargin" secondItem="o80-rK-Frs" secondAttribute="top" id="HzU-3I-1WH"/>
+                    <constraint firstItem="o80-rK-Frs" firstAttribute="leading" secondItem="SDS-7i-S9A" secondAttribute="trailing" constant="-49" id="ITV-hh-8VM"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="UAn-jy-kwG" secondAttribute="trailing" constant="11" id="O5b-6v-fEP"/>
                     <constraint firstItem="o80-rK-Frs" firstAttribute="top" secondItem="UAn-jy-kwG" secondAttribute="bottom" constant="-33" id="TKe-mm-dCf"/>
                     <constraint firstItem="SDS-7i-S9A" firstAttribute="top" secondItem="o80-rK-Frs" secondAttribute="bottom" constant="-27" id="X7h-Rv-mM3"/>
+                    <constraint firstItem="o80-rK-Frs" firstAttribute="top" secondItem="UAn-jy-kwG" secondAttribute="bottom" constant="-33" id="ZZK-R1-Uop"/>
+                    <constraint firstItem="UAn-jy-kwG" firstAttribute="top" secondItem="o80-rK-Frs" secondAttribute="top" id="ify-NI-1yd"/>
                     <constraint firstAttribute="trailingMargin" secondItem="o80-rK-Frs" secondAttribute="trailing" id="rqP-98-7OD"/>
                     <constraint firstItem="UAn-jy-kwG" firstAttribute="leading" secondItem="o80-rK-Frs" secondAttribute="trailing" constant="-37" id="t4y-Jd-WRI"/>
                     <constraint firstItem="o80-rK-Frs" firstAttribute="leading" secondItem="SDS-7i-S9A" secondAttribute="trailing" constant="-49" id="tVu-eO-rsw"/>
                     <constraint firstAttribute="leadingMargin" secondItem="o80-rK-Frs" secondAttribute="leading" id="wZ9-E5-JSg"/>
                     <constraint firstItem="o80-rK-Frs" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="zMk-CF-Tl6"/>
                 </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="ITV-hh-8VM"/>
+                        <exclude reference="TKe-mm-dCf"/>
+                        <exclude reference="tVu-eO-rsw"/>
+                        <exclude reference="ify-NI-1yd"/>
+                        <exclude reference="t4y-Jd-WRI"/>
+                    </mask>
+                </variation>
             </tableViewCellContentView>
             <connections>
                 <outlet property="bgImageView" destination="o80-rK-Frs" id="yg8-8z-VJu"/>

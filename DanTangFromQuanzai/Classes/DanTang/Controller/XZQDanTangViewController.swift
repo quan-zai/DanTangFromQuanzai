@@ -28,7 +28,7 @@ class XZQDanTangViewController: XZQBaseViewController
         super.viewDidLoad()
         
         // 设置导航栏
-//        setupNav()
+        setupNav()
         
         // 获取首页顶部选择数据
         XZQNetworkTool.shareNetworkTool.loadHomeTopData { [weak self] (xzq_channels) in
@@ -62,7 +62,7 @@ class XZQDanTangViewController: XZQBaseViewController
         
         // 底部红色指示器
         let indicatorView = UIView()
-        indicatorView.backgroundColor = XZQGlobalColor()
+        indicatorView.backgroundColor = XZQGlobalRedColor()
         indicatorView.height = kIndicatorViewH
         indicatorView.y = kTitlesViewH - kIndicatorViewH
         indicatorView.tag = -1
@@ -93,7 +93,7 @@ class XZQDanTangViewController: XZQBaseViewController
             button.titleLabel!.font = UIFont.systemFontOfSize(14)
             button.setTitle(vc.title!, forState: .Normal)
             button.setTitleColor(UIColor.grayColor(), forState: .Normal)
-            button.setTitleColor(XZQGlobalColor(), forState: .Disabled)
+            button.setTitleColor(XZQGlobalRedColor(), forState: .Disabled)
             button.addTarget(self, action: #selector(titlesClick(_ :)), forControlEvents: .TouchUpInside)
             titlesView.addSubview(button)
             
@@ -145,6 +145,7 @@ class XZQDanTangViewController: XZQBaseViewController
         contentView.frame = view.bounds
         contentView.delegate = self
         contentView.contentSize = CGSizeMake(contentView.width * CGFloat(childViewControllers.count), 0)
+        contentView.pagingEnabled = true
         view.insertSubview(contentView, atIndex: 0)
         self.contentView = contentView
         

@@ -7,27 +7,27 @@ provides-member:
 - ["C18DanTangFromQuanzai23XZQNavigationController", ""]
 provides-dynamic-lookup:
 - "pushViewController"
-- "initialize"
 - "navigationBackClick"
+- "initialize"
 depends-top-level:
-- !private ">"
-- !private "StringLiteralType"
 - "XZQNavigationController"
+- !private "UIBarButtonItem"
+- !private "NSForegroundColorAttributeName"
 - !private "UIImage"
+- !private "UINavigationBar"
 - !private "UIFont"
+- !private ">"
 - "Bool"
 - !private "NSFontAttributeName"
-- !private "UIApplication"
-- !private "NSForegroundColorAttributeName"
 - !private "Dictionary"
-- "UINavigationController"
-- !private "UIBarButtonItem"
-- !private "BooleanLiteralType"
-- !private "UINavigationBar"
-- !private "UIColor"
 - !private "XZQGlobalRedColor"
-- !private "SVProgressHUD"
+- !private "StringLiteralType"
+- "UINavigationController"
+- !private "BooleanLiteralType"
 - "UIViewController"
+- !private "UIColor"
+- !private "UIApplication"
+- !private "SVProgressHUD"
 depends-member:
 - !private ["Ps9AnyObject", "NSFontAttributeName"]
 - !private ["Ps9AnyObject", "NSForegroundColorAttributeName"]

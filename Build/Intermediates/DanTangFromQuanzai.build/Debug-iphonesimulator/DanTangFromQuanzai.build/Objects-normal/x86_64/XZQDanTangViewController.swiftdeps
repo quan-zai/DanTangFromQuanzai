@@ -6,54 +6,55 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai24XZQDanTangViewController", ""]
 provides-dynamic-lookup:
-- "arrowButtonClick"
-- "setupNav"
+- "viewDidLoad"
+- "setupTitlesView"
+- "setupContentView"
+- "channels"
+- "titlesClick"
+- "dantangRightButtonClick"
 - "scrollViewDidEndDecelerating"
 - "titlesView"
-- "channels"
-- "viewDidLoad"
-- "contentView"
-- "dantangRightButtonClick"
-- "setupTitlesView"
 - "scrollViewDidEndScrollingAnimation"
-- "setupContentView"
+- "contentView"
 - "indicatorView"
-- "titlesClick"
+- "arrowButtonClick"
 - "selectedButton"
+- "setupNav"
 depends-top-level:
-- !private "-"
-- !private "XZQGlobalColor"
-- "UIScrollView"
-- !private "kTitlesViewH"
-- "XZQDanTangViewController"
-- !private "XZQTopicViewController"
-- !private "XZQNetworkTool"
-- !private "/"
-- !private "UIImage"
-- "XZQChannel"
-- !private "SCREENH"
-- !private "BooleanLiteralType"
-- !private "CGSizeMake"
-- !private "CGAffineTransformRotate"
-- !private "*"
-- !private "CGRectMake"
-- !private "M_PI"
-- !private "UIColor"
-- !private "UIFont"
-- !private "UIBarButtonItem"
-- !private "=="
-- !private "kAnimationDuration"
-- "UIScrollViewDelegate"
-- "UIView"
-- !private "..<"
-- !private "kTitlesViewY"
-- !private "Int"
-- "XZQBaseViewController"
-- !private "kIndicatorViewH"
 - !private "CGFloat"
-- !private "StringLiteralType"
-- !private "SCREENW"
+- "XZQChannel"
+- "XZQDanTangViewController"
 - "UIButton"
+- !private "SCREENW"
+- !private "/"
+- !private "XZQGlobalRedColor"
+- !private "Int"
+- !private "kIndicatorViewH"
+- !private "..<"
+- !private "CGAffineTransformRotate"
+- !private "kTitlesViewY"
+- "UIScrollViewDelegate"
+- !private "XZQNetworkTool"
+- !private "-"
+- !private "UIImage"
+- !private "UIColor"
+- !private "XZQGlobalColor"
+- !private "BooleanLiteralType"
+- !private "UIBarButtonItem"
+- !private "M_PI"
+- !private "UIFont"
+- !private "SCREENH"
+- "UIView"
+- !private "CGRectMake"
+- "UIScrollView"
+- !private "=="
+- !private "XZQTopicViewController"
+- !private "StringLiteralType"
+- !private "kAnimationDuration"
+- "XZQBaseViewController"
+- !private "kTitlesViewH"
+- !private "CGSizeMake"
+- !private "*"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps9AnyObject", "CGAffineTransformRotate"]
@@ -73,6 +74,7 @@ depends-member:
 - ["Ps9AnyObject", "UIView"]
 - ["Ps9AnyObject", "XZQChannel"]
 - !private ["Ps9AnyObject", "XZQGlobalColor"]
+- !private ["Ps9AnyObject", "XZQGlobalRedColor"]
 - !private ["Ps9AnyObject", "XZQNetworkTool"]
 - !private ["Ps9AnyObject", "XZQTopicViewController"]
 - !private ["Ps9AnyObject", "addChildViewController"]
@@ -108,6 +110,7 @@ depends-member:
 - !private ["Ps9AnyObject", "loadHomeTopData"]
 - !private ["Ps9AnyObject", "name"]
 - !private ["Ps9AnyObject", "navigationItem"]
+- !private ["Ps9AnyObject", "pagingEnabled"]
 - !private ["Ps9AnyObject", "rightBarButtonItem"]
 - ["Ps9AnyObject", "scrollViewDidEndDecelerating"]
 - ["Ps9AnyObject", "scrollViewDidEndDragging"]
@@ -201,6 +204,7 @@ depends-member:
 - ["Ps11CVarArgType", "UIView"]
 - ["Ps11CVarArgType", "XZQChannel"]
 - !private ["Ps11CVarArgType", "XZQGlobalColor"]
+- !private ["Ps11CVarArgType", "XZQGlobalRedColor"]
 - !private ["Ps11CVarArgType", "XZQNetworkTool"]
 - !private ["Ps11CVarArgType", "XZQTopicViewController"]
 - !private ["Ps11CVarArgType", "_DisabledRangeIndex"]
@@ -237,6 +241,7 @@ depends-member:
 - !private ["Ps11CVarArgType", "loadHomeTopData"]
 - !private ["Ps11CVarArgType", "name"]
 - !private ["Ps11CVarArgType", "navigationItem"]
+- !private ["Ps11CVarArgType", "pagingEnabled"]
 - !private ["Ps11CVarArgType", "rightBarButtonItem"]
 - ["Ps11CVarArgType", "scrollViewDidEndDecelerating"]
 - ["Ps11CVarArgType", "scrollViewDidEndDragging"]
@@ -308,6 +313,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "UIView"]
 - ["Ps28CustomDebugStringConvertible", "XZQChannel"]
 - !private ["Ps28CustomDebugStringConvertible", "XZQGlobalColor"]
+- !private ["Ps28CustomDebugStringConvertible", "XZQGlobalRedColor"]
 - !private ["Ps28CustomDebugStringConvertible", "XZQNetworkTool"]
 - !private ["Ps28CustomDebugStringConvertible", "XZQTopicViewController"]
 - ["Ps28CustomDebugStringConvertible", "_Element"]
@@ -345,6 +351,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "loadHomeTopData"]
 - !private ["Ps28CustomDebugStringConvertible", "name"]
 - !private ["Ps28CustomDebugStringConvertible", "navigationItem"]
+- !private ["Ps28CustomDebugStringConvertible", "pagingEnabled"]
 - !private ["Ps28CustomDebugStringConvertible", "rightBarButtonItem"]
 - ["Ps28CustomDebugStringConvertible", "scrollViewDidEndDecelerating"]
 - ["Ps28CustomDebugStringConvertible", "scrollViewDidEndDragging"]
@@ -408,6 +415,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "UIView"]
 - ["Ps23CustomStringConvertible", "XZQChannel"]
 - !private ["Ps23CustomStringConvertible", "XZQGlobalColor"]
+- !private ["Ps23CustomStringConvertible", "XZQGlobalRedColor"]
 - !private ["Ps23CustomStringConvertible", "XZQNetworkTool"]
 - !private ["Ps23CustomStringConvertible", "XZQTopicViewController"]
 - !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
@@ -447,6 +455,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "loadHomeTopData"]
 - !private ["Ps23CustomStringConvertible", "name"]
 - !private ["Ps23CustomStringConvertible", "navigationItem"]
+- !private ["Ps23CustomStringConvertible", "pagingEnabled"]
 - !private ["Ps23CustomStringConvertible", "rightBarButtonItem"]
 - ["Ps23CustomStringConvertible", "scrollViewDidEndDecelerating"]
 - ["Ps23CustomStringConvertible", "scrollViewDidEndDragging"]
@@ -512,6 +521,7 @@ depends-member:
 - ["Ps9Equatable", "UIView"]
 - ["Ps9Equatable", "XZQChannel"]
 - !private ["Ps9Equatable", "XZQGlobalColor"]
+- !private ["Ps9Equatable", "XZQGlobalRedColor"]
 - !private ["Ps9Equatable", "XZQNetworkTool"]
 - !private ["Ps9Equatable", "XZQTopicViewController"]
 - !private ["Ps9Equatable", "_DisabledRangeIndex"]
@@ -549,6 +559,7 @@ depends-member:
 - !private ["Ps9Equatable", "loadHomeTopData"]
 - !private ["Ps9Equatable", "name"]
 - !private ["Ps9Equatable", "navigationItem"]
+- !private ["Ps9Equatable", "pagingEnabled"]
 - !private ["Ps9Equatable", "rightBarButtonItem"]
 - ["Ps9Equatable", "scrollViewDidEndDecelerating"]
 - ["Ps9Equatable", "scrollViewDidEndDragging"]
@@ -617,6 +628,7 @@ depends-member:
 - ["Ps8Hashable", "UIView"]
 - ["Ps8Hashable", "XZQChannel"]
 - !private ["Ps8Hashable", "XZQGlobalColor"]
+- !private ["Ps8Hashable", "XZQGlobalRedColor"]
 - !private ["Ps8Hashable", "XZQNetworkTool"]
 - !private ["Ps8Hashable", "XZQTopicViewController"]
 - !private ["Ps8Hashable", "_DisabledRangeIndex"]
@@ -654,6 +666,7 @@ depends-member:
 - !private ["Ps8Hashable", "loadHomeTopData"]
 - !private ["Ps8Hashable", "name"]
 - !private ["Ps8Hashable", "navigationItem"]
+- !private ["Ps8Hashable", "pagingEnabled"]
 - !private ["Ps8Hashable", "rightBarButtonItem"]
 - ["Ps8Hashable", "scrollViewDidEndDecelerating"]
 - ["Ps8Hashable", "scrollViewDidEndDragging"]
@@ -764,6 +777,7 @@ depends-member:
 - ["PSo8NSCoding", "UIView"]
 - ["PSo8NSCoding", "XZQChannel"]
 - !private ["PSo8NSCoding", "XZQGlobalColor"]
+- !private ["PSo8NSCoding", "XZQGlobalRedColor"]
 - !private ["PSo8NSCoding", "XZQNetworkTool"]
 - !private ["PSo8NSCoding", "XZQTopicViewController"]
 - !private ["PSo8NSCoding", "addChildViewController"]
@@ -796,6 +810,7 @@ depends-member:
 - !private ["PSo8NSCoding", "kTitlesViewH"]
 - !private ["PSo8NSCoding", "kTitlesViewY"]
 - !private ["PSo8NSCoding", "navigationItem"]
+- !private ["PSo8NSCoding", "pagingEnabled"]
 - !private ["PSo8NSCoding", "rightBarButtonItem"]
 - ["PSo8NSCoding", "scrollViewDidEndDecelerating"]
 - ["PSo8NSCoding", "scrollViewDidEndDragging"]
@@ -854,6 +869,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "UIView"]
 - ["PSo26NSExtensionRequestHandling", "XZQChannel"]
 - !private ["PSo26NSExtensionRequestHandling", "XZQGlobalColor"]
+- !private ["PSo26NSExtensionRequestHandling", "XZQGlobalRedColor"]
 - !private ["PSo26NSExtensionRequestHandling", "XZQNetworkTool"]
 - !private ["PSo26NSExtensionRequestHandling", "XZQTopicViewController"]
 - !private ["PSo26NSExtensionRequestHandling", "addChildViewController"]
@@ -911,6 +927,7 @@ depends-member:
 - ["CSo8NSObject", "UIView"]
 - ["CSo8NSObject", "XZQChannel"]
 - !private ["CSo8NSObject", "XZQGlobalColor"]
+- !private ["CSo8NSObject", "XZQGlobalRedColor"]
 - !private ["CSo8NSObject", "XZQNetworkTool"]
 - !private ["CSo8NSObject", "XZQTopicViewController"]
 - !private ["CSo8NSObject", "addChildViewController"]
@@ -946,6 +963,7 @@ depends-member:
 - !private ["CSo8NSObject", "loadHomeTopData"]
 - !private ["CSo8NSObject", "name"]
 - !private ["CSo8NSObject", "navigationItem"]
+- !private ["CSo8NSObject", "pagingEnabled"]
 - !private ["CSo8NSObject", "rightBarButtonItem"]
 - ["CSo8NSObject", "scrollViewDidEndDecelerating"]
 - ["CSo8NSObject", "scrollViewDidEndDragging"]
@@ -1002,6 +1020,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "UIView"]
 - ["PSo16NSObjectProtocol", "XZQChannel"]
 - !private ["PSo16NSObjectProtocol", "XZQGlobalColor"]
+- !private ["PSo16NSObjectProtocol", "XZQGlobalRedColor"]
 - !private ["PSo16NSObjectProtocol", "XZQNetworkTool"]
 - !private ["PSo16NSObjectProtocol", "XZQTopicViewController"]
 - !private ["PSo16NSObjectProtocol", "addChildViewController"]
@@ -1037,6 +1056,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "loadHomeTopData"]
 - !private ["PSo16NSObjectProtocol", "name"]
 - !private ["PSo16NSObjectProtocol", "navigationItem"]
+- !private ["PSo16NSObjectProtocol", "pagingEnabled"]
 - !private ["PSo16NSObjectProtocol", "rightBarButtonItem"]
 - ["PSo16NSObjectProtocol", "scrollViewDidEndDecelerating"]
 - ["PSo16NSObjectProtocol", "scrollViewDidEndDragging"]
@@ -1143,6 +1163,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "imageView"]
 - ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "insertSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "pagingEnabled"]
 - !private ["PSo29UIAccessibilityIdentification", "setContentOffset"]
 - !private ["PSo29UIAccessibilityIdentification", "setImage"]
 - !private ["PSo29UIAccessibilityIdentification", "setTitle"]
@@ -1171,6 +1192,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "imageView"]
 - ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "insertSubview"]
+- !private ["PSo12UIAppearance", "pagingEnabled"]
 - !private ["PSo12UIAppearance", "setContentOffset"]
 - !private ["PSo12UIAppearance", "setImage"]
 - !private ["PSo12UIAppearance", "setTitle"]
@@ -1200,6 +1222,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "UIView"]
 - ["PSo21UIAppearanceContainer", "XZQChannel"]
 - !private ["PSo21UIAppearanceContainer", "XZQGlobalColor"]
+- !private ["PSo21UIAppearanceContainer", "XZQGlobalRedColor"]
 - !private ["PSo21UIAppearanceContainer", "XZQNetworkTool"]
 - !private ["PSo21UIAppearanceContainer", "XZQTopicViewController"]
 - !private ["PSo21UIAppearanceContainer", "addChildViewController"]
@@ -1231,6 +1254,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "kTitlesViewH"]
 - !private ["PSo21UIAppearanceContainer", "kTitlesViewY"]
 - !private ["PSo21UIAppearanceContainer", "navigationItem"]
+- !private ["PSo21UIAppearanceContainer", "pagingEnabled"]
 - ["PSo21UIAppearanceContainer", "scrollViewDidEndDecelerating"]
 - ["PSo21UIAppearanceContainer", "scrollViewDidEndDragging"]
 - ["PSo21UIAppearanceContainer", "scrollViewDidEndScrollingAnimation"]
@@ -1304,6 +1328,7 @@ depends-member:
 - ["PSo18UIContentContainer", "UIView"]
 - ["PSo18UIContentContainer", "XZQChannel"]
 - !private ["PSo18UIContentContainer", "XZQGlobalColor"]
+- !private ["PSo18UIContentContainer", "XZQGlobalRedColor"]
 - !private ["PSo18UIContentContainer", "XZQNetworkTool"]
 - !private ["PSo18UIContentContainer", "XZQTopicViewController"]
 - !private ["PSo18UIContentContainer", "addChildViewController"]
@@ -1378,6 +1403,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "imageView"]
 - ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "insertSubview"]
+- !private ["PSo17UICoordinateSpace", "pagingEnabled"]
 - !private ["PSo17UICoordinateSpace", "setContentOffset"]
 - !private ["PSo17UICoordinateSpace", "setImage"]
 - !private ["PSo17UICoordinateSpace", "setTitle"]
@@ -1406,6 +1432,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "imageView"]
 - ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "insertSubview"]
+- !private ["PSo13UIDynamicItem", "pagingEnabled"]
 - !private ["PSo13UIDynamicItem", "setContentOffset"]
 - !private ["PSo13UIDynamicItem", "setImage"]
 - !private ["PSo13UIDynamicItem", "setTitle"]
@@ -1435,6 +1462,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "UIView"]
 - ["PSo18UIFocusEnvironment", "XZQChannel"]
 - !private ["PSo18UIFocusEnvironment", "XZQGlobalColor"]
+- !private ["PSo18UIFocusEnvironment", "XZQGlobalRedColor"]
 - !private ["PSo18UIFocusEnvironment", "XZQNetworkTool"]
 - !private ["PSo18UIFocusEnvironment", "XZQTopicViewController"]
 - !private ["PSo18UIFocusEnvironment", "addChildViewController"]
@@ -1466,6 +1494,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "kTitlesViewH"]
 - !private ["PSo18UIFocusEnvironment", "kTitlesViewY"]
 - !private ["PSo18UIFocusEnvironment", "navigationItem"]
+- !private ["PSo18UIFocusEnvironment", "pagingEnabled"]
 - ["PSo18UIFocusEnvironment", "scrollViewDidEndDecelerating"]
 - ["PSo18UIFocusEnvironment", "scrollViewDidEndDragging"]
 - ["PSo18UIFocusEnvironment", "scrollViewDidEndScrollingAnimation"]
@@ -1526,6 +1555,7 @@ depends-member:
 - ["CSo11UIResponder", "UIView"]
 - ["CSo11UIResponder", "XZQChannel"]
 - !private ["CSo11UIResponder", "XZQGlobalColor"]
+- !private ["CSo11UIResponder", "XZQGlobalRedColor"]
 - !private ["CSo11UIResponder", "XZQNetworkTool"]
 - !private ["CSo11UIResponder", "XZQTopicViewController"]
 - !private ["CSo11UIResponder", "addChildViewController"]
@@ -1557,6 +1587,7 @@ depends-member:
 - !private ["CSo11UIResponder", "kTitlesViewH"]
 - !private ["CSo11UIResponder", "kTitlesViewY"]
 - !private ["CSo11UIResponder", "navigationItem"]
+- !private ["CSo11UIResponder", "pagingEnabled"]
 - ["CSo11UIResponder", "scrollViewDidEndDecelerating"]
 - ["CSo11UIResponder", "scrollViewDidEndDragging"]
 - ["CSo11UIResponder", "scrollViewDidEndScrollingAnimation"]
@@ -1599,6 +1630,7 @@ depends-member:
 - !private ["CSo12UIScrollView", "frame"]
 - !private ["CSo12UIScrollView", "height"]
 - ["CSo12UIScrollView", "init"]
+- !private ["CSo12UIScrollView", "pagingEnabled"]
 - !private ["CSo12UIScrollView", "setContentOffset"]
 - !private ["CSo12UIScrollView", "width"]
 - !private ["PSo20UIScrollViewDelegate", "CGAffineTransformRotate"]
@@ -1618,6 +1650,7 @@ depends-member:
 - ["PSo20UIScrollViewDelegate", "UIView"]
 - ["PSo20UIScrollViewDelegate", "XZQChannel"]
 - !private ["PSo20UIScrollViewDelegate", "XZQGlobalColor"]
+- !private ["PSo20UIScrollViewDelegate", "XZQGlobalRedColor"]
 - !private ["PSo20UIScrollViewDelegate", "XZQNetworkTool"]
 - !private ["PSo20UIScrollViewDelegate", "XZQTopicViewController"]
 - !private ["PSo20UIScrollViewDelegate", "addChildViewController"]
@@ -1647,6 +1680,7 @@ depends-member:
 - ["PSo20UIScrollViewDelegate", "scrollViewWillEndDragging"]
 - !private ["PSo20UIScrollViewDelegate", "selectedButton"]
 - !private ["PSo20UIScrollViewDelegate", "setupContentView"]
+- !private ["PSo20UIScrollViewDelegate", "setupNav"]
 - !private ["PSo20UIScrollViewDelegate", "setupTitlesView"]
 - !private ["PSo20UIScrollViewDelegate", "title"]
 - !private ["PSo20UIScrollViewDelegate", "titlesClick"]
@@ -1672,6 +1706,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "UIView"]
 - ["PSo16UIStateRestoring", "XZQChannel"]
 - !private ["PSo16UIStateRestoring", "XZQGlobalColor"]
+- !private ["PSo16UIStateRestoring", "XZQGlobalRedColor"]
 - !private ["PSo16UIStateRestoring", "XZQNetworkTool"]
 - !private ["PSo16UIStateRestoring", "XZQTopicViewController"]
 - !private ["PSo16UIStateRestoring", "addChildViewController"]
@@ -1738,6 +1773,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "UIView"]
 - ["PSo18UITraitEnvironment", "XZQChannel"]
 - !private ["PSo18UITraitEnvironment", "XZQGlobalColor"]
+- !private ["PSo18UITraitEnvironment", "XZQGlobalRedColor"]
 - !private ["PSo18UITraitEnvironment", "XZQNetworkTool"]
 - !private ["PSo18UITraitEnvironment", "XZQTopicViewController"]
 - !private ["PSo18UITraitEnvironment", "addChildViewController"]
@@ -1769,6 +1805,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "kTitlesViewH"]
 - !private ["PSo18UITraitEnvironment", "kTitlesViewY"]
 - !private ["PSo18UITraitEnvironment", "navigationItem"]
+- !private ["PSo18UITraitEnvironment", "pagingEnabled"]
 - ["PSo18UITraitEnvironment", "scrollViewDidEndDecelerating"]
 - ["PSo18UITraitEnvironment", "scrollViewDidEndDragging"]
 - ["PSo18UITraitEnvironment", "scrollViewDidEndScrollingAnimation"]
@@ -1822,6 +1859,7 @@ depends-member:
 - !private ["CSo6UIView", "imageView"]
 - ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "insertSubview"]
+- !private ["CSo6UIView", "pagingEnabled"]
 - !private ["CSo6UIView", "setContentOffset"]
 - !private ["CSo6UIView", "setImage"]
 - !private ["CSo6UIView", "setTitle"]
@@ -1851,6 +1889,7 @@ depends-member:
 - ["CSo16UIViewController", "UIView"]
 - ["CSo16UIViewController", "XZQChannel"]
 - !private ["CSo16UIViewController", "XZQGlobalColor"]
+- !private ["CSo16UIViewController", "XZQGlobalRedColor"]
 - !private ["CSo16UIViewController", "XZQNetworkTool"]
 - !private ["CSo16UIViewController", "XZQTopicViewController"]
 - !private ["CSo16UIViewController", "addChildViewController"]
@@ -1907,6 +1946,7 @@ depends-member:
 - ["C18DanTangFromQuanzai21XZQBaseViewController", "UIView"]
 - ["C18DanTangFromQuanzai21XZQBaseViewController", "XZQChannel"]
 - !private ["C18DanTangFromQuanzai21XZQBaseViewController", "XZQGlobalColor"]
+- !private ["C18DanTangFromQuanzai21XZQBaseViewController", "XZQGlobalRedColor"]
 - !private ["C18DanTangFromQuanzai21XZQBaseViewController", "XZQNetworkTool"]
 - !private ["C18DanTangFromQuanzai21XZQBaseViewController", "XZQTopicViewController"]
 - !private ["C18DanTangFromQuanzai21XZQBaseViewController", "addChildViewController"]
@@ -1964,6 +2004,7 @@ depends-member:
 - ["C18DanTangFromQuanzai24XZQDanTangViewController", "UIView"]
 - ["C18DanTangFromQuanzai24XZQDanTangViewController", "XZQChannel"]
 - !private ["C18DanTangFromQuanzai24XZQDanTangViewController", "XZQGlobalColor"]
+- !private ["C18DanTangFromQuanzai24XZQDanTangViewController", "XZQGlobalRedColor"]
 - !private ["C18DanTangFromQuanzai24XZQDanTangViewController", "XZQNetworkTool"]
 - !private ["C18DanTangFromQuanzai24XZQDanTangViewController", "XZQTopicViewController"]
 - !private ["C18DanTangFromQuanzai24XZQDanTangViewController", "addChildViewController"]
@@ -2086,6 +2127,7 @@ depends-member:
 - !private ["Ps12_Reflectable", "imageView"]
 - ["Ps12_Reflectable", "init"]
 - !private ["Ps12_Reflectable", "insertSubview"]
+- !private ["Ps12_Reflectable", "pagingEnabled"]
 - !private ["Ps12_Reflectable", "setContentOffset"]
 - !private ["Ps12_Reflectable", "setImage"]
 - !private ["Ps12_Reflectable", "setTitle"]

@@ -8,12 +8,12 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "UIImageView"
-- "Void"
-- "UIViewAnimationOptions"
-- "Bool"
 - "UIImage"
-- "NSTimeInterval"
+- "Void"
+- "Bool"
+- "UIViewAnimationOptions"
 - "ImageTransition"
+- "NSTimeInterval"
 depends-member:
 - !private ["Ps9AnyObject", "image"]
 - !private ["Ps23ArrayLiteralConvertible", "TransitionCrossDissolve"]

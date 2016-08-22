@@ -5,15 +5,9 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XZQRefreshView" customModule="DanTangFromQuanzai" customModuleProvider="target">
-            <connections>
-                <outlet property="arrowIcon" destination="kIe-hW-FE1" id="SEp-mt-aQT"/>
-                <outlet property="loadingView" destination="ZPY-Oj-ALC" id="Jzr-bd-03E"/>
-                <outlet property="tipView" destination="mLn-Bk-adt" id="IlG-Eq-1KQ"/>
-            </connections>
-        </placeholder>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="a77-HZ-nng">
+        <view contentMode="scaleToFill" id="a77-HZ-nng" customClass="XZQRefreshView" customModule="DanTangFromQuanzai" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="170" height="60"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
@@ -71,6 +65,11 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="arrowIcon" destination="kIe-hW-FE1" id="axL-Qc-Ifm"/>
+                <outlet property="loadingView" destination="ZPY-Oj-ALC" id="OFn-y4-zYU"/>
+                <outlet property="tipView" destination="mLn-Bk-adt" id="Ywb-hW-wBw"/>
+            </connections>
             <point key="canvasLocation" x="127" y="166"/>
         </view>
     </objects>

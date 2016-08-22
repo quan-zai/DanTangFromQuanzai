@@ -25,23 +25,23 @@ provides-member:
 - ["Ps14CollectionType", "scaleFactor"]
 provides-dynamic-lookup:
 depends-top-level:
-- "ImageCache"
-- "dispatch_queue_t"
-- !private "!"
-- !private "dispatch_get_main_queue"
-- "CGFloat"
 - "CollectionType"
-- !private "??"
-- !private "BooleanLiteralType"
+- "ImageTransition"
+- !private "NSURLSessionTaskPriorityDefault"
 - "KingfisherOptionsInfoItem"
 - "KingfisherOptionsInfo"
-- "<=="
-- !private "NSURLSessionTaskPriorityDefault"
-- "Bool"
 - "KingfisherEmptyOptionsInfo"
 - "Float"
-- "ImageTransition"
+- "<=="
 - "ImageDownloader"
+- !private "BooleanLiteralType"
+- "dispatch_queue_t"
+- !private "dispatch_get_main_queue"
+- "ImageCache"
+- "CGFloat"
+- !private "??"
+- "Bool"
+- !private "!"
 depends-member:
 - ["Sa", "Generator"]
 - ["Sa", "Index"]

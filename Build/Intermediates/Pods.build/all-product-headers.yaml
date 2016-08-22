@@ -122,6 +122,33 @@
     },
     {
       'type': 'directory',
+      'name': "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RAMAnimatedTabBarController-Swift.h",
+          'external-contents': "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers/RAMAnimatedTabBarController-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RAMAnimatedTabBarController-umbrella.h",
+          'external-contents': "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Intermediates/Pods.build/Debug-iphonesimulator/RAMAnimatedTabBarController.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers",
       'contents': [
         {

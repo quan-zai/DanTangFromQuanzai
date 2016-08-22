@@ -7,17 +7,17 @@ provides-member:
 - ["V9Alamofire8Timeline", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "CFAbsoluteTime"
-- "FloatLiteralType"
-- !private "Array"
-- !private "-"
-- "CustomStringConvertible"
-- "Timeline"
-- "NSTimeInterval"
+- "String"
 - !private "+"
+- "CustomStringConvertible"
 - "CustomDebugStringConvertible"
 - !private "StringLiteralType"
-- "String"
+- "CFAbsoluteTime"
+- "NSTimeInterval"
+- "Timeline"
+- !private "Array"
+- "FloatLiteralType"
+- !private "-"
 depends-member:
 - !private ["Sa", "Element"]
 - !private ["Sa", "Generator"]

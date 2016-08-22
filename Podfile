@@ -9,6 +9,7 @@ target 'DanTangFromQuanzai' do
   pod 'FDFullscreenPopGesture', '~> 1.1'
   pod 'Alamofire'
   pod 'SwiftyJSON'
+  pod 'RAMAnimatedTabBarController'
 end
 
 

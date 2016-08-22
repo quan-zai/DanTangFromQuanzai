@@ -2,6 +2,7 @@ PODS:
   - Alamofire (3.4.1)
   - FDFullscreenPopGesture (1.1)
   - Kingfisher (2.4.1)
+  - RAMAnimatedTabBarController (1.5.3)
   - SnapKit (0.21.1)
   - SVProgressHUD (2.0.3)
   - SwiftyJSON (2.3.2)
@@ -10,6 +11,7 @@ DEPENDENCIES:
   - Alamofire
   - FDFullscreenPopGesture (~> 1.1)
   - Kingfisher
+  - RAMAnimatedTabBarController
   - SnapKit
   - SVProgressHUD
   - SwiftyJSON
@@ -18,10 +20,11 @@ SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   Kingfisher: 41aed5b6c1ed8fa98cf6d75283ce89cf7890f517
+  RAMAnimatedTabBarController: 04b624cf8958a0032bf7fa9c0f2c515f59d30b9c
   SnapKit: bbad04cb016c7cead63965f16b00c09318d271ee
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-PODFILE CHECKSUM: 2d39d7dea4dea3e5eede80d17c59265276af173b
+PODFILE CHECKSUM: 1df9f2c7eb6ed667d52e6ebb761f6cd0ff6ccc75
 
 COCOAPODS: 1.0.0

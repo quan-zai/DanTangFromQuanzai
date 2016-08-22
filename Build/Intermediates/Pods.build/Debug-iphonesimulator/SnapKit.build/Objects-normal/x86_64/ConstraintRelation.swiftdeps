@@ -7,11 +7,11 @@ provides-member:
 - ["O7SnapKit18ConstraintRelation", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "=="
+- !private "~="
+- "ConstraintRelation"
 - "NSLayoutRelation"
 - "Int"
-- !private "~="
-- "=="
-- "ConstraintRelation"
 depends-member:
 - !private ["Ps22BidirectionalIndexType", "Distance"]
 - !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]

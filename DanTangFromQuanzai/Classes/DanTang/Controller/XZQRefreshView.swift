@@ -46,6 +46,7 @@ class XZQRefreshView: UIView {
     
     // 类方法
     class func refreshView() -> XZQRefreshView {
-        return NSBundle.mainBundle().loadNibNamed(String(self), owner: nil, options: nil).last as! XZQRefreshView
+        let temp = NSBundle.mainBundle().loadNibNamed(String(self), owner: nil, options: nil).last as! XZQRefreshView
+        return temp
     }
 }
