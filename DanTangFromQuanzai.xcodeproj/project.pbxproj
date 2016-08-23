@@ -28,6 +28,8 @@
 		C3291CD01D5AD1C1009EEDDD /* XZQGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3291CCF1D5AD1C1009EEDDD /* XZQGroup.swift */; };
 		C3291CD21D5AD758009EEDDD /* XZQNewfeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3291CD11D5AD758009EEDDD /* XZQNewfeatureViewController.swift */; };
 		C3291CD41D5AD7DA009EEDDD /* XZQTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3291CD31D5AD7DA009EEDDD /* XZQTabBarController.swift */; };
+		C356BDB01D6C4D5900BE954D /* XZQCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356BDAE1D6C4D5900BE954D /* XZQCollectionViewCell.swift */; };
+		C356BDB11D6C4D5900BE954D /* XZQCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C356BDAF1D6C4D5900BE954D /* XZQCollectionViewCell.xib */; };
 		C35C70851D5C727A00316B28 /* XZQNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C70841D5C727A00316B28 /* XZQNavigationController.swift */; };
 		C35C70871D5C7AF400316B28 /* XZQBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C70861D5C7AF400316B28 /* XZQBaseViewController.swift */; };
 		C35C70891D5C7B2A00316B28 /* XZQDanTangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C70881D5C7B2A00316B28 /* XZQDanTangViewController.swift */; };
@@ -84,6 +86,8 @@
 		C3291CCF1D5AD1C1009EEDDD /* XZQGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQGroup.swift; sourceTree = "<group>"; };
 		C3291CD11D5AD758009EEDDD /* XZQNewfeatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQNewfeatureViewController.swift; sourceTree = "<group>"; };
 		C3291CD31D5AD7DA009EEDDD /* XZQTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQTabBarController.swift; sourceTree = "<group>"; };
+		C356BDAE1D6C4D5900BE954D /* XZQCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQCollectionViewCell.swift; sourceTree = "<group>"; };
+		C356BDAF1D6C4D5900BE954D /* XZQCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XZQCollectionViewCell.xib; sourceTree = "<group>"; };
 		C35C70841D5C727A00316B28 /* XZQNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQNavigationController.swift; sourceTree = "<group>"; };
 		C35C70861D5C7AF400316B28 /* XZQBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQBaseViewController.swift; sourceTree = "<group>"; };
 		C35C70881D5C7B2A00316B28 /* XZQDanTangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQDanTangViewController.swift; sourceTree = "<group>"; };
@@ -182,6 +186,8 @@
 		C3291CC41D5AD062009EEDDD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C356BDAE1D6C4D5900BE954D /* XZQCollectionViewCell.swift */,
+				C356BDAF1D6C4D5900BE954D /* XZQCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -541,6 +547,7 @@
 			files = (
 				744C01BA1D6039DD007762B1 /* XZQHomeCell.xib in Resources */,
 				744C01B21D5EB3B0007762B1 /* XZQRefreshView.xib in Resources */,
+				C356BDB11D6C4D5900BE954D /* XZQCollectionViewCell.xib in Resources */,
 				74DC18BD1D5D586A00D57FD8 /* Info.plist in Resources */,
 				C3B36EC81D59E1A30035D19E /* Assets.xcassets in Resources */,
 				C3C9C9FB1D61A58D007AF0BC /* XZQLoginViewController.xib in Resources */,
@@ -636,6 +643,7 @@
 				C35C70871D5C7AF400316B28 /* XZQBaseViewController.swift in Sources */,
 				C35C708D1D5C7BC200316B28 /* XZQCategoryViewController.swift in Sources */,
 				C3291CCC1D5AD150009EEDDD /* XZQCollection.swift in Sources */,
+				C356BDB01D6C4D5900BE954D /* XZQCollectionViewCell.swift in Sources */,
 				C3C9C9F51D619D24007AF0BC /* XZQDetailViewController.swift in Sources */,
 				744C01AA1D5EAD01007762B1 /* XZQRefreshControl.swift in Sources */,
 				C3291CC01D5ACFB4009EEDDD /* XZQSearchResult.swift in Sources */,

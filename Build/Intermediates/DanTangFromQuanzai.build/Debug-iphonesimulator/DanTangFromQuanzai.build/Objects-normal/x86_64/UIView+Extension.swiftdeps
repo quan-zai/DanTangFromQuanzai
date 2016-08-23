@@ -12,24 +12,24 @@ provides-member:
 - ["CSo6UIView", "centerX"]
 - ["CSo6UIView", "centerY"]
 provides-dynamic-lookup:
-- "x"
-- "width"
-- "size"
-- "clipRectCorner"
-- "centerY"
 - "height"
+- "centerY"
+- "width"
 - "centerX"
 - "y"
+- "size"
+- "clipRectCorner"
+- "x"
 depends-top-level:
-- "CGFloat"
 - !private "CGPoint"
-- !private "CAShapeLayer"
 - "UIView"
+- "CGFloat"
+- !private "UIBezierPath"
+- !private "CAShapeLayer"
 - "UIRectCorner"
+- !private "CGRect"
 - "CGSize"
 - !private "CGSizeMake"
-- !private "UIBezierPath"
-- !private "CGRect"
 depends-member:
 - !private ["Ps9AnyObject", "CAShapeLayer"]
 - !private ["Ps9AnyObject", "CGPath"]
@@ -383,10 +383,6 @@ depends-external:
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
-- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Modules/RAMAnimatedTabBarController.swiftmodule/x86_64.swiftmodule"
-- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers/RAMAnimatedTabBarController-Swift.h"
-- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers/RAMAnimatedTabBarController-umbrella.h"
-- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Modules/module.modulemap"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"

@@ -6,55 +6,54 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai24XZQDanTangViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
-- "setupTitlesView"
-- "setupContentView"
-- "channels"
-- "titlesClick"
-- "dantangRightButtonClick"
-- "scrollViewDidEndDecelerating"
-- "titlesView"
-- "scrollViewDidEndScrollingAnimation"
 - "contentView"
-- "indicatorView"
+- "scrollViewDidEndDecelerating"
 - "arrowButtonClick"
+- "setupContentView"
+- "scrollViewDidEndScrollingAnimation"
+- "titlesClick"
+- "titlesView"
+- "channels"
+- "dantangRightButtonClick"
+- "viewDidLoad"
 - "selectedButton"
+- "setupTitlesView"
 - "setupNav"
+- "indicatorView"
 depends-top-level:
-- !private "CGFloat"
-- "XZQChannel"
 - "XZQDanTangViewController"
-- "UIButton"
 - !private "SCREENW"
-- !private "/"
-- !private "XZQGlobalRedColor"
-- !private "Int"
-- !private "kIndicatorViewH"
-- !private "..<"
-- !private "CGAffineTransformRotate"
-- !private "kTitlesViewY"
-- "UIScrollViewDelegate"
-- !private "XZQNetworkTool"
-- !private "-"
-- !private "UIImage"
-- !private "UIColor"
-- !private "XZQGlobalColor"
-- !private "BooleanLiteralType"
-- !private "UIBarButtonItem"
-- !private "M_PI"
-- !private "UIFont"
-- !private "SCREENH"
-- "UIView"
-- !private "CGRectMake"
-- "UIScrollView"
-- !private "=="
-- !private "XZQTopicViewController"
-- !private "StringLiteralType"
-- !private "kAnimationDuration"
-- "XZQBaseViewController"
-- !private "kTitlesViewH"
-- !private "CGSizeMake"
 - !private "*"
+- !private "CGFloat"
+- "XZQBaseViewController"
+- !private "UIFont"
+- !private "XZQGlobalRedColor"
+- !private "UIBarButtonItem"
+- !private "Int"
+- "UIButton"
+- !private "kTitlesViewY"
+- !private "BooleanLiteralType"
+- !private "CGAffineTransformRotate"
+- "UIScrollViewDelegate"
+- !private "-"
+- !private "..<"
+- !private "UIImage"
+- !private "/"
+- !private "XZQGlobalColor"
+- !private "XZQNetworkTool"
+- !private "=="
+- !private "M_PI"
+- "XZQChannel"
+- !private "XZQTopicViewController"
+- !private "CGRectMake"
+- "UIView"
+- !private "kIndicatorViewH"
+- !private "StringLiteralType"
+- !private "UIColor"
+- !private "CGSizeMake"
+- !private "kAnimationDuration"
+- "UIScrollView"
+- !private "kTitlesViewH"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps9AnyObject", "CGAffineTransformRotate"]
@@ -63,7 +62,6 @@ depends-member:
 - !private ["Ps9AnyObject", "CGSizeMake"]
 - !private ["Ps9AnyObject", "Int"]
 - !private ["Ps9AnyObject", "M_PI"]
-- !private ["Ps9AnyObject", "SCREENH"]
 - !private ["Ps9AnyObject", "SCREENW"]
 - !private ["Ps9AnyObject", "UIBarButtonItem"]
 - ["Ps9AnyObject", "UIButton"]
@@ -193,7 +191,6 @@ depends-member:
 - !private ["Ps11CVarArgType", "Int"]
 - ["Ps11CVarArgType", "IntegerLiteralType"]
 - !private ["Ps11CVarArgType", "M_PI"]
-- !private ["Ps11CVarArgType", "SCREENH"]
 - !private ["Ps11CVarArgType", "SCREENW"]
 - !private ["Ps11CVarArgType", "UIBarButtonItem"]
 - ["Ps11CVarArgType", "UIButton"]
@@ -301,7 +298,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "Index"]
 - !private ["Ps28CustomDebugStringConvertible", "Int"]
 - !private ["Ps28CustomDebugStringConvertible", "M_PI"]
-- !private ["Ps28CustomDebugStringConvertible", "SCREENH"]
 - !private ["Ps28CustomDebugStringConvertible", "SCREENW"]
 - ["Ps28CustomDebugStringConvertible", "SubSequence"]
 - !private ["Ps28CustomDebugStringConvertible", "UIBarButtonItem"]
@@ -403,7 +399,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "Int"]
 - ["Ps23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["Ps23CustomStringConvertible", "M_PI"]
-- !private ["Ps23CustomStringConvertible", "SCREENH"]
 - !private ["Ps23CustomStringConvertible", "SCREENW"]
 - ["Ps23CustomStringConvertible", "SubSequence"]
 - !private ["Ps23CustomStringConvertible", "UIBarButtonItem"]
@@ -509,7 +504,6 @@ depends-member:
 - !private ["Ps9Equatable", "M_PI"]
 - !private ["Ps9Equatable", "Normal"]
 - !private ["Ps9Equatable", "Plain"]
-- !private ["Ps9Equatable", "SCREENH"]
 - !private ["Ps9Equatable", "SCREENW"]
 - !private ["Ps9Equatable", "TouchUpInside"]
 - !private ["Ps9Equatable", "UIBarButtonItem"]
@@ -617,7 +611,6 @@ depends-member:
 - ["Ps8Hashable", "IntegerLiteralType"]
 - !private ["Ps8Hashable", "M_PI"]
 - !private ["Ps8Hashable", "Plain"]
-- !private ["Ps8Hashable", "SCREENH"]
 - !private ["Ps8Hashable", "SCREENW"]
 - !private ["Ps8Hashable", "UIBarButtonItem"]
 - ["Ps8Hashable", "UIButton"]
@@ -766,7 +759,6 @@ depends-member:
 - !private ["PSo8NSCoding", "CGSizeMake"]
 - !private ["PSo8NSCoding", "Int"]
 - !private ["PSo8NSCoding", "M_PI"]
-- !private ["PSo8NSCoding", "SCREENH"]
 - !private ["PSo8NSCoding", "SCREENW"]
 - !private ["PSo8NSCoding", "UIBarButtonItem"]
 - ["PSo8NSCoding", "UIButton"]
@@ -858,7 +850,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "CGSizeMake"]
 - !private ["PSo26NSExtensionRequestHandling", "Int"]
 - !private ["PSo26NSExtensionRequestHandling", "M_PI"]
-- !private ["PSo26NSExtensionRequestHandling", "SCREENH"]
 - !private ["PSo26NSExtensionRequestHandling", "SCREENW"]
 - !private ["PSo26NSExtensionRequestHandling", "UIBarButtonItem"]
 - ["PSo26NSExtensionRequestHandling", "UIButton"]
@@ -916,7 +907,6 @@ depends-member:
 - !private ["CSo8NSObject", "CGSizeMake"]
 - !private ["CSo8NSObject", "Int"]
 - !private ["CSo8NSObject", "M_PI"]
-- !private ["CSo8NSObject", "SCREENH"]
 - !private ["CSo8NSObject", "SCREENW"]
 - !private ["CSo8NSObject", "UIBarButtonItem"]
 - ["CSo8NSObject", "UIButton"]
@@ -1009,7 +999,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "CGSizeMake"]
 - !private ["PSo16NSObjectProtocol", "Int"]
 - !private ["PSo16NSObjectProtocol", "M_PI"]
-- !private ["PSo16NSObjectProtocol", "SCREENH"]
 - !private ["PSo16NSObjectProtocol", "SCREENW"]
 - !private ["PSo16NSObjectProtocol", "UIBarButtonItem"]
 - ["PSo16NSObjectProtocol", "UIButton"]
@@ -1211,7 +1200,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "CGSizeMake"]
 - !private ["PSo21UIAppearanceContainer", "Int"]
 - !private ["PSo21UIAppearanceContainer", "M_PI"]
-- !private ["PSo21UIAppearanceContainer", "SCREENH"]
 - !private ["PSo21UIAppearanceContainer", "SCREENW"]
 - !private ["PSo21UIAppearanceContainer", "UIBarButtonItem"]
 - ["PSo21UIAppearanceContainer", "UIButton"]
@@ -1317,7 +1305,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "CGSizeMake"]
 - !private ["PSo18UIContentContainer", "Int"]
 - !private ["PSo18UIContentContainer", "M_PI"]
-- !private ["PSo18UIContentContainer", "SCREENH"]
 - !private ["PSo18UIContentContainer", "SCREENW"]
 - !private ["PSo18UIContentContainer", "UIBarButtonItem"]
 - ["PSo18UIContentContainer", "UIButton"]
@@ -1451,7 +1438,6 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "CGSizeMake"]
 - !private ["PSo18UIFocusEnvironment", "Int"]
 - !private ["PSo18UIFocusEnvironment", "M_PI"]
-- !private ["PSo18UIFocusEnvironment", "SCREENH"]
 - !private ["PSo18UIFocusEnvironment", "SCREENW"]
 - !private ["PSo18UIFocusEnvironment", "UIBarButtonItem"]
 - ["PSo18UIFocusEnvironment", "UIButton"]
@@ -1544,7 +1530,6 @@ depends-member:
 - !private ["CSo11UIResponder", "CGSizeMake"]
 - !private ["CSo11UIResponder", "Int"]
 - !private ["CSo11UIResponder", "M_PI"]
-- !private ["CSo11UIResponder", "SCREENH"]
 - !private ["CSo11UIResponder", "SCREENW"]
 - !private ["CSo11UIResponder", "UIBarButtonItem"]
 - ["CSo11UIResponder", "UIButton"]
@@ -1639,7 +1624,6 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "CGSizeMake"]
 - !private ["PSo20UIScrollViewDelegate", "Int"]
 - !private ["PSo20UIScrollViewDelegate", "M_PI"]
-- !private ["PSo20UIScrollViewDelegate", "SCREENH"]
 - !private ["PSo20UIScrollViewDelegate", "SCREENW"]
 - !private ["PSo20UIScrollViewDelegate", "UIBarButtonItem"]
 - ["PSo20UIScrollViewDelegate", "UIButton"]
@@ -1695,7 +1679,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "CGSizeMake"]
 - !private ["PSo16UIStateRestoring", "Int"]
 - !private ["PSo16UIStateRestoring", "M_PI"]
-- !private ["PSo16UIStateRestoring", "SCREENH"]
 - !private ["PSo16UIStateRestoring", "SCREENW"]
 - !private ["PSo16UIStateRestoring", "UIBarButtonItem"]
 - ["PSo16UIStateRestoring", "UIButton"]
@@ -1762,7 +1745,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "CGSizeMake"]
 - !private ["PSo18UITraitEnvironment", "Int"]
 - !private ["PSo18UITraitEnvironment", "M_PI"]
-- !private ["PSo18UITraitEnvironment", "SCREENH"]
 - !private ["PSo18UITraitEnvironment", "SCREENW"]
 - !private ["PSo18UITraitEnvironment", "UIBarButtonItem"]
 - ["PSo18UITraitEnvironment", "UIButton"]
@@ -1878,7 +1860,6 @@ depends-member:
 - !private ["CSo16UIViewController", "CGSizeMake"]
 - !private ["CSo16UIViewController", "Int"]
 - !private ["CSo16UIViewController", "M_PI"]
-- !private ["CSo16UIViewController", "SCREENH"]
 - !private ["CSo16UIViewController", "SCREENW"]
 - !private ["CSo16UIViewController", "UIBarButtonItem"]
 - ["CSo16UIViewController", "UIButton"]
@@ -1935,7 +1916,6 @@ depends-member:
 - !private ["C18DanTangFromQuanzai21XZQBaseViewController", "CGSizeMake"]
 - !private ["C18DanTangFromQuanzai21XZQBaseViewController", "Int"]
 - !private ["C18DanTangFromQuanzai21XZQBaseViewController", "M_PI"]
-- !private ["C18DanTangFromQuanzai21XZQBaseViewController", "SCREENH"]
 - !private ["C18DanTangFromQuanzai21XZQBaseViewController", "SCREENW"]
 - !private ["C18DanTangFromQuanzai21XZQBaseViewController", "UIBarButtonItem"]
 - ["C18DanTangFromQuanzai21XZQBaseViewController", "UIButton"]
@@ -1993,7 +1973,6 @@ depends-member:
 - !private ["C18DanTangFromQuanzai24XZQDanTangViewController", "CGSizeMake"]
 - !private ["C18DanTangFromQuanzai24XZQDanTangViewController", "Int"]
 - !private ["C18DanTangFromQuanzai24XZQDanTangViewController", "M_PI"]
-- !private ["C18DanTangFromQuanzai24XZQDanTangViewController", "SCREENH"]
 - !private ["C18DanTangFromQuanzai24XZQDanTangViewController", "SCREENW"]
 - !private ["C18DanTangFromQuanzai24XZQDanTangViewController", "UIBarButtonItem"]
 - ["C18DanTangFromQuanzai24XZQDanTangViewController", "UIButton"]

@@ -6,16 +6,16 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai21XZQBaseViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
 - "viewDidLoad"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- !private "BooleanLiteralType"
-- "UIViewController"
-- !private "SVProgressHUD"
-- !private "SVProgressHUDStyle"
 - "XZQBaseViewController"
 - !private "XZQGlobalColor"
+- "UIViewController"
+- !private "BooleanLiteralType"
+- !private "SVProgressHUD"
 - !private "UIColor"
+- !private "SVProgressHUDStyle"
 depends-member:
 - !private ["Ps9AnyObject", "SVProgressHUD"]
 - !private ["Ps9AnyObject", "SVProgressHUDStyle"]
@@ -389,10 +389,6 @@ depends-external:
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
-- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Modules/RAMAnimatedTabBarController.swiftmodule/x86_64.swiftmodule"
-- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers/RAMAnimatedTabBarController-Swift.h"
-- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers/RAMAnimatedTabBarController-umbrella.h"
-- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Modules/module.modulemap"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"

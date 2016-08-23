@@ -6,26 +6,26 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai22XZQLoginViewController", ""]
 provides-dynamic-lookup:
+- "regiisterButtonClick"
 - "forgetPwdBtn"
 - "loginButtonClick"
-- "regiisterButtonClick"
 - "passwordField"
-- "otherLoginButtonClick"
-- "loginButton"
 - "viewDidLoad"
-- "cancelButtonClick"
+- "loginButton"
 - "mobileField"
+- "otherLoginButtonClick"
+- "cancelButtonClick"
 depends-top-level:
-- !private "isLogin"
-- "AnyObject"
-- "XZQLoginViewController"
-- !private "XZQOtherLoginButtonType"
-- "UITextField"
-- !private "UIBarButtonItem"
 - "XZQBaseViewController"
-- !private "BooleanLiteralType"
+- !private "isLogin"
+- "UITextField"
+- "XZQLoginViewController"
 - "UIButton"
+- !private "BooleanLiteralType"
+- !private "XZQOtherLoginButtonType"
+- "AnyObject"
 - !private "NSUserDefaults"
+- !private "UIBarButtonItem"
 depends-member:
 - !private ["Ps9AnyObject", "NSUserDefaults"]
 - !private ["Ps9AnyObject", "UIBarButtonItem"]
@@ -492,10 +492,6 @@ depends-external:
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
-- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Modules/RAMAnimatedTabBarController.swiftmodule/x86_64.swiftmodule"
-- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers/RAMAnimatedTabBarController-Swift.h"
-- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers/RAMAnimatedTabBarController-umbrella.h"
-- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Modules/module.modulemap"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"

@@ -9,19 +9,19 @@ provides-member:
 - ["C18DanTangFromQuanzai10XZQComment", ""]
 - ["C18DanTangFromQuanzai4User", ""]
 provides-dynamic-lookup:
-- "content"
-- "nickname"
-- "avatar_url"
 - "user"
+- "nickname"
+- "content"
+- "avatar_url"
 depends-top-level:
-- "Int"
 - "Bool"
 - "User"
-- "String"
-- !private "StringLiteralType"
 - "NSObject"
-- "XZQComment"
 - "AnyObject"
+- "XZQComment"
+- "String"
+- "Int"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "User"]
 - ["Ps9AnyObject", "avatar_url"]

@@ -7,46 +7,46 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai22XZQTopicViewController", ""]
 provides-dynamic-lookup:
-- "type"
-- "items"
-- "loadHomeData"
-- "homeCellDidClickedFavoriteButton"
-- "setupTableView"
-- "viewDidLoad"
-- "tableView"
-- "tableView"
-- "tableView"
 - "didReceiveMemoryWarning"
+- "type"
+- "homeCellDidClickedFavoriteButton"
+- "tableView"
+- "tableView"
+- "tableView"
+- "viewDidLoad"
+- "loadHomeData"
+- "items"
+- "setupTableView"
 depends-top-level:
+- !private "UIEdgeInsetsMake"
 - !private "XZQRefreshControl"
-- !private "kTitlesViewY"
-- "XZQHomeItem"
 - !private "String"
-- !private "XZQNetworkTool"
-- "UITableViewController"
-- !private "+"
-- !private "isLogin"
-- "UIButton"
+- "StringLiteralType"
 - !private "XZQDetailViewController"
-- !private "BooleanLiteralType"
+- !private "UINib"
+- !private "isLogin"
+- "XZQTopicViewController"
+- "UIButton"
 - "UITableView"
 - !private "XZQGlobalColor"
-- "homeCellID"
-- "XZQHomeCellDelegate"
-- !private "XZQNavigationController"
-- !private "kTitlesViewH"
-- !private "UINib"
-- "NSIndexPath"
-- !private "NSUserDefaults"
+- !private "XZQNetworkTool"
+- !private "kTitlesViewY"
+- !private "BooleanLiteralType"
 - !private "XZQHomeCell"
-- !private "??"
-- "StringLiteralType"
-- "Int"
-- !private "UIEdgeInsetsMake"
-- !private "XZQLoginViewController"
 - !private "!"
-- "XZQTopicViewController"
+- "NSIndexPath"
+- "homeCellID"
+- !private "??"
+- "XZQHomeCellDelegate"
+- !private "+"
+- "UITableViewController"
+- !private "XZQNavigationController"
 - "UITableViewCell"
+- "Int"
+- "XZQHomeItem"
+- !private "kTitlesViewH"
+- !private "XZQLoginViewController"
+- !private "NSUserDefaults"
 depends-member:
 - ["Ps9AnyObject", "Int"]
 - !private ["Ps9AnyObject", "NSUserDefaults"]
@@ -1010,6 +1010,7 @@ depends-member:
 - !private ["CSo11UIResponder", "view"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["CSo12UIScrollView", "contentInset"]
+- !private ["CSo12UIScrollView", "delegate"]
 - !private ["CSo12UIScrollView", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo12UIScrollView", "registerNib"]
 - !private ["CSo12UIScrollView", "reloadData"]
@@ -1088,6 +1089,7 @@ depends-member:
 - !private ["CSo18UITabBarController", "tabBar"]
 - !private ["PSo16UITabBarDelegate", "tabBar"]
 - !private ["CSo11UITableView", "contentInset"]
+- !private ["CSo11UITableView", "delegate"]
 - !private ["CSo11UITableView", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo11UITableView", "registerNib"]
 - !private ["CSo11UITableView", "reloadData"]
@@ -1594,10 +1596,6 @@ depends-external:
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
-- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Modules/RAMAnimatedTabBarController.swiftmodule/x86_64.swiftmodule"
-- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers/RAMAnimatedTabBarController-Swift.h"
-- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Headers/RAMAnimatedTabBarController-umbrella.h"
-- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework/Modules/module.modulemap"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"

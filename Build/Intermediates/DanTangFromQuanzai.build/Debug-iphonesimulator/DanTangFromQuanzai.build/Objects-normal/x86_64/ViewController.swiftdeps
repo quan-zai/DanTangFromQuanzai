@@ -6,8 +6,8 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai14ViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
 - "viewDidLoad"
+- "didReceiveMemoryWarning"
 depends-top-level:
 - "UIViewController"
 - "ViewController"

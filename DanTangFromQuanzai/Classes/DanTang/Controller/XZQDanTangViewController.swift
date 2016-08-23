@@ -50,7 +50,7 @@ class XZQDanTangViewController: XZQBaseViewController
     func setupTitlesView() {
         // 顶部背景
         let bgView = UIView()
-        bgView.frame = CGRectMake(0, kTitlesViewY, SCREENW, SCREENH)
+        bgView.frame = CGRectMake(0, kTitlesViewY, SCREENW, kTitlesViewH)
         view.addSubview(bgView)
         
         // 标签
@@ -67,8 +67,6 @@ class XZQDanTangViewController: XZQBaseViewController
         indicatorView.y = kTitlesViewH - kIndicatorViewH
         indicatorView.tag = -1
         self.indicatorView = indicatorView
-        
-        titlesView.addSubview(indicatorView)
         
         // 选择按钮
         let arrowButton = UIButton()
@@ -108,6 +106,9 @@ class XZQDanTangViewController: XZQBaseViewController
                 indicatorView.centerX = button.centerX
             }
         }
+        
+        // 底部红色指示器
+        titlesView.addSubview(indicatorView)
     }
     
     // 箭头按钮点击
@@ -136,7 +137,7 @@ class XZQDanTangViewController: XZQBaseViewController
         contentView!.setContentOffset(offSet, animated: true)
     }
     
-    // 底部的scrollView
+    // 提供横向滚动的scrollView
     func setupContentView() {
         // 不要自动调整inset
         automaticallyAdjustsScrollViewInsets = false

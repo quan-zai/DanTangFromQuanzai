@@ -50,6 +50,7 @@ class XZQTopicViewController: UITableViewController {
         tableView.separatorColor = .None
         tableView.contentInset = UIEdgeInsetsMake(kTitlesViewY + kTitlesViewH, 0, tabBarController!.tabBar.height, 0)
         tableView.scrollIndicatorInsets = tableView.contentInset
+        tableView.delegate = self;
         
         let nib = UINib(nibName: String(XZQHomeCell), bundle: nil)
         tableView.registerNib(nib, forCellReuseIdentifier: homeCellID)
