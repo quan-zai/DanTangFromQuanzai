@@ -8,19 +8,19 @@ provides-member:
 provides-dynamic-lookup:
 - "viewDidLoad"
 depends-top-level:
-- !private "XZQNavigationController"
-- !private "String"
-- !private "UnicodeScalarType"
-- !private "XZQColor"
 - !private "NSBundle"
-- !private "UIViewController"
-- !private "NSClassFromString"
-- !private "UIImage"
-- !private "+"
+- !private "XZQColor"
+- !private "String"
 - !private "AnyClass"
+- !private "UnicodeScalarType"
+- !private "UIViewController"
+- !private "UIImage"
+- !private "XZQNavigationController"
+- !private "NSClassFromString"
 - "XZQTabBarController"
 - !private "StringLiteralType"
 - "UITabBarController"
+- !private "+"
 depends-member:
 - !private ["Ps9AnyObject", "NSBundle"]
 - !private ["Ps9AnyObject", "NSClassFromString"]

@@ -203,6 +203,37 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai17XZQCollectionPost")
 - (nonnull instancetype)initWithDict:(NSDictionary<NSString *, id> * _Nonnull)dict OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class XZQSearchResult;
+@class XZQProduct;
+@class UIButton;
+@class UIImageView;
+@class UILabel;
+
+SWIFT_CLASS("_TtC18DanTangFromQuanzai21XZQCollectionViewCell")
+@interface XZQCollectionViewCell : UICollectionViewCell
+@property (nonatomic, strong) XZQSearchResult * _Nullable result;
+@property (nonatomic, strong) XZQProduct * _Nullable product;
+- (void)awakeFromNib;
+
+/// 占位图片
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified placeholderBtn;
+
+/// 背景图片
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified productImageView;
+
+/// 标题
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
+
+/// 价格
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified priceLabel;
+
+/// 喜欢按钮
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified likeButton;
+- (IBAction)likeButtonClick:(id _Nonnull)sender;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC18DanTangFromQuanzai10XZQComment")
 @interface XZQComment : NSObject
@@ -211,7 +242,6 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai10XZQComment")
 - (nonnull instancetype)initWithDict:(NSDictionary<NSString *, id> * _Nonnull)dict OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIButton;
 @class UIScrollView;
 
 SWIFT_CLASS("_TtC18DanTangFromQuanzai24XZQDanTangViewController")
@@ -273,8 +303,6 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai8XZQGroup")
 - (nonnull instancetype)initWithDict:(NSDictionary<NSString *, id> * _Nonnull)dict OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImageView;
-@class UILabel;
 
 SWIFT_CLASS("_TtC18DanTangFromQuanzai11XZQHomeCell")
 @interface XZQHomeCell : UITableViewCell
@@ -364,8 +392,6 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai23XZQNavigationController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class XZQSearchResult;
-@class XZQProduct;
 @class XZQProductDetail;
 
 SWIFT_CLASS("_TtC18DanTangFromQuanzai14XZQNetworkTool")
@@ -419,7 +445,6 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai27XZQNewfeatureViewController")
 
 @class UICollectionView;
 @class NSIndexPath;
-@class UICollectionViewCell;
 
 @interface XZQNewfeatureViewController (SWIFT_EXTENSION(DanTangFromQuanzai))
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
@@ -456,8 +481,22 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai16XZQProductDetail")
 
 SWIFT_CLASS("_TtC18DanTangFromQuanzai24XZQProductViewController")
 @interface XZQProductViewController : XZQBaseViewController
+@property (nonatomic, copy) NSArray<XZQProduct *> * _Nonnull products;
+@property (nonatomic, weak) UICollectionView * _Nullable collectionView;
+- (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UICollectionViewLayout;
+
+@interface XZQProductViewController (SWIFT_EXTENSION(DanTangFromQuanzai)) <UICollectionViewDelegate, UIScrollViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (UIEdgeInsets)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout insetForSectionAtIndex:(NSInteger)section;
+- (void)collectionViewCellDidClickedLikeButton:(UIButton * _Nonnull)button;
 @end
 
 

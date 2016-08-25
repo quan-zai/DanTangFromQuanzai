@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai22XZQLoginViewController", ""]
 provides-dynamic-lookup:
+- "mobileField"
 - "regiisterButtonClick"
-- "forgetPwdBtn"
+- "viewDidLoad"
+- "otherLoginButtonClick"
+- "loginButton"
 - "loginButtonClick"
 - "passwordField"
-- "viewDidLoad"
-- "loginButton"
-- "mobileField"
-- "otherLoginButtonClick"
 - "cancelButtonClick"
+- "forgetPwdBtn"
 depends-top-level:
-- "XZQBaseViewController"
+- !private "BooleanLiteralType"
 - !private "isLogin"
 - "UITextField"
+- "XZQBaseViewController"
+- !private "NSUserDefaults"
 - "XZQLoginViewController"
 - "UIButton"
-- !private "BooleanLiteralType"
-- !private "XZQOtherLoginButtonType"
 - "AnyObject"
-- !private "NSUserDefaults"
+- !private "XZQOtherLoginButtonType"
 - !private "UIBarButtonItem"
 depends-member:
 - !private ["Ps9AnyObject", "NSUserDefaults"]

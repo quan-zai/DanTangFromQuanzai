@@ -7,10 +7,10 @@ provides-member:
 - ["V10Kingfisher8Resource", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "NSURL"
+- !private "??"
 - "Resource"
 - "String"
-- !private "??"
+- "NSURL"
 depends-member:
 - !private ["Ps9AnyObject", "absoluteString"]
 - !private ["Ps11CVarArgType", "absoluteString"]

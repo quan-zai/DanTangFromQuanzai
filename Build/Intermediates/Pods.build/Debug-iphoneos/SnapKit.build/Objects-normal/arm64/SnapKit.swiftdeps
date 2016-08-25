@@ -9,11 +9,11 @@ provides-member:
 - ["V7SnapKit6Config", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "InterfaceLayoutDirection"
-- "UIUserInterfaceLayoutDirection"
-- "UILayoutSupport"
 - "LayoutSupport"
 - "Config"
+- "UILayoutSupport"
+- "UIUserInterfaceLayoutDirection"
+- "InterfaceLayoutDirection"
 depends-member:
 - ["V7SnapKit6Config", "InterfaceLayoutDirection"]
 - ["V7SnapKit6Config", "init"]

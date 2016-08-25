@@ -9,9 +9,9 @@ provides-member:
 - ["CSo16UIViewController", "snp_bottomLayoutGuideBottom"]
 provides-dynamic-lookup:
 depends-top-level:
-- "ConstraintItem"
 - !private "ConstraintAttributes"
 - "UIViewController"
+- "ConstraintItem"
 depends-member:
 - !private ["Ps9AnyObject", "ConstraintAttributes"]
 - !private ["Ps9AnyObject", "ConstraintItem"]

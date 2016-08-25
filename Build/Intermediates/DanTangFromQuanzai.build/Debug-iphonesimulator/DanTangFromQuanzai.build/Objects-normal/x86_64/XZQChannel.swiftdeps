@@ -8,13 +8,13 @@ provides-member:
 provides-dynamic-lookup:
 - "name"
 depends-top-level:
-- "String"
-- "AnyObject"
-- "XZQChannel"
 - "Bool"
+- "String"
 - "NSObject"
-- !private "StringLiteralType"
 - "Int"
+- "XZQChannel"
+- "AnyObject"
+- !private "StringLiteralType"
 depends-member:
 - ["Ps9AnyObject", "editable"]
 - ["Ps9AnyObject", "id"]

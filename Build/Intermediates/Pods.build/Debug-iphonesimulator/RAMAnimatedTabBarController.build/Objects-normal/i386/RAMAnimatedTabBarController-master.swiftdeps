@@ -1,0 +1,12 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "de5ee5c90a80930403d6f2be77c8be3b"
+build_time: [525428514, 584152000]
+inputs:
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift": [525165667, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift": [525165667, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift": [525165667, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift": [525165667, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift": [525165667, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift": [525165667, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift": [525165667, 0]
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/RAMAnimatedTabBarController/RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift": [525165667, 0]

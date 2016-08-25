@@ -12,24 +12,24 @@ provides-member:
 - ["CSo6UIView", "centerX"]
 - ["CSo6UIView", "centerY"]
 provides-dynamic-lookup:
-- "height"
-- "centerY"
-- "width"
-- "centerX"
-- "y"
-- "size"
 - "clipRectCorner"
+- "width"
+- "y"
+- "centerY"
+- "size"
 - "x"
+- "height"
+- "centerX"
 depends-top-level:
-- !private "CGPoint"
-- "UIView"
-- "CGFloat"
-- !private "UIBezierPath"
 - !private "CAShapeLayer"
+- "CGSize"
 - "UIRectCorner"
 - !private "CGRect"
-- "CGSize"
+- "UIView"
 - !private "CGSizeMake"
+- !private "UIBezierPath"
+- "CGFloat"
+- !private "CGPoint"
 depends-member:
 - !private ["Ps9AnyObject", "CAShapeLayer"]
 - !private ["Ps9AnyObject", "CGPath"]

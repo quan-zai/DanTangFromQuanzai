@@ -1,0 +1,585 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RAMRotationAnimation"
+- "RAMLeftRotationAnimation"
+- "RAMRightRotationAnimation"
+provides-nominal:
+- "C27RAMAnimatedTabBarController20RAMRotationAnimation"
+- "OC27RAMAnimatedTabBarController20RAMRotationAnimation20RAMRotationDirection"
+- "C27RAMAnimatedTabBarController24RAMLeftRotationAnimation"
+- "C27RAMAnimatedTabBarController25RAMRightRotationAnimation"
+provides-member:
+- ["C27RAMAnimatedTabBarController20RAMRotationAnimation", ""]
+- ["OC27RAMAnimatedTabBarController20RAMRotationAnimation20RAMRotationDirection", ""]
+- ["C27RAMAnimatedTabBarController24RAMLeftRotationAnimation", ""]
+- ["C27RAMAnimatedTabBarController25RAMRightRotationAnimation", ""]
+provides-dynamic-lookup:
+- "playRoatationAnimation"
+- "selectedState"
+- "playAnimation"
+- "deselectAnimation"
+depends-top-level:
+- !private "!="
+- "RAMRightRotationAnimation"
+- !private "NSTimeInterval"
+- "RAMLeftRotationAnimation"
+- !private "&&"
+- !private "CGColorGetAlpha"
+- "RAMRotationAnimation"
+- !private "UIImageRenderingMode"
+- "UIColor"
+- "UIImageView"
+- "RAMItemAnimation"
+- !private "CGFloat"
+- !private "M_PI"
+- "UILabel"
+- !private "*"
+- "=="
+- !private "CABasicAnimation"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["VVC27RAMAnimatedTabBarController16RAMItemAnimation9Constants13AnimationKeys", "Rotation"]
+- !private ["Ps9AnyObject", "CABasicAnimation"]
+- !private ["Ps9AnyObject", "CGColor"]
+- !private ["Ps9AnyObject", "CGColorGetAlpha"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "Constants"]
+- !private ["Ps9AnyObject", "M_PI"]
+- !private ["Ps9AnyObject", "NSTimeInterval"]
+- !private ["Ps9AnyObject", "RAMRotationDirection"]
+- !private ["Ps9AnyObject", "UIImageRenderingMode"]
+- !private ["Ps9AnyObject", "addAnimation"]
+- !private ["Ps9AnyObject", "deinit"]
+- ["Ps9AnyObject", "deselectAnimation"]
+- ["Ps9AnyObject", "direction"]
+- !private ["Ps9AnyObject", "duration"]
+- !private ["Ps9AnyObject", "fromValue"]
+- !private ["Ps9AnyObject", "iconSelectedColor"]
+- !private ["Ps9AnyObject", "image"]
+- !private ["Ps9AnyObject", "imageWithRenderingMode"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layer"]
+- ["Ps9AnyObject", "playAnimation"]
+- ["Ps9AnyObject", "playRoatationAnimation"]
+- ["Ps9AnyObject", "selectedState"]
+- !private ["Ps9AnyObject", "textColor"]
+- !private ["Ps9AnyObject", "textSelectedColor"]
+- !private ["Ps9AnyObject", "tintColor"]
+- !private ["Ps9AnyObject", "toValue"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps22BidirectionalIndexType", "hashValue"]
+- !private ["Ps21BitwiseOperationsType", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSo8CAAction", "duration"]
+- !private ["PSo8CAAction", "fromValue"]
+- !private ["PSo8CAAction", "init"]
+- !private ["PSo8CAAction", "toValue"]
+- !private ["CSo11CAAnimation", "duration"]
+- !private ["CSo11CAAnimation", "fromValue"]
+- !private ["CSo11CAAnimation", "init"]
+- !private ["CSo11CAAnimation", "toValue"]
+- !private ["CSo16CABasicAnimation", "duration"]
+- !private ["CSo16CABasicAnimation", "fromValue"]
+- !private ["CSo16CABasicAnimation", "init"]
+- !private ["CSo16CABasicAnimation", "toValue"]
+- !private ["CSo7CALayer", "addAnimation"]
+- !private ["PSo13CAMediaTiming", "addAnimation"]
+- !private ["PSo13CAMediaTiming", "duration"]
+- !private ["PSo13CAMediaTiming", "fromValue"]
+- !private ["PSo13CAMediaTiming", "init"]
+- !private ["PSo13CAMediaTiming", "toValue"]
+- !private ["CSo19CAPropertyAnimation", "duration"]
+- !private ["CSo19CAPropertyAnimation", "fromValue"]
+- !private ["CSo19CAPropertyAnimation", "init"]
+- !private ["CSo19CAPropertyAnimation", "toValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["Ps11CVarArgType", "CABasicAnimation"]
+- !private ["Ps11CVarArgType", "CGColor"]
+- !private ["Ps11CVarArgType", "CGColorGetAlpha"]
+- !private ["Ps11CVarArgType", "CGFloat"]
+- !private ["Ps11CVarArgType", "Constants"]
+- !private ["Ps11CVarArgType", "M_PI"]
+- !private ["Ps11CVarArgType", "NSTimeInterval"]
+- !private ["Ps11CVarArgType", "RAMRotationDirection"]
+- !private ["Ps11CVarArgType", "UIImageRenderingMode"]
+- !private ["Ps11CVarArgType", "addAnimation"]
+- ["Ps11CVarArgType", "deselectAnimation"]
+- ["Ps11CVarArgType", "direction"]
+- !private ["Ps11CVarArgType", "duration"]
+- !private ["Ps11CVarArgType", "fromValue"]
+- !private ["Ps11CVarArgType", "hashValue"]
+- !private ["Ps11CVarArgType", "iconSelectedColor"]
+- !private ["Ps11CVarArgType", "image"]
+- !private ["Ps11CVarArgType", "imageWithRenderingMode"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "layer"]
+- ["Ps11CVarArgType", "playAnimation"]
+- ["Ps11CVarArgType", "playRoatationAnimation"]
+- ["Ps11CVarArgType", "selectedState"]
+- !private ["Ps11CVarArgType", "textColor"]
+- !private ["Ps11CVarArgType", "textSelectedColor"]
+- !private ["Ps11CVarArgType", "tintColor"]
+- !private ["Ps11CVarArgType", "toValue"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["VC27RAMAnimatedTabBarController16RAMItemAnimation9Constants", "AnimationKeys"]
+- !private ["Ps28CustomDebugStringConvertible", "CABasicAnimation"]
+- !private ["Ps28CustomDebugStringConvertible", "CGColor"]
+- !private ["Ps28CustomDebugStringConvertible", "CGColorGetAlpha"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "Constants"]
+- !private ["Ps28CustomDebugStringConvertible", "M_PI"]
+- !private ["Ps28CustomDebugStringConvertible", "NSTimeInterval"]
+- !private ["Ps28CustomDebugStringConvertible", "RAMRotationDirection"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImageRenderingMode"]
+- !private ["Ps28CustomDebugStringConvertible", "addAnimation"]
+- ["Ps28CustomDebugStringConvertible", "deselectAnimation"]
+- ["Ps28CustomDebugStringConvertible", "direction"]
+- !private ["Ps28CustomDebugStringConvertible", "duration"]
+- !private ["Ps28CustomDebugStringConvertible", "fromValue"]
+- !private ["Ps28CustomDebugStringConvertible", "iconSelectedColor"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- !private ["Ps28CustomDebugStringConvertible", "imageWithRenderingMode"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- ["Ps28CustomDebugStringConvertible", "playAnimation"]
+- ["Ps28CustomDebugStringConvertible", "playRoatationAnimation"]
+- ["Ps28CustomDebugStringConvertible", "selectedState"]
+- !private ["Ps28CustomDebugStringConvertible", "textColor"]
+- !private ["Ps28CustomDebugStringConvertible", "textSelectedColor"]
+- !private ["Ps28CustomDebugStringConvertible", "tintColor"]
+- !private ["Ps28CustomDebugStringConvertible", "toValue"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CABasicAnimation"]
+- !private ["Ps23CustomStringConvertible", "CGColor"]
+- !private ["Ps23CustomStringConvertible", "CGColorGetAlpha"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "Constants"]
+- !private ["Ps23CustomStringConvertible", "M_PI"]
+- !private ["Ps23CustomStringConvertible", "NSTimeInterval"]
+- !private ["Ps23CustomStringConvertible", "RAMRotationDirection"]
+- !private ["Ps23CustomStringConvertible", "UIImageRenderingMode"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addAnimation"]
+- ["Ps23CustomStringConvertible", "deselectAnimation"]
+- ["Ps23CustomStringConvertible", "direction"]
+- !private ["Ps23CustomStringConvertible", "duration"]
+- !private ["Ps23CustomStringConvertible", "fromValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "iconSelectedColor"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- !private ["Ps23CustomStringConvertible", "imageWithRenderingMode"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- ["Ps23CustomStringConvertible", "playAnimation"]
+- ["Ps23CustomStringConvertible", "playRoatationAnimation"]
+- ["Ps23CustomStringConvertible", "selectedState"]
+- !private ["Ps23CustomStringConvertible", "textColor"]
+- !private ["Ps23CustomStringConvertible", "textSelectedColor"]
+- !private ["Ps23CustomStringConvertible", "tintColor"]
+- !private ["Ps23CustomStringConvertible", "toValue"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "AlwaysOriginal"]
+- !private ["Ps9Equatable", "AlwaysTemplate"]
+- !private ["Ps9Equatable", "CABasicAnimation"]
+- !private ["Ps9Equatable", "CGColor"]
+- !private ["Ps9Equatable", "CGColorGetAlpha"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "Constants"]
+- !private ["Ps9Equatable", "Left"]
+- !private ["Ps9Equatable", "M_PI"]
+- !private ["Ps9Equatable", "NSTimeInterval"]
+- !private ["Ps9Equatable", "RAMRotationDirection"]
+- !private ["Ps9Equatable", "Right"]
+- !private ["Ps9Equatable", "UIImageRenderingMode"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addAnimation"]
+- ["Ps9Equatable", "deselectAnimation"]
+- ["Ps9Equatable", "direction"]
+- !private ["Ps9Equatable", "duration"]
+- !private ["Ps9Equatable", "fromValue"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "iconSelectedColor"]
+- !private ["Ps9Equatable", "image"]
+- !private ["Ps9Equatable", "imageWithRenderingMode"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layer"]
+- ["Ps9Equatable", "playAnimation"]
+- ["Ps9Equatable", "playRoatationAnimation"]
+- ["Ps9Equatable", "selectedState"]
+- !private ["Ps9Equatable", "textColor"]
+- !private ["Ps9Equatable", "textSelectedColor"]
+- !private ["Ps9Equatable", "tintColor"]
+- !private ["Ps9Equatable", "toValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps16ForwardIndexType", "hashValue"]
+- !private ["Ps8Hashable", "AlwaysOriginal"]
+- !private ["Ps8Hashable", "AlwaysTemplate"]
+- !private ["Ps8Hashable", "CABasicAnimation"]
+- !private ["Ps8Hashable", "CGColor"]
+- !private ["Ps8Hashable", "CGColorGetAlpha"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "Constants"]
+- !private ["Ps8Hashable", "Left"]
+- !private ["Ps8Hashable", "M_PI"]
+- !private ["Ps8Hashable", "NSTimeInterval"]
+- !private ["Ps8Hashable", "RAMRotationDirection"]
+- !private ["Ps8Hashable", "Right"]
+- !private ["Ps8Hashable", "UIImageRenderingMode"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addAnimation"]
+- ["Ps8Hashable", "deselectAnimation"]
+- ["Ps8Hashable", "direction"]
+- !private ["Ps8Hashable", "duration"]
+- !private ["Ps8Hashable", "fromValue"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "iconSelectedColor"]
+- !private ["Ps8Hashable", "image"]
+- !private ["Ps8Hashable", "imageWithRenderingMode"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layer"]
+- ["Ps8Hashable", "playAnimation"]
+- ["Ps8Hashable", "playRoatationAnimation"]
+- ["Ps8Hashable", "selectedState"]
+- !private ["Ps8Hashable", "textColor"]
+- !private ["Ps8Hashable", "textSelectedColor"]
+- !private ["Ps8Hashable", "tintColor"]
+- !private ["Ps8Hashable", "toValue"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps21IntegerArithmeticType", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps11IntegerType", "hashValue"]
+- !private ["Ps14MirrorPathType", "hashValue"]
+- !private ["PSo8NSCoding", "CGColor"]
+- !private ["PSo8NSCoding", "addAnimation"]
+- !private ["PSo8NSCoding", "duration"]
+- !private ["PSo8NSCoding", "fromValue"]
+- !private ["PSo8NSCoding", "image"]
+- !private ["PSo8NSCoding", "imageWithRenderingMode"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- !private ["PSo8NSCoding", "textColor"]
+- !private ["PSo8NSCoding", "tintColor"]
+- !private ["PSo8NSCoding", "toValue"]
+- !private ["PSo9NSCopying", "CGColor"]
+- !private ["PSo9NSCopying", "duration"]
+- !private ["PSo9NSCopying", "fromValue"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "toValue"]
+- !private ["CSo8NSObject", "CABasicAnimation"]
+- !private ["CSo8NSObject", "CGColor"]
+- !private ["CSo8NSObject", "CGColorGetAlpha"]
+- !private ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "Constants"]
+- !private ["CSo8NSObject", "M_PI"]
+- !private ["CSo8NSObject", "NSTimeInterval"]
+- ["CSo8NSObject", "RAMRotationDirection"]
+- ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIImageRenderingMode"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "addAnimation"]
+- ["CSo8NSObject", "deselectAnimation"]
+- ["CSo8NSObject", "direction"]
+- !private ["CSo8NSObject", "duration"]
+- !private ["CSo8NSObject", "fromValue"]
+- !private ["CSo8NSObject", "iconSelectedColor"]
+- !private ["CSo8NSObject", "image"]
+- !private ["CSo8NSObject", "imageWithRenderingMode"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
+- ["CSo8NSObject", "playAnimation"]
+- ["CSo8NSObject", "playRoatationAnimation"]
+- ["CSo8NSObject", "selectedState"]
+- !private ["CSo8NSObject", "textColor"]
+- !private ["CSo8NSObject", "textSelectedColor"]
+- !private ["CSo8NSObject", "tintColor"]
+- !private ["CSo8NSObject", "toValue"]
+- !private ["PSo16NSObjectProtocol", "CABasicAnimation"]
+- !private ["PSo16NSObjectProtocol", "CGColor"]
+- !private ["PSo16NSObjectProtocol", "CGColorGetAlpha"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "Constants"]
+- !private ["PSo16NSObjectProtocol", "M_PI"]
+- !private ["PSo16NSObjectProtocol", "NSTimeInterval"]
+- !private ["PSo16NSObjectProtocol", "RAMRotationDirection"]
+- !private ["PSo16NSObjectProtocol", "UIImageRenderingMode"]
+- !private ["PSo16NSObjectProtocol", "addAnimation"]
+- ["PSo16NSObjectProtocol", "deselectAnimation"]
+- ["PSo16NSObjectProtocol", "direction"]
+- !private ["PSo16NSObjectProtocol", "duration"]
+- !private ["PSo16NSObjectProtocol", "fromValue"]
+- !private ["PSo16NSObjectProtocol", "iconSelectedColor"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- !private ["PSo16NSObjectProtocol", "imageWithRenderingMode"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- ["PSo16NSObjectProtocol", "playAnimation"]
+- ["PSo16NSObjectProtocol", "playRoatationAnimation"]
+- ["PSo16NSObjectProtocol", "selectedState"]
+- !private ["PSo16NSObjectProtocol", "textColor"]
+- !private ["PSo16NSObjectProtocol", "textSelectedColor"]
+- !private ["PSo16NSObjectProtocol", "tintColor"]
+- !private ["PSo16NSObjectProtocol", "toValue"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "CGColor"]
+- !private ["PSo14NSSecureCoding", "imageWithRenderingMode"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["C27RAMAnimatedTabBarController16RAMItemAnimation", "CABasicAnimation"]
+- !private ["C27RAMAnimatedTabBarController16RAMItemAnimation", "CGColorGetAlpha"]
+- !private ["C27RAMAnimatedTabBarController16RAMItemAnimation", "CGFloat"]
+- !private ["C27RAMAnimatedTabBarController16RAMItemAnimation", "Constants"]
+- !private ["C27RAMAnimatedTabBarController16RAMItemAnimation", "M_PI"]
+- !private ["C27RAMAnimatedTabBarController16RAMItemAnimation", "NSTimeInterval"]
+- ["C27RAMAnimatedTabBarController16RAMItemAnimation", "RAMRotationDirection"]
+- ["C27RAMAnimatedTabBarController16RAMItemAnimation", "UIColor"]
+- !private ["C27RAMAnimatedTabBarController16RAMItemAnimation", "UIImageRenderingMode"]
+- ["C27RAMAnimatedTabBarController16RAMItemAnimation", "UIImageView"]
+- ["C27RAMAnimatedTabBarController16RAMItemAnimation", "UILabel"]
+- ["C27RAMAnimatedTabBarController16RAMItemAnimation", "deselectAnimation"]
+- ["C27RAMAnimatedTabBarController16RAMItemAnimation", "direction"]
+- !private ["C27RAMAnimatedTabBarController16RAMItemAnimation", "duration"]
+- !private ["C27RAMAnimatedTabBarController16RAMItemAnimation", "iconSelectedColor"]
+- ["C27RAMAnimatedTabBarController16RAMItemAnimation", "init"]
+- ["C27RAMAnimatedTabBarController16RAMItemAnimation", "playAnimation"]
+- ["C27RAMAnimatedTabBarController16RAMItemAnimation", "playRoatationAnimation"]
+- ["C27RAMAnimatedTabBarController16RAMItemAnimation", "selectedState"]
+- !private ["C27RAMAnimatedTabBarController16RAMItemAnimation", "textSelectedColor"]
+- ["C27RAMAnimatedTabBarController16RAMItemAnimation", ""]
+- !private ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "CABasicAnimation"]
+- !private ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "CGColorGetAlpha"]
+- !private ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "CGFloat"]
+- !private ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "Constants"]
+- !private ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "M_PI"]
+- !private ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "NSTimeInterval"]
+- !private ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "RAMRotationDirection"]
+- !private ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "UIImageRenderingMode"]
+- ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "deselectAnimation"]
+- ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "direction"]
+- !private ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "duration"]
+- !private ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "iconSelectedColor"]
+- ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "init"]
+- ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "playAnimation"]
+- ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "playRoatationAnimation"]
+- ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "selectedState"]
+- !private ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", "textSelectedColor"]
+- ["P27RAMAnimatedTabBarController24RAMItemAnimationProtocol", ""]
+- !private ["C27RAMAnimatedTabBarController24RAMLeftRotationAnimation", "RAMRotationDirection"]
+- ["C27RAMAnimatedTabBarController24RAMLeftRotationAnimation", "deinit"]
+- !private ["C27RAMAnimatedTabBarController24RAMLeftRotationAnimation", "direction"]
+- ["C27RAMAnimatedTabBarController24RAMLeftRotationAnimation", "init"]
+- !private ["C27RAMAnimatedTabBarController25RAMRightRotationAnimation", "RAMRotationDirection"]
+- ["C27RAMAnimatedTabBarController25RAMRightRotationAnimation", "deinit"]
+- !private ["C27RAMAnimatedTabBarController25RAMRightRotationAnimation", "direction"]
+- ["C27RAMAnimatedTabBarController25RAMRightRotationAnimation", "init"]
+- !private ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "CABasicAnimation"]
+- !private ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "CGColorGetAlpha"]
+- !private ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "CGFloat"]
+- !private ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "Constants"]
+- !private ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "M_PI"]
+- !private ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "NSTimeInterval"]
+- ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "RAMRotationDirection"]
+- ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "UIColor"]
+- !private ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "UIImageRenderingMode"]
+- ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "UIImageView"]
+- ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "UILabel"]
+- ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "deinit"]
+- ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "deselectAnimation"]
+- ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "direction"]
+- !private ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "duration"]
+- !private ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "iconSelectedColor"]
+- ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "init"]
+- ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "playAnimation"]
+- ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "playRoatationAnimation"]
+- ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "selectedState"]
+- !private ["C27RAMAnimatedTabBarController20RAMRotationAnimation", "textSelectedColor"]
+- ["C27RAMAnimatedTabBarController20RAMRotationAnimation", ""]
+- ["OC27RAMAnimatedTabBarController20RAMRotationAnimation20RAMRotationDirection", "Left"]
+- ["OC27RAMAnimatedTabBarController20RAMRotationAnimation20RAMRotationDirection", "Right"]
+- ["OC27RAMAnimatedTabBarController20RAMRotationAnimation20RAMRotationDirection", "deinit"]
+- ["OC27RAMAnimatedTabBarController20RAMRotationAnimation20RAMRotationDirection", "hashValue"]
+- !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Ps16RawRepresentable", "AlwaysOriginal"]
+- !private ["Ps16RawRepresentable", "AlwaysTemplate"]
+- !private ["Ps17SignedIntegerType", "hashValue"]
+- !private ["Ps16SignedNumberType", "hashValue"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "imageWithRenderingMode"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo29UIAccessibilityIdentification", "textColor"]
+- !private ["PSo29UIAccessibilityIdentification", "tintColor"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo12UIAppearance", "textColor"]
+- !private ["PSo12UIAppearance", "tintColor"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- !private ["PSo21UIAppearanceContainer", "textColor"]
+- !private ["PSo21UIAppearanceContainer", "tintColor"]
+- !private ["CSo7UIColor", "CGColor"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo17UICoordinateSpace", "textColor"]
+- !private ["PSo17UICoordinateSpace", "tintColor"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo13UIDynamicItem", "textColor"]
+- !private ["PSo13UIDynamicItem", "tintColor"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- !private ["PSo18UIFocusEnvironment", "textColor"]
+- !private ["PSo18UIFocusEnvironment", "tintColor"]
+- !private ["CSo7UIImage", "imageWithRenderingMode"]
+- !private ["OSC20UIImageRenderingMode", "AlwaysOriginal"]
+- !private ["OSC20UIImageRenderingMode", "AlwaysTemplate"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo11UIImageView", "layer"]
+- !private ["CSo11UIImageView", "tintColor"]
+- !private ["CSo7UILabel", "textColor"]
+- !private ["CSo11UIResponder", "image"]
+- !private ["CSo11UIResponder", "layer"]
+- !private ["CSo11UIResponder", "textColor"]
+- !private ["CSo11UIResponder", "tintColor"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- !private ["PSo18UITraitEnvironment", "textColor"]
+- !private ["PSo18UITraitEnvironment", "tintColor"]
+- !private ["CSo6UIView", "image"]
+- !private ["CSo6UIView", "layer"]
+- !private ["CSo6UIView", "textColor"]
+- !private ["CSo6UIView", "tintColor"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_ColorLiteralConvertible", "CGColor"]
+- !private ["Ps24_ImageLiteralConvertible", "imageWithRenderingMode"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps22_IntegerArithmeticType", "hashValue"]
+- !private ["Ps12_IntegerType", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "hashValue"]
+- !private ["Ps12_Reflectable", "image"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "layer"]
+- !private ["Ps12_Reflectable", "textColor"]
+- !private ["Ps12_Reflectable", "tintColor"]
+- !private ["Ps18_SignedIntegerType", "hashValue"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "VVC27RAMAnimatedTabBarController16RAMItemAnimation9Constants13AnimationKeys"
+- "Ps9AnyObject"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "PSo8CAAction"
+- !private "CSo11CAAnimation"
+- !private "CSo16CABasicAnimation"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "CSo19CAPropertyAnimation"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- !private "VC27RAMAnimatedTabBarController16RAMItemAnimation9Constants"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- "C27RAMAnimatedTabBarController16RAMItemAnimation"
+- "P27RAMAnimatedTabBarController24RAMItemAnimationProtocol"
+- "C27RAMAnimatedTabBarController24RAMLeftRotationAnimation"
+- "C27RAMAnimatedTabBarController25RAMRightRotationAnimation"
+- "C27RAMAnimatedTabBarController20RAMRotationAnimation"
+- "OC27RAMAnimatedTabBarController20RAMRotationAnimation20RAMRotationDirection"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps16RawRepresentable"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo7UIImage"
+- !private "OSC20UIImageRenderingMode"
+- !private "CSo11UIImageView"
+- !private "CSo7UILabel"
+- !private "CSo11UIResponder"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps24_ImageLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-umbrella.h"
+- "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Build/Intermediates/Pods.build/Debug-iphoneos/RAMAnimatedTabBarController.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "daa48df4b7682d0802141bf8bec11796"

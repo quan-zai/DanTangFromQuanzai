@@ -7,13 +7,76 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="XZQCollectionViewCell" customModule="DanTangFromQuanzai" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                <autoresizingMask key="autoresizingMask"/>
-            </tableViewCellContentView>
-        </tableViewCell>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="XZQCollectionViewCell" customModule="DanTangFromQuanzai" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="139" height="245"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="139" height="245"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeG-tV-Jkm" userLabel="Placeholder Btn">
+                        <rect key="frame" x="43" y="65" width="54" height="34"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bh2-A2-sht" userLabel="Product Image View">
+                        <rect key="frame" x="0.0" y="0.0" width="139" height="164"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="164" id="hPP-yp-lqS"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQk-Rt-6J4" userLabel="Title Label">
+                        <rect key="frame" x="5" y="176" width="134" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Bt-LU-oy4" userLabel="Price Label">
+                        <rect key="frame" x="5" y="215" width="38" height="25"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.90980392156862744" green="0.32941176470588235" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1Q-Km-WBY" userLabel="Like Button">
+                        <rect key="frame" x="111" y="215" width="23" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="bHn-nl-cGY"/>
+                        </constraints>
+                        <state key="normal" title="0" image="Search_GiftBtn_Default_12x10_">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="likeButtonClick:" destination="gTV-IL-0wX" eventType="touchUpInside" id="G89-V3-RBh"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="FeG-tV-Jkm" firstAttribute="centerX" secondItem="bh2-A2-sht" secondAttribute="centerX" id="4gJ-Ow-MHF"/>
+                <constraint firstItem="FeG-tV-Jkm" firstAttribute="centerY" secondItem="bh2-A2-sht" secondAttribute="centerY" id="Bt8-V8-X7h"/>
+                <constraint firstItem="2Bt-LU-oy4" firstAttribute="height" secondItem="v1Q-Km-WBY" secondAttribute="height" id="KAr-mZ-ZpY"/>
+                <constraint firstAttribute="trailing" secondItem="bh2-A2-sht" secondAttribute="trailing" id="L2q-EN-QLT"/>
+                <constraint firstItem="MQk-Rt-6J4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="NqO-fu-mV3"/>
+                <constraint firstAttribute="trailing" secondItem="v1Q-Km-WBY" secondAttribute="trailing" constant="5" id="WMb-pI-lDC"/>
+                <constraint firstAttribute="trailing" secondItem="MQk-Rt-6J4" secondAttribute="trailing" id="aVl-he-M8S"/>
+                <constraint firstItem="2Bt-LU-oy4" firstAttribute="centerY" secondItem="v1Q-Km-WBY" secondAttribute="centerY" id="acz-hU-lOB"/>
+                <constraint firstAttribute="bottom" secondItem="2Bt-LU-oy4" secondAttribute="bottom" constant="5" id="pvm-Wo-xQc"/>
+                <constraint firstItem="bh2-A2-sht" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="whi-sy-l33"/>
+                <constraint firstItem="MQk-Rt-6J4" firstAttribute="leading" secondItem="2Bt-LU-oy4" secondAttribute="leading" id="wuT-rc-ImF"/>
+                <constraint firstItem="MQk-Rt-6J4" firstAttribute="top" secondItem="bh2-A2-sht" secondAttribute="bottom" constant="12" id="xbQ-de-t7W"/>
+                <constraint firstItem="bh2-A2-sht" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="y3q-Oo-AH4"/>
+            </constraints>
+            <connections>
+                <outlet property="likeButton" destination="v1Q-Km-WBY" id="iYP-DC-tXe"/>
+                <outlet property="placeholderBtn" destination="FeG-tV-Jkm" id="igL-SV-pvB"/>
+                <outlet property="priceLabel" destination="2Bt-LU-oy4" id="4G6-dh-PEM"/>
+                <outlet property="productImageView" destination="bh2-A2-sht" id="qcB-cI-dFp"/>
+                <outlet property="titleLabel" destination="MQk-Rt-6J4" id="EUh-Bh-Bf1"/>
+            </connections>
+            <point key="canvasLocation" x="145.5" y="225.5"/>
+        </collectionViewCell>
     </objects>
+    <resources>
+        <image name="Search_GiftBtn_Default_12x10_" width="12" height="10"/>
+    </resources>
 </document>

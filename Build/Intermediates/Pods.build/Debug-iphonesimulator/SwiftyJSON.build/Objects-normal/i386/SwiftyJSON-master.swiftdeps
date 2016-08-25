@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "030d8a3c0258a556537cf57c61f9ed4e"
+build_time: [525428523, 171745000]
+inputs:
+  "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [524107638, 0]

@@ -6,14 +6,14 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "dispatch_queue_t"
+- !private "dispatch_get_main_queue"
+- !private "dispatch_async"
+- "dispatch_async_safely_to_main_queue"
+- !private "&&"
+- !private "==="
 - !private "NSThread"
 - "dispatch_async_safely_to_queue"
-- !private "&&"
-- "dispatch_async_safely_to_main_queue"
-- !private "==="
-- !private "dispatch_async"
-- !private "dispatch_get_main_queue"
+- "dispatch_queue_t"
 depends-member:
 - !private ["Ps9AnyObject", "isMainThread"]
 - !private ["Sb", "_getBuiltinLogicValue"]

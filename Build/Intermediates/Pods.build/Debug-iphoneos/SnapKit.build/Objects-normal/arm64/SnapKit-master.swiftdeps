@@ -1,6 +1,6 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
 options: "e9450255d9a4606930e02dcc545b3cd8"
-build_time: [524303702, 185494000]
+build_time: [525428393, 279069000]
 inputs:
   "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/SnapKit/Source/Constraint.swift": [524107633, 0]
   "/Users/atyun-monitor/Desktop/Swift/DanTangFromQuanzai/Pods/SnapKit/Source/ConstraintAttributes.swift": [524107633, 0]

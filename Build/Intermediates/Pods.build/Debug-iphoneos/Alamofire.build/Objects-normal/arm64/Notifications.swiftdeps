@@ -9,8 +9,8 @@ provides-member:
 - ["VV9Alamofire13Notifications4Task", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Notifications"
 - "StringLiteralType"
+- "Notifications"
 depends-member:
 - ["V9Alamofire13Notifications", "Task"]
 - ["V9Alamofire13Notifications", "init"]

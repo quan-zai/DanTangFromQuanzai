@@ -6,15 +6,15 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai8XZQGroup", ""]
 provides-dynamic-lookup:
-- "name"
 - "icon_url"
+- "name"
 depends-top-level:
+- "Int"
 - "String"
 - "XZQGroup"
-- "AnyObject"
-- "Int"
 - !private "StringLiteralType"
 - "NSObject"
+- "AnyObject"
 depends-member:
 - ["Ps9AnyObject", "group_id"]
 - ["Ps9AnyObject", "icon_url"]
