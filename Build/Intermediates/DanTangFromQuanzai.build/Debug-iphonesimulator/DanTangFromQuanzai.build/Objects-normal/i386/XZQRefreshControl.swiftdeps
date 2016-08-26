@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai17XZQRefreshControl", ""]
 provides-dynamic-lookup:
-- "observeValueForKeyPath"
 - "endRefreshing"
+- "observeValueForKeyPath"
 depends-top-level:
+- "BooleanLiteralType"
+- !private "&&"
+- !private "!"
+- "UnsafeMutablePointer"
+- "Void"
+- !private "<"
+- "AnyObject"
 - "XZQRefreshView"
+- !private ">="
+- "String"
+- "XZQRefreshControl"
+- "NSCoder"
 - !private "CGSizeMake"
 - !private "StringLiteralType"
-- "NSCoder"
-- "AnyObject"
-- !private "!"
 - !private "fatalError"
-- !private "<"
-- "String"
-- !private "&&"
-- "BooleanLiteralType"
-- "Void"
-- "UnsafeMutablePointer"
-- "XZQRefreshControl"
 - "UIRefreshControl"
-- !private ">="
 depends-member:
 - !private ["Ps9AnyObject", "CGSizeMake"]
 - !private ["Ps9AnyObject", "XZQRefreshView"]

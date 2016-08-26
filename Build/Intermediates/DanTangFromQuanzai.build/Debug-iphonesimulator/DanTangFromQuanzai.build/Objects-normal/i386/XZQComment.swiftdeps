@@ -11,17 +11,17 @@ provides-member:
 provides-dynamic-lookup:
 - "content"
 - "nickname"
-- "user"
 - "avatar_url"
+- "user"
 depends-top-level:
+- "AnyObject"
+- "User"
+- "XZQComment"
+- "Bool"
+- "Int"
 - !private "StringLiteralType"
 - "String"
 - "NSObject"
-- "AnyObject"
-- "User"
-- "Bool"
-- "XZQComment"
-- "Int"
 depends-member:
 - !private ["Ps9AnyObject", "User"]
 - ["Ps9AnyObject", "avatar_url"]

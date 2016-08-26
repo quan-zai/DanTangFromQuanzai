@@ -9,13 +9,13 @@ provides-dynamic-lookup:
 - "didReceiveMemoryWarning"
 - "viewDidLoad"
 depends-top-level:
+- !private "BooleanLiteralType"
 - !private "SVProgressHUD"
 - "UIViewController"
-- !private "BooleanLiteralType"
-- !private "SVProgressHUDStyle"
 - !private "XZQGlobalColor"
-- !private "UIColor"
 - "XZQBaseViewController"
+- !private "SVProgressHUDStyle"
+- !private "UIColor"
 depends-member:
 - !private ["Ps9AnyObject", "SVProgressHUD"]
 - !private ["Ps9AnyObject", "SVProgressHUDStyle"]

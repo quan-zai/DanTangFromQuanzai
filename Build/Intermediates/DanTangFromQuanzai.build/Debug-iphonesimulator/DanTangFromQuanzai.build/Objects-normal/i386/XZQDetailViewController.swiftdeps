@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai23XZQDetailViewController", ""]
 provides-dynamic-lookup:
-- "webViewDidFinishLoad"
 - "viewDidLoad"
 - "webView"
+- "webViewDidFinishLoad"
 - "homeItem"
 - "webViewDidStartLoad"
 depends-top-level:
-- "XZQDetailViewController"
-- "NSURLRequest"
-- "XZQBaseViewController"
-- !private "UIApplication"
-- !private "BooleanLiteralType"
-- "UIWebView"
-- !private "SVProgressHUD"
-- "Bool"
-- "UIWebViewNavigationType"
-- !private "StringLiteralType"
-- !private "NSURL"
 - "XZQHomeItem"
+- !private "NSURL"
 - "UIWebViewDelegate"
+- !private "BooleanLiteralType"
+- "XZQBaseViewController"
+- !private "SVProgressHUD"
+- "XZQDetailViewController"
+- !private "StringLiteralType"
+- "UIWebViewNavigationType"
+- !private "UIApplication"
+- "NSURLRequest"
+- "UIWebView"
+- "Bool"
 depends-member:
 - !private ["Ps9AnyObject", "NSURL"]
 - !private ["Ps9AnyObject", "NSURLRequest"]

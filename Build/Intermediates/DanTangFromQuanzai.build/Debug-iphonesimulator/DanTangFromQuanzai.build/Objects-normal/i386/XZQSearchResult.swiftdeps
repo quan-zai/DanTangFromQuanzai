@@ -11,13 +11,13 @@ provides-dynamic-lookup:
 - "describe"
 - "price"
 depends-top-level:
-- "NSObject"
-- "XZQSearchResult"
-- "Int"
 - "Bool"
+- "NSObject"
+- !private "StringLiteralType"
 - "String"
 - "AnyObject"
-- !private "StringLiteralType"
+- "XZQSearchResult"
+- "Int"
 depends-member:
 - ["Ps9AnyObject", "cover_image_url"]
 - ["Ps9AnyObject", "describe"]

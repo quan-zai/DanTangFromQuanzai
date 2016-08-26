@@ -10,7 +10,7 @@ import UIKit
 
 class XZQMeViewController: XZQBaseViewController {
 
-    var cellCount = 0
+    var cellCount = 0
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
@@ -45,33 +45,57 @@ class XZQMeViewController: XZQBaseViewController {
         return headerView
     }()
     
+    private lazy var footerView: XZQMeFooterView = {
+        let footerView = XZQMeFooterView()
+        footerView.width = SCREENH
+        footerView.height = 200
+        return footerView
+    }()
+    
     // MARK: - 头部按钮点击
     func iconButtonClick() {
         // 判断是否登录
+        if NSUserDefaults.standardUserDefaults().boolForKey(isLogin) {
+            let actionSheet = UIAlertController(title: "", message: nil, preferredStyle: .ActionSheet)
+            
+            let cameraACtion = UIAlertAction(title: "编辑资料", style: .Default, handler: { (_) in
+            })
+            
+            let photoAction = UIAlertAction(title: "退出登录", style: .Destructive, handler: { (_) in
+                NSUserDefaults.standardUserDefaults().setBool(false, forKey: isLogin)
+            })
+            
+            let cancelAction = UIAlertAction(title: "取消", style: .Cancel, handler: { (_) in
+                
+            })
+            actionSheet.addAction(cancelAction)
+            actionSheet.addAction(cameraACtion)
+            actionSheet.addAction(photoAction)
+            
+            self.presentViewController(actionSheet, animated: true, completion: nil)
+        } else {
+            let loginVC = XZQLoginViewController()
+            loginVC.title = "登录"
+            let nav = XZQNavigationController(rootViewController: loginVC)
+            presentViewController(nav, animated: true, completion: nil)
+        }
     }
     
     func messageButtonClick() {
         
     }
     
-    
     func settingButtonClick() {
         
     }
-    
-    private lazy var footerView: XZQMeFooterView = {
-        let footerView = XZQMeFooterView()
-        footerView.width = S
-    }()
-    
-    
 }
 
 extension XZQMeViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let choiceView = XZQMeChoiceView()
         
-        
+        return choiceView
     }
     
     func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
@@ -92,9 +116,14 @@ extension XZQMeViewController: UITableViewDelegate, UITableViewDataSource {
         
     }
     
-    
-    
-    
-    
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        let offsetY = scrollView.contentOffset.y
+        if offsetY < 0 {
+            var tempFrame = headerView.bgImageView.frame
+            tempFrame.origin.y = offsetY
+            tempFrame.size.height = kXZQMineHeaderImageHeight - offsetY
+            headerView.bgImageView.frame = tempFrame
+        }
+    }
 }
 

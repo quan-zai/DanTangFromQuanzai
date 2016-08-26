@@ -7,20 +7,20 @@ provides-member:
 - ["C18DanTangFromQuanzai16XZQProductDetail", ""]
 provides-dynamic-lookup:
 - "price"
-- "purchase_url"
-- "detail_html"
-- "describe"
 - "url"
+- "describe"
+- "detail_html"
+- "purchase_url"
 - "image_urls"
 - "name"
 depends-top-level:
-- "NSObject"
-- "Bool"
 - "XZQProductDetail"
 - !private "StringLiteralType"
 - "String"
-- "Int"
 - "AnyObject"
+- "Bool"
+- "Int"
+- "NSObject"
 depends-member:
 - ["Ps9AnyObject", "comments_count"]
 - ["Ps9AnyObject", "describe"]

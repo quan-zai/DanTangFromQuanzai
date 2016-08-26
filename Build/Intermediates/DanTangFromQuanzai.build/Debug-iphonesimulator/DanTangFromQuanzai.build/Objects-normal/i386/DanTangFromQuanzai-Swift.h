@@ -368,10 +368,66 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai22XZQLoginViewController")
 @end
 
 
+SWIFT_CLASS("_TtC18DanTangFromQuanzai15XZQMeChoiceView")
+@interface XZQMeChoiceView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)setupUI;
+- (void)leftButtonClick:(UIButton * _Nonnull)button;
+- (void)rightButtonClick:(UIButton * _Nonnull)button;
+@end
+
+
+SWIFT_CLASS("_TtC18DanTangFromQuanzai15XZQMeFooterView")
+@interface XZQMeFooterView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)setupUI;
+- (void)footerViewButtonClick;
+@end
+
+
 SWIFT_CLASS("_TtC18DanTangFromQuanzai19XZQMeViewController")
 @interface XZQMeViewController : XZQBaseViewController
+@property (nonatomic) NSInteger cellCount;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidLoad;
+- (void)iconButtonClick;
+- (void)messageButtonClick;
+- (void)settingButtonClick;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class NSIndexPath;
+
+@interface XZQMeViewController (SWIFT_EXTENSION(DanTangFromQuanzai)) <UITableViewDelegate, UIScrollViewDelegate, UITableViewDataSource>
+- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
+@end
+
+
+SWIFT_CLASS("_TtC18DanTangFromQuanzai17XZQMineHeaderView")
+@interface XZQMineHeaderView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+
+/// 懒加载，创建背景图片
+@property (nonatomic, strong) UIImageView * _Nonnull bgImageView;
+
+/// 懒加载，创建左上角消息按钮
+@property (nonatomic, strong) UIButton * _Nonnull messageButton;
+
+/// 懒加载，创建设置按钮
+@property (nonatomic, strong) UIButton * _Nonnull settingButton;
+
+/// 懒加载，创建头像
+@property (nonatomic, strong) UIButton * _Nonnull iconButton;
 @end
 
 
@@ -444,7 +500,6 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai27XZQNewfeatureViewController")
 @end
 
 @class UICollectionView;
-@class NSIndexPath;
 
 @interface XZQNewfeatureViewController (SWIFT_EXTENSION(DanTangFromQuanzai))
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
@@ -554,7 +609,6 @@ SWIFT_CLASS("_TtC18DanTangFromQuanzai22XZQTopicViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
 
 @interface XZQTopicViewController (SWIFT_EXTENSION(DanTangFromQuanzai))
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;

@@ -6,28 +6,28 @@ provides-nominal:
 provides-member:
 - ["C18DanTangFromQuanzai17XZQMineHeaderView", ""]
 provides-dynamic-lookup:
+- "settingButton"
 - "iconButton"
 - "bgImageView"
 - "messageButton"
-- "settingButton"
 depends-top-level:
+- !private "fatalError"
+- "BooleanLiteralType"
+- "CGRect"
+- !private "UIFont"
+- "UIButton"
 - "UIView"
 - !private "UIImage"
-- "UIImageView"
-- "UILabel"
-- "NSCoder"
-- !private "-"
-- !private "UIColor"
-- "CGRect"
-- "StringLiteralType"
 - !private "kMargin"
-- "XZQMineHeaderView"
-- !private "UIFont"
-- "BooleanLiteralType"
-- !private "CGSizeMake"
 - !private "*"
-- "UIButton"
-- !private "fatalError"
+- !private "-"
+- "UILabel"
+- "UIImageView"
+- !private "CGSizeMake"
+- "StringLiteralType"
+- "NSCoder"
+- "XZQMineHeaderView"
+- !private "UIColor"
 depends-member:
 - !private ["Ps9AnyObject", "CGSizeMake"]
 - !private ["Ps9AnyObject", "UIButton"]

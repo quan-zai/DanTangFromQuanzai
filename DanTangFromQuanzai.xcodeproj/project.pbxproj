@@ -17,6 +17,14 @@
 		74DC18BD1D5D586A00D57FD8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC18BB1D5D586A00D57FD8 /* Info.plist */; };
 		B8C0CD42084559EC3D1D4529 /* Pods_DanTangFromQuanzai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA19FE6D0E347B452581C267 /* Pods_DanTangFromQuanzai.framework */; };
 		C3061E8F1D5ACACC006A7962 /* XZQNetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3061E8E1D5ACACC006A7962 /* XZQNetWorkTool.swift */; };
+		C314CF491D6FE395000CDF4F /* XZQMeChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314CF481D6FE395000CDF4F /* XZQMeChoiceView.swift */; };
+		C314CF4B1D702380000CDF4F /* XZQCategoryHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314CF4A1D702380000CDF4F /* XZQCategoryHeaderViewController.swift */; };
+		C314CF4D1D7025F7000CDF4F /* XZQCategoryBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314CF4C1D7025F7000CDF4F /* XZQCategoryBottomView.swift */; };
+		C314CF4F1D702EB4000CDF4F /* XZQVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314CF4E1D702EB4000CDF4F /* XZQVerticalButton.swift */; };
+		C314CF551D703E51000CDF4F /* XZQTopHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314CF541D703E51000CDF4F /* XZQTopHeaderView.swift */; };
+		C314CF571D703E60000CDF4F /* XZQTopHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C314CF561D703E60000CDF4F /* XZQTopHeaderView.xib */; };
+		C314CF5A1D703EB3000CDF4F /* XZQCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314CF581D703EB3000CDF4F /* XZQCategoryCollectionViewCell.swift */; };
+		C314CF5B1D703EB3000CDF4F /* XZQCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C314CF591D703EB3000CDF4F /* XZQCategoryCollectionViewCell.xib */; };
 		C3291CBC1D5ACEBE009EEDDD /* XZQHomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3291CBB1D5ACEBE009EEDDD /* XZQHomeItem.swift */; };
 		C3291CBE1D5ACF2F009EEDDD /* XZQChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3291CBD1D5ACF2F009EEDDD /* XZQChannel.swift */; };
 		C3291CC01D5ACFB4009EEDDD /* XZQSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3291CBF1D5ACFB4009EEDDD /* XZQSearchResult.swift */; };
@@ -77,6 +85,14 @@
 		74DC18BB1D5D586A00D57FD8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DanTangFromQuanzai/Info.plist; sourceTree = SOURCE_ROOT; };
 		BA19FE6D0E347B452581C267 /* Pods_DanTangFromQuanzai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanTangFromQuanzai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3061E8E1D5ACACC006A7962 /* XZQNetWorkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQNetWorkTool.swift; sourceTree = "<group>"; };
+		C314CF481D6FE395000CDF4F /* XZQMeChoiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQMeChoiceView.swift; sourceTree = "<group>"; };
+		C314CF4A1D702380000CDF4F /* XZQCategoryHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQCategoryHeaderViewController.swift; sourceTree = "<group>"; };
+		C314CF4C1D7025F7000CDF4F /* XZQCategoryBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQCategoryBottomView.swift; sourceTree = "<group>"; };
+		C314CF4E1D702EB4000CDF4F /* XZQVerticalButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQVerticalButton.swift; sourceTree = "<group>"; };
+		C314CF541D703E51000CDF4F /* XZQTopHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQTopHeaderView.swift; sourceTree = "<group>"; };
+		C314CF561D703E60000CDF4F /* XZQTopHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XZQTopHeaderView.xib; sourceTree = "<group>"; };
+		C314CF581D703EB3000CDF4F /* XZQCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		C314CF591D703EB3000CDF4F /* XZQCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XZQCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		C3291CBB1D5ACEBE009EEDDD /* XZQHomeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQHomeItem.swift; sourceTree = "<group>"; };
 		C3291CBD1D5ACF2F009EEDDD /* XZQChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQChannel.swift; sourceTree = "<group>"; };
 		C3291CBF1D5ACFB4009EEDDD /* XZQSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQSearchResult.swift; sourceTree = "<group>"; };
@@ -200,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				C35C708C1D5C7BC200316B28 /* XZQCategoryViewController.swift */,
+				C314CF4A1D702380000CDF4F /* XZQCategoryHeaderViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -217,6 +234,12 @@
 		C361EE3B1D5AC04400DD4684 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C314CF4C1D7025F7000CDF4F /* XZQCategoryBottomView.swift */,
+				C314CF4E1D702EB4000CDF4F /* XZQVerticalButton.swift */,
+				C314CF541D703E51000CDF4F /* XZQTopHeaderView.swift */,
+				C314CF561D703E60000CDF4F /* XZQTopHeaderView.xib */,
+				C314CF581D703EB3000CDF4F /* XZQCategoryCollectionViewCell.swift */,
+				C314CF591D703EB3000CDF4F /* XZQCategoryCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -302,6 +325,7 @@
 			children = (
 				C3D8EBDA1D6EE5BE0034B6ED /* XZQMineHeaderView.swift */,
 				C3D8EBDC1D6EEC2A0034B6ED /* XZQMeFooterView.swift */,
+				C314CF481D6FE395000CDF4F /* XZQMeChoiceView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -555,7 +579,9 @@
 				744C01B21D5EB3B0007762B1 /* XZQRefreshView.xib in Resources */,
 				C36EB3341D6ECD3500E32C27 /* XZQCollectionViewCell.xib in Resources */,
 				74DC18BD1D5D586A00D57FD8 /* Info.plist in Resources */,
+				C314CF571D703E60000CDF4F /* XZQTopHeaderView.xib in Resources */,
 				C3B36EC81D59E1A30035D19E /* Assets.xcassets in Resources */,
+				C314CF5B1D703EB3000CDF4F /* XZQCategoryCollectionViewCell.xib in Resources */,
 				C3C9C9FB1D61A58D007AF0BC /* XZQLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -633,13 +659,17 @@
 				C35C708F1D5C7C1800316B28 /* XZQMeViewController.swift in Sources */,
 				C35C70851D5C727A00316B28 /* XZQNavigationController.swift in Sources */,
 				C3291CBC1D5ACEBE009EEDDD /* XZQHomeItem.swift in Sources */,
+				C314CF5A1D703EB3000CDF4F /* XZQCategoryCollectionViewCell.swift in Sources */,
 				744C01AE1D5EB1D1007762B1 /* XZQRefreshView.swift in Sources */,
+				C314CF4D1D7025F7000CDF4F /* XZQCategoryBottomView.swift in Sources */,
 				C3291CCA1D5AD0E7009EEDDD /* XZQComment.swift in Sources */,
 				744C01B91D6039DD007762B1 /* XZQHomeCell.swift in Sources */,
+				C314CF4B1D702380000CDF4F /* XZQCategoryHeaderViewController.swift in Sources */,
 				C3291CD41D5AD7DA009EEDDD /* XZQTabBarController.swift in Sources */,
 				C3291CC81D5AD0B6009EEDDD /* XZQProductDetail.swift in Sources */,
 				C3061E8F1D5ACACC006A7962 /* XZQNetWorkTool.swift in Sources */,
 				C3D8EBDB1D6EE5BE0034B6ED /* XZQMineHeaderView.swift in Sources */,
+				C314CF491D6FE395000CDF4F /* XZQMeChoiceView.swift in Sources */,
 				C3C9C9F71D61A549007AF0BC /* XZQLoginViewController.swift in Sources */,
 				C3291CD01D5AD1C1009EEDDD /* XZQGroup.swift in Sources */,
 				C361EE471D5AC0EB00DD4684 /* XZQConst.swift in Sources */,
@@ -656,10 +686,12 @@
 				C3D8EBDD1D6EEC2A0034B6ED /* XZQMeFooterView.swift in Sources */,
 				C3291CC01D5ACFB4009EEDDD /* XZQSearchResult.swift in Sources */,
 				C35C708B1D5C7B9B00316B28 /* XZQProductViewController.swift in Sources */,
+				C314CF4F1D702EB4000CDF4F /* XZQVerticalButton.swift in Sources */,
 				74DC18BC1D5D586A00D57FD8 /* AppDelegate.swift in Sources */,
 				C3291CBE1D5ACF2F009EEDDD /* XZQChannel.swift in Sources */,
 				744C01A81D5EAA6E007762B1 /* XZQTopicViewController.swift in Sources */,
 				C3291CC61D5AD07C009EEDDD /* XZQProduct.swift in Sources */,
+				C314CF551D703E51000CDF4F /* XZQTopHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

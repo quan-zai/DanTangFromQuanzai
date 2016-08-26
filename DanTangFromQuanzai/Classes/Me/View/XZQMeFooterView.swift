@@ -19,7 +19,18 @@ class XZQMeFooterView: UIView {
     }
     
     func setupUI() {
+        addSubview(meBlankButton)
+        addSubview(messageLabel)
         
+        meBlankButton.snp_makeConstraints { (make) in
+            make.size.equalTo(CGSizeMake(50, 50))
+            make.center.equalTo(self.center)
+        }
+        
+        messageLabel.snp_makeConstraints { (make) in
+            make.top.equalTo(meBlankButton.snp_bottom)
+            make.left.right.equalTo(self)
+        }
     }
     
     private lazy var meBlankButton: UIButton = {
@@ -34,9 +45,19 @@ class XZQMeFooterView: UIView {
         return meBlankButton
     }()
     
+    private lazy var messageLabel: UILabel = {
+        let messageLabel = UILabel()
+        messageLabel.text = "登录以享受功能"
+        messageLabel.textAlignment = .Center
+        messageLabel.font = UIFont.systemFontOfSize(15)
+        messageLabel.textColor = XZQColor(200, g: 200, b: 200, a: 1.0)
+        
+        return messageLabel
+    }()
+    
     func footerViewButtonClick() {
         let nav = XZQNavigationController(rootViewController: XZQLoginViewController())
-        UIApplication.sharedApplication().keyWindow?.rootViewController?.presentationController(nav, animated: true, completion: nil)
+        UIApplication.sharedApplication().keyWindow?.rootViewController?.presentViewController(nav, animated: true, completion: nil)
     }
     
 }
